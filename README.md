@@ -1,75 +1,26 @@
-# Nuxt 3 Minimal Starter
+# Nuxt.js 3 Portfolio-Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to my Nuxt.js 3 Portfolio-Website! This repository contains the code for my personal website where I showcase my educational and professional skills. The website is built using Nuxt.js 3, a modern framework for building Vue.js applications.
 
-## Setup
+Link: [portfolio-app-b19.pages.dev](https://portfolio-app-b19.pages.dev/)
 
-Make sure to install the dependencies:
+# Portfolio-Website
+Welcome to my Portfolio-Website! This repository contains the code for my personal website where I showcase my educational and professional skills. The website is designed to provide comprehensive details about my background, experiences, skills, and projects.
 
-```bash
-# npm
-npm install
+# Introduction
+Nuxt3 Website is a dynamic platform showcasing my educational achievements, professional experiences, skills, and projects. Utilizing server-side rendering with Nuxt3.js, it ensures optimal performance while providing comprehensive information. The website is designed to be informative, visually appealing, and easy to navigate.
 
-# pnpm
-pnpm install
+# Features
+Detailed information about my background, including education and work experience.
+Comprehensive list of skills and certifications.
+Showcase of projects I have worked on, with descriptions and details.
+Personal section highlighting my hobbies and interests.
+Usage
+To view the website, simply visit my Portfolio-Website in your web browser.
 
-# yarn
-yarn install
+# Contact
+Feel free to reach out to me if you have any questions or inquiries. You can contact me via:
 
-# bun
-bun install
-```
+Email: mail@chad.lu
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Website hosted on Cloudflare.
