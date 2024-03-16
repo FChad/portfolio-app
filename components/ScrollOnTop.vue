@@ -1,7 +1,8 @@
 <template>
     <ClientOnly>
         <UButton icon='i-heroicons-arrow-up-20-solid' color="gray" variant="solid" aria-label="Theme"
-            class="scrollToTop-btn fixed bottom-5 end-5 p-2 w-10 h-10 justify-center transition duration-150 ease-in-out" :class="{'hidden':hideScrollButton}" @click="scrollTop" />
+            class="scrollToTop-btn fixed bottom-5 end-5 p-2 w-10 h-10 justify-center transition duration-150 ease-in-out"
+            :class="{ 'hidden': hideScrollButton }" @click="scrollTop" />
     </ClientOnly>
 </template>
 
