@@ -4,17 +4,19 @@
         <ScrollOnTop></ScrollOnTop>
     </header>
 
-    <main class="w-full">
-        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
+    <main>
+        <div class="content-wrapper">
             <slot />
         </div>
     </main>
 
-    <footer class="w-full text-center">
-        <p>© 2024 von Chad Feierstein.
-            <br>Alle Rechte vorbehalten.
-            <br>Website gehostet auf Cloudflare
-        </p>
+    <footer>
+        <div class="w-full border-t border-gray-200 dark:border-gray-600 text-center">
+            <p>© 2024 von Chad Feierstein.
+                <br>Alle Rechte vorbehalten.
+                <br>Website gehostet auf Cloudflare
+            </p>
+        </div>
     </footer>
 </template>
 

@@ -55,41 +55,16 @@ const navigationList = [
 </script>
 
 <template>
-    <nav class="w-full 
-                z-20 
-                top-0 
-                start-0 
-                border-b 
-                border-gray-200 
-                dark:border-gray-600
-                backdrop-blur-xl
-                "
-         :class="stickyNav ? 'fixed' : 'relative'">
+    <nav class="w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 backdrop-blur-xl"
+        :class="stickyNav ? 'fixed' : 'relative'">
 
-        <div class="max-w-screen-xl 
-                    flex 
-                    flex-wrap 
-                    items-center 
-                    justify-between 
-                    mx-auto p-4">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
-            <a href="" class="flex 
-                              items-center 
-                              space-x-3 
-                              rtl:space-x-reverse" title="Feierstein Chad | Portfolio">
+            <a href="" class="flex items-center space-x-3 rtl:space-x-reverse" title="Feierstein Chad | Portfolio">
 
-                <span class="self-center 
-                             text-2xl 
-                             font-semibold 
-                             whitespace-nowrap
-                             dark:text-white">
-                    Feierstein Chad</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap">Feierstein Chad</span>
             </a>
-            <div class="flex 
-                        md:order-2 
-                        space-x-3 
-                        md:space-x-0 
-                        rtl:space-x-reverse">
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
                 <ClientOnly>
                     <UButton :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'" color="gray"
@@ -105,66 +80,21 @@ const navigationList = [
                 </ClientOnly>
 
             </div>
-            <div class="w-full
-                        md:flex 
-                        md:w-auto 
-                        md:order-1" :class="{ 'hidden': hideNav }">
+            <div class="w-full md:flex md:w-auto md:order-1" :class="{ 'hidden': hideNav }">
 
                 <ul
-                    class="font-medium 
-                           flex 
-                           flex-col 
-                           p-4 
-                           md:p-0 
-                           mt-4 
-                           border 
-                           border-gray-100 
-                           rounded-lg
-                           md:flex-row 
-                           md:space-x-6 
-                           rtl:space-x-reverse 
-                           md:mt-0 
-                           md:border-0 
-                           dark:border-gray-700">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700">
                     <li v-for="item in navigationList">
                         <NuxtLink :to="item._path"
-                            active-class="flex 
-                                          py-2 
-                                          px-3 
-                                          text-white 
-                                          bg-blue-700 
-                                          rounded 
-                                          md:bg-transparent 
-                                          md:text-blue-700 
-                                          md:p-0 
-                                          dark:text-white 
-                                          md:dark:text-blue-500
-                                          hover:"
+                            active-class="flex py-2 px-3 bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 hover:"
+                            class="flex py-2 px-3 rounded hover:bg-gray-300 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
 
-                            class="flex 
-                                   py-2 
-                                   px-3 
-                                   text-gray-900 
-                                   rounded 
-                                   hover:bg-gray-300 
-                                   md:hover:bg-transparent 
-                                   md:border-0 
-                                   md:hover:text-blue-700 
-                                   md:p-0 dark:text-white 
-                                   md:dark:hover:text-blue-500 
-                                   dark:hover:bg-gray-700 
-                                   dark:hover:text-white 
-                                   md:dark:hover:bg-transparent">
-
-                            <span :class="item.icon" class="flex-shrink-0 
-                                                            p-3 
-                                                            h-5 
-                                                            w-5" /> {{ item.title }}
+                            <span :class="item.icon" class="flex-shrink-0 p-3 h-5 w-5" /> {{ item.title }}
                         </NuxtLink>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div :class="{'h-16':stickyNav}"></div>
+    <div :class="{ 'h-16': stickyNav }"></div>
 </template>

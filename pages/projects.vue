@@ -1,5 +1,5 @@
 <template>
-    <h1>Projects</h1>
+    <PageHeader title="Projekte"/>
 </template>
 
 <script setup></script>
