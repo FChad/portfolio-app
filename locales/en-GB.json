@@ -1,0 +1,51 @@
+{
+  "navigation": {
+    "title_home": "Home",
+    "title_about": "About Me",
+    "title_skills": "Skills",
+    "title_projects": "Projects",
+    "title_contact": "Contact"
+  },
+  "language_modal": {
+    "title": "Choose your language:"
+  },
+  "home": {
+    "greeting": "Hello, I am Chad",
+    "introduction_title": "Graduated Student",
+    "introduction": "Welcome to my portfolio website!",
+    "about_me": "Here, I have created a platform to showcase my academic and professional activities with comprehensive details. Should you have any questions, feel free to contact me.",
+    "learn_more": "Learn more"
+  },
+  "about": {
+    "header": "About Me",
+    "introduction": {
+      "name": "My name is Chad Feierstein",
+      "description": "A young, motivated graduate student",
+      "bio": "I'm Chad Feierstein from the enchanting Luxembourg, currently living in Rumelange. My passion for technology drives me to constantly explore new technologies and to continually improve myself. One of my standout qualities is that I enjoy learning. This has always helped me in my academic career so far, and I am convinced that it will also be of great benefit in the world of information technology."
+    },
+    "stats": {
+      "age": "years old",
+      "school_years": "school years",
+      "training_years": "training years",
+      "study_years": "years of study"
+    },
+    "contact_me": "Contact Me"
+  },
+  "hobbies": {
+    "header": "Hobbies",
+    "list": {
+      "programming": {
+        "title": "Programming",
+        "description": "I take pleasure in developing innovative solutions and continuously deepening my skills in this area."
+      },
+      "learning": {
+        "title": "Learning",
+        "description": "Expanding my knowledge in the field of information technology, always striving to deepen my understanding and skills."
+      },
+      "dogs": {
+        "title": "My Dogs",
+        "description": "In my free time, I passionately dedicate myself to my three loyal companions, even enjoying their company on my vacations. Names: Grimmel, Fusel, Popeye"
+      }
+    }
+  }
+}

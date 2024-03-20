@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxtjs/i18n', '@nuxt/ui'],
   app: {
     head: {
       title: 'Feierstein Chad | Portfolio',
@@ -39,5 +39,37 @@ export default defineNuxtConfig({
   },
   ui: {
     icons: ['mdi']
+  },
+  i18n: {
+    lazy: true,
+    langDir: "locales",
+    strategy: "no_prefix",
+    locales: [
+      {
+        code: "en",
+        iso: "en-GB",
+        name: "English",
+        file: "en-GB.json"
+      },
+      {
+        code: "de",
+        iso: "de-DE",
+        name: "Deutsch",
+        file: "de-DE.json"
+      },
+      {
+        code: "lu",
+        iso: "lu-LU",
+        name: "Lëtzebuergesch",
+        file: "lu-LU.json"
+      },
+      {
+        code: "fr",
+        iso: "fr-FR",
+        name: "Français",
+        file: "fr-FR.json"
+      }
+    ],
+    defaultLocale: 'en'
   }
 })
