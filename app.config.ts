@@ -2,7 +2,7 @@ export default defineAppConfig({
     ui: {
       primary: 'blue',
       modal: {
-        width: 'w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl'
+        width: 'w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl'
       }
     },
     notifications: {
