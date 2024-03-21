@@ -1,7 +1,7 @@
 {
   "TBD": "Encore à déterminer",
   "layouts": {
-    "title": "Feierstein Tchad - Portefeuille"
+    "title": "Feierstein Chad - Portefeuille"
   },
   "navigation": {
     "title_home": "Home",
@@ -17,7 +17,7 @@
     "pageHeader": "Home",
     "greeting": "Bonjour, je m'appelle Chad",
     "introduction_title": "Étudiant diplomé",
-    "introduction": "Bienvenue sur mon site portfolio !",
+    "introduction": "Bienvenue sur mon site portfolio!",
     "about_me": "J'ai créé ici une plateforme pour présenter mes activités scolaires et professionnelles avec des détails complets. Si vous avez d'autres questions, je suis à votre disposition, n'hésitez pas à me contacter.",
     "learn_more": "Apprendre encore plus"
   },
@@ -40,28 +40,28 @@
     "pageHeader": "Loisirs",
     "list": {
       "programming": {
-        "title": "la programmation",
-        "description": "J'ai le plaisir de développer des solutions innovantes et d'approfondir continuellement mes compétences dans ce domaine."
+        "title": "Programmation",
+        "description": "C'est un plaisir pour moi de développer des solutions innovantes et d'approfondir continuellement mes compétences dans ce domaine."
       },
       "learning": {
-        "title": "Apprendre",
-        "description": "Élargir mes connaissances dans le domaine des technologies de l'information, en m'efforçant toujours d'approfondir ma compréhension et mes compétences."
+        "title": "Apprentissage",
+        "description": "Élargir mes connaissances dans le domaine des technologies de l'information, en cherchant toujours à approfondir ma compréhension et mes compétences."
       },
       "dogs": {
-        "title": "mes chiens",
-        "description": "Pendant mon temps libre, je me consacre avec passion à mes trois fidèles compagnons et je profite même de leur compagnie pendant mes vacances. "
+        "title": "Mes chiens",
+        "description": "Pendant mon temps libre, je me consacre passionnément à mes trois fidèles compagnons, profitant même de leur compagnie pendant mes vacances. Leurs noms : Grimmel, Fusel, Popeye"
       }
     }
   },
   "skills": {
-    "pageHeader": "compétences",
+    "pageHeader": "Compétences",
     "sectionCompetencies": {
       "title": "Compétences",
-      "description": "Dans cette section, vous pouvez voir mon parcours scolaire où j'ai franchi des étapes importantes."
+      "description": "Dans cette section, vous pouvez voir mon parcours scolaire, au cours duquel j'ai franchi des étapes importantes."
     },
     "education": {
       "title": "Éducation",
-      "icon": "i-matériel-symboles-école",
+      "icon": "i-material-symbols-school",
       "items": [
         {
           "year": "2021",
@@ -91,10 +91,10 @@
     },
     "languages": {
       "title": "Langues",
-      "icon": "i-matériel-symboles-langage",
+      "icon": "i-material-symbols-language",
       "items": [
         {
-          "language": "luxembourgeois",
+          "language": "Luxembourgeois",
           "level": "C2",
           "flag": "/img/flags/lb.svg",
           "percentage": 100
@@ -121,7 +121,7 @@
     },
     "certifications": {
       "title": "Certifications",
-      "icon": "i-matériau-symboles-vérifiés-arrondis",
+      "icon": "i-material-symbols-verified-rounded",
       "items": [
         {
           "year": "2023",
@@ -132,26 +132,26 @@
         {
           "year": "2021",
           "link": "https://learningnetwork.cisco.com/s/cbrops-exam-topics?ccid=cyberopsassociate",
-          "title": "Associé CyberOps certifié Cisco",
-          "details": "Achèvement du cours"
+          "title": "Cisco Certified CyberOps Associate",
+          "details": "Course Completion"
         },
         {
           "year": "2021",
           "link": "https://www.netacad.com/courses/networking/ccna-enterprise-networking-security-automation",
-          "title": "Associé réseau certifié Cisco 3",
-          "details": "Réseaux d'entreprise 7.0, sécurité et automatisation"
+          "title": "Cisco Certified Network Associate 3",
+          "details": "7.0 Enterprise Networking, Security, and Automation"
         },
         {
           "year": "2020",
           "link": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials",
-          "title": "Associé réseau certifié Cisco 2",
-          "details": "7.0 Éléments essentiels de la commutation, du routage et du sans fil"
+          "title": "Cisco Certified Network Associate 2",
+          "details": "7.0 Switching, Routing, and Wireless Essentials"
         },
         {
           "year": "2020",
           "link": "https://www.netacad.com/courses/networking/ccna-introduction-networks",
-          "title": "Associé réseau certifié Cisco 1",
-          "details": "7.0 Introduction aux réseaux"
+          "title": "Cisco Certified Network Associate 1",
+          "details": "7.0 Introduction to Networks"
         },
         {
           "year": "2020",
@@ -162,8 +162,8 @@
       ]
     },
     "sectionWork": {
-      "title": "Travail",
-      "description": "J'ai pu acquérir une expérience professionnelle pendant plusieurs années. "
+      "title": "Travail & expérience",
+      "description": "Pendant plusieurs années, j'ai pu acquérir de l'expérience professionnelle. J'ai pu travailler sur des projets aussi bien de manière indépendante qu'en équipe."
     },
     "work": {
       "company": "Entreprise:",
@@ -175,13 +175,13 @@
       "show_more": "Voir plus",
       "items": [
         {
-          "title": "A la recherche d'un emploi en informatique",
+          "title": "Recherche d'emploi en informatique",
           "type": "À temps plein",
           "date": "Maintenant",
-          "description": "Je suis à la recherche de défis passionnants : À la recherche de nouvelles opportunités professionnelles dans le secteur informatique pour acquérir une expérience précieuse et développer davantage mes compétences."
+          "description": "Je suis à la recherche de défis passionnants : A la recherche de nouvelles opportunités professionnelles dans le secteur de l'informatique, afin d'acquérir une expérience précieuse et de développer mes compétences."
         },
         {
-          "title": "Ingénieur informatique cloud",
+          "title": "Ingénieur informatique en cloud",
           "type": "Stage",
           "duration": "12 semaines",
           "date": "2021",
@@ -309,7 +309,7 @@
     },
     "sectionOtherSkills": {
       "title": "Autres compétences",
-      "description": "Programmes, logiciels, services et autres éléments que j'ai utilisés pendant mes études, mes études ou mon travail."
+      "description": "Programmes, logiciels, services et autres choses que j'ai utilisés pendant ma formation, mes études ou mon travail."
     },
     "otherSkills": {
       "show_more": "Voir plus",

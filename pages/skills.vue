@@ -1,7 +1,7 @@
 <template>
     <PageHeader :title="$t('skills.pageHeader')" />
 
-    <div class="max-w-[600px] my-8">
+    <div class="max-w-[600px] my-12">
         <h3>{{ $t('skills.sectionCompetencies.title') }}</h3>
         <p>{{ $t('skills.sectionCompetencies.description') }}</p>
     </div>
@@ -10,7 +10,7 @@
     <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto">
         <div>
             <span
-                class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
                 <Icon name="i-material-symbols-school" class="w-6 h-6" /> {{ $t('skills.education.title') }}
             </span>
             <ul>
@@ -37,7 +37,7 @@
         </div>
         <div>
             <span
-                class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
                 <Icon name="i-material-symbols-language" class="w-6 h-6" /> {{ $t('skills.languages.title') }}
             </span>
             <ul>
@@ -55,7 +55,7 @@
         </div>
         <div>
             <span
-                class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
                 <Icon name="i-material-symbols-verified-rounded" class="w-6 h-6" /> {{ $t('skills.certifications.title')
                 }}
             </span>
@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <div class="max-w-[600px] my-8">
+    <div class="max-w-[600px] my-12">
         <h3>{{ $t('skills.sectionWork.title') }}</h3>
         <p>{{ $t('skills.sectionWork.description') }}</p>
     </div>
@@ -112,36 +112,37 @@
                 @click="openModal('job' + index)">
                 {{ $t('skills.work.show_more') }}</UButton>
 
-            <UModal v-if="item.tasks" :model-value="openModalIndex === 'job' + index"
+            <UModal v-if="item.tasks" :model-value="openModalIndex === 'job' + index" 
                 @update:model-value="value => value ? openModal(index) : closeModal()">
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
-                    <template #header>
-                        <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
-                            <h4 class="text-xl font-bold w-full text-center">{{ extractValue(item.title) }}</h4>
-                            <div class="w-full flex justify-between">
+                    <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
+                        <h4 class="text-xl font-bold w-full text-center">{{ extractValue(item.title) }}</h4>
+                        <div class="w-full flex justify-between">
 
-                                <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
-                                    <Icon name="i-material-symbols-work" class="w-5 h-5" /> {{ $t('skills.work.company')
-                                    }}
-                                    {{ extractValue(item.company) }}
-                                </span>
-                                <span v-if="item.type" class="font-medium">{{ $t('skills.work.type') }} {{
+                            <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
+                                <Icon name="i-material-symbols-work" class="w-5 h-5" /> {{ $t('skills.work.company')
+                                }}
+                                {{ extractValue(item.company) }}
+                            </span>
+                            <span v-if="item.type" class="font-medium">{{ $t('skills.work.type') }} {{
         extractValue(item.type) }}</span>
-                            </div>
-                            <div class="w-full flex justify-between">
-                                <span v-if="item.date" class="flex items-center justify-start gap-1">
-                                    <Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5" />{{
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <span v-if="item.date" class="flex items-center justify-start gap-1">
+                                <Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5" />{{
         $t('skills.work.date') }} {{
         extractValue(item.date) }}
-                                </span>
-                                <span v-if="item.duration">{{ $t('skills.work.duration') }} {{
+                            </span>
+                            <span v-if="item.duration">{{ $t('skills.work.duration') }} {{
         extractValue(item.duration) }}</span>
-                            </div>
                         </div>
-                    </template>
+                    </div>
+
+                    <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
 
                     <span class="font-medium">{{ $t('skills.work.description') }}</span>
                     <p v-if="item.description">{{ extractValue(item.description) }}</p>
+                    <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
                     <span class="font-medium">{{ $t('skills.work.tasks') }}</span>
                     <ul class="list-disc pl-6">
                         <li v-for="task in item.tasks">{{ extractValue(task.name) }}</li>
@@ -151,7 +152,7 @@
         </div>
     </div>
 
-    <div class="max-w-[600px] my-8">
+    <div class="max-w-[600px] my-12">
         <h3>{{ $t('skills.sectionOtherSkills.title') }}</h3>
         <p>{{ $t('skills.sectionOtherSkills.description') }}</p>
     </div>
@@ -173,19 +174,24 @@
             <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index"
                 @update:model-value="value => value ? openModal(index) : closeModal()">
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
-                    <template #header>
-                        <div class="flex justify-between items-center flex-wrap relative">
-                            <h4 class="flex items-center justify-start gap-1 text-xl font-bold w-full">
-                                <Icon :name="extractValue(item.icon)" class="w-6 h-6" />{{ extractValue(item.title) }}
-                            </h4>
-                            <p><span class="font-medium">{{ $t('skills.otherSkills.description') }}</span> {{ extractValue(item.description) }}</p>
-                        </div>
-                    </template>
+                    <div class="flex justify-between items-center flex-wrap relative">
+                        <h4 class="flex items-center justify-start gap-1 text-xl font-bold w-full">
+                            <Icon :name="extractValue(item.icon)" class="w-6 h-6" />{{ extractValue(item.title) }}
+                        </h4>
+                    </div>
+
+                    <div class="w-full h-[2px] bg-gray-300 my-2"></div>
+
+                    <p><span class="font-bold">{{ $t('skills.otherSkills.description') }}</span><br> {{
+        extractValue(item.description) }}</p>
 
                     <template v-for="categoryItems in item.details">
-                        <p class="text-lg font-medium my-2">{{ extractValue(categoryItems.category) }}</p>
+                        <div class="w-full h-[2px] bg-gray-300 my-2"></div>
+                        <p class="text-lg font-bold my-2">{{ extractValue(categoryItems.category) }}</p>
                         <ul class="list-disc pl-6">
-                            <li v-for="detailItems in categoryItems.items"><span class="font-medium">{{ extractValue(detailItems.type) }}:</span> {{ extractValue(detailItems.description) }}</li>
+                            <li v-for="detailItems in categoryItems.items"><span class="font-bold">{{
+        extractValue(detailItems.type) }}:</span> {{ extractValue(detailItems.description)
+                                }}</li>
                         </ul>
                     </template>
                 </UCard>

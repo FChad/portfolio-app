@@ -40,16 +40,16 @@
     "pageHeader": "Hobbies",
     "list": {
       "programming": {
-        "title": "programming",
-        "description": "It is my pleasure to develop innovative solutions and to continually deepen my skills in this area."
+        "title": "Programming",
+        "description": "I enjoy developing innovative solutions and continuously deepening my skills in this area."
       },
       "learning": {
-        "title": "Learn",
+        "title": "Learning",
         "description": "Expanding my knowledge in the field of information technology, always striving to deepen my understanding and skills."
       },
       "dogs": {
-        "title": "my dogs",
-        "description": "In my free time I devote myself passionately to my three faithful companions, and I even enjoy their company on my vacations. "
+        "title": "My dogs",
+        "description": "In my free time, I am passionate about my three faithful companions, even enjoying their company on my vacations. Names: Grimmel, Fusel, Popeye"
       }
     }
   },
@@ -57,7 +57,7 @@
     "pageHeader": "Skills",
     "sectionCompetencies": {
       "title": "Competencies",
-      "description": "In this section you can see my school career where I achieved important milestones."
+      "description": "In this section you can see my school career, in which I reached important milestones."
     },
     "education": {
       "title": "Education",
@@ -163,7 +163,7 @@
     },
     "sectionWork": {
       "title": "Work",
-      "description": "I was able to gain professional experience for several years. "
+      "description": "I was able to gain several years of professional experience. I was able to work on projects both independently and as part of a team."
     },
     "work": {
       "company": "Company:",
@@ -178,7 +178,7 @@
           "title": "Looking for a job in computer science",
           "type": "Full time",
           "date": "Now",
-          "description": "I'm looking for exciting challenges: Looking for new professional opportunities in the IT industry to gain valuable experience and further develop my skills."
+          "description": "I am looking for exciting challenges: Looking for new career opportunities in the IT industry to gain valuable experience and develop my skills."
         },
         {
           "title": "IT Cloud Engineer",

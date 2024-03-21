@@ -17,10 +17,10 @@ const isLanguageModalOpen = ref(false);
             <ul class="flex gap-2 flex-wrap">
                 <li v-for="locale in locales" :key="locale.code" @click.prevent.stop="setLocale(locale.code)"
                     @click="isLanguageModalOpen = false"
-                    class="px-6 py-2 bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 rounded-lg"
-                    :class="{'bg-slate-300 dark:!bg-slate-700': $i18n.locale === locale.code}">
+                    class="px-6 py-2 bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 rounded-lg"
+                    :class="{'!bg-gray-300 dark:!bg-gray-600': $i18n.locale === locale.code}">
                     <a href="#" class="flex gap-2 justify-center items-center">
-                        <img :src="'/img/flags/' + locale.code + '.svg'" :alt="locale.name" class="max-w-7">
+                        <img :src="'/img/flags/' + locale.code + '.svg'" :alt="locale.name" class="max-w-[30px] rounded-lg">
                         {{ locale.name }}
                     </a>
                 </li>
