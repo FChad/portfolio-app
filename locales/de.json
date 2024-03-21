@@ -306,6 +306,10 @@
           ]
         }
       ]
+    },
+    "sectionOtherSkills": {
+      "title": "Andere Fähigkeiten",
+      "description": "Programme, Software, Dienste und andere Dinge, die ich während meiner Ausbildung, meines Studiums oder meiner Arbeit genutzt habe."
     }
   },
   "projects": {
