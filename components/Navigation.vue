@@ -64,7 +64,7 @@ const navigationList = [
             <div class="w-full md:flex md:w-auto md:order-1" :class="{ 'hidden': hideNav }">
 
                 <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-4 lg:space-x-8 xl:space-x-12 rtl:space-x-reverse md:mt-0 md:border-0">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-4 lg:space-x-8 xl:space-x-12 rtl:space-x-reverse md:mt-0 max-md:border max-md:border-gray-300 dark:max-md:border-gray-700">
                     <li v-for="item in navigationList">
                         <NuxtLink :to="item._path"
                             active-class="flex py-2 px-3 bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 hover:"

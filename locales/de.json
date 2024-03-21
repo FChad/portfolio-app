@@ -1,0 +1,164 @@
+{
+  "TBD": "Noch zu bestimmen",
+  "layouts": {
+    "title": "Feierstein Chad - Portfolio"
+  },
+  "navigation": {
+    "title_home": "Home",
+    "title_about": "Über mich",
+    "title_skills": "Fähigkeiten",
+    "title_projects": "Projekte",
+    "title_contact": "Kontakt"
+  },
+  "language_modal": {
+    "title": "Wähle deine Sprache:"
+  },
+  "home": {
+    "greeting": "Hallo, ich bin Chad",
+    "introduction_title": "Student mit Abschluss",
+    "introduction": "Herzlich willkommen auf meiner Portfolio-Website!",
+    "about_me": "Hier habe ich eine Plattform geschaffen, um meine schulischen und beruflichen Aktivitäten mit umfassenden Details zu präsentieren. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung, zögern Sie nicht, mich zu kontaktieren.",
+    "learn_more": "Erfahren Sie mehr"
+  },
+  "about": {
+    "header": "Über mich",
+    "introduction": {
+      "name": "Ich heiße Chad Feierstein",
+      "description": "Ein junger, motivierter absolventer Student",
+      "bio": "Mein Name ist Chad Feierstein, ich stamme aus dem zauberhaften Luxemburg und lebe gegenwärtig in Rumelange. Meine Leidenschaft für Technologie treibt mich dazu an, ständig neue Technologien zu erforschen und mich kontinuierlich weiterzuentwickeln. Eine meiner herausragenden Eigenschaften besteht darin, dass ich Freude am Lernen habe. Dies hat mir bisher in meiner schulischen Laufbahn stets geholfen, und ich bin überzeugt, dass es auch in der Welt der Informationstechnologie von großem Nutzen sein wird."
+    },
+    "stats": {
+      "age": "Jahre alt",
+      "school_years": "Schuljahre",
+      "training_years": "Ausbildungsjahre",
+      "study_years": "Studienjahre"
+    },
+    "contact_me": "Kontaktieren Sie mich"
+  },
+  "hobbies": {
+    "header": "Hobbies",
+    "list": {
+      "programming": {
+        "title": "Programmierung",
+        "description": "Es ist mir eine Freude, innovative Lösungen zu entwickeln und meine Fähigkeiten in diesem Bereich kontinuierlich zu vertiefen."
+      },
+      "learning": {
+        "title": "Lernen",
+        "description": "Die Erweiterung meiner Kenntnisse im Bereich der Informationstechnologie, stets bestrebt, mein Verständnis und meine Fähigkeiten zu vertiefen."
+      },
+      "dogs": {
+        "title": "Meine Hunde",
+        "description": "In meiner Freizeit widme ich mich leidenschaftlich meiner drei treuen Begleiter, wobei ich sogar in meinen Urlauben ihre Gesellschaft genieße. Namen: Grimmel, Fusel, Popeye"
+      }
+    }
+  },
+  "skills": {
+    "pageHeader": "Fähigkeiten",
+    "section": {
+      "title": "Kompetenzen",
+      "description": "In diesem Abschnitt können Sie meine Schullaufbahn sehen, in der ich wichtige Meilensteine erreicht habe."
+    },
+    "education": {
+      "title": "Bildung",
+      "icon": "i-material-symbols-school",
+      "items": [
+        {
+          "year": "2021",
+          "degree": "Höherer technischer Abschluss (Brevet de Technicien Supérieur)",
+          "field": "Fachrichtung: Cloud Computing",
+          "grade": "Diplom (mit Bewertung: Gut)"
+        },
+        {
+          "year": "2019-2021",
+          "link": "https://www.lgk.lu/bts/clc/",
+          "degree": "Höherer technischer Abschluss (Brevet de Technicien Supérieur)",
+          "field": "Fachrichtung: Cloud Computing",
+          "school": "im Lycée Guillaume Kroll in Esch-sur-Alzette"
+        },
+        {
+          "year": "2019",
+          "degree": "Techniker in der Informatik",
+          "grade": "Diplom (mit Bewertung: Gut)"
+        },
+        {
+          "year": "2015-2019",
+          "link": "https://www.lgk.lu/training/formation-professionnelle/informaticien-technicien-dap",
+          "degree": "Techniker in der Informatik",
+          "school": "im Lycée Guillaume Kroll in Esch-sur-Alzette"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Sprachen",
+      "icon": "i-material-symbols-language",
+      "items": [
+        {
+          "language": "Luxemburgisch",
+          "level": "C2",
+          "flag": "/img/flags/lb.svg",
+          "percentage": 100
+        },
+        {
+          "language": "Deutsch",
+          "level": "C2",
+          "flag": "/img/flags/de.svg",
+          "percentage": 100
+        },
+        {
+          "language": "Französisch",
+          "level": "B2",
+          "flag": "/img/flags/fr.svg",
+          "percentage": 60
+        },
+        {
+          "language": "Englisch",
+          "level": "C1",
+          "flag": "/img/flags/en.svg",
+          "percentage": 80
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Zertifizierungen",
+      "icon": "i-material-symbols-verified-rounded",
+      "items": [
+        {
+          "year": "2023",
+          "link": "https://govjobs.public.lu/fr/examen-concours/administration/inscription.html",
+          "title": "Die allgemeine Eignungsprüfung staatlicher Sektor",
+          "details": "L'épreuve d'aptitude générale secteur étatique (administration)"
+        },
+        {
+          "year": "2021",
+          "link": "https://learningnetwork.cisco.com/s/cbrops-exam-topics?ccid=cyberopsassociate",
+          "title": "Cisco Certified CyberOps Associate",
+          "details": "Course Completion"
+        },
+        {
+          "year": "2021",
+          "link": "https://www.netacad.com/courses/networking/ccna-enterprise-networking-security-automation",
+          "title": "Cisco Certified Network Associate 3",
+          "details": "7.0 Enterprise Networking, Security, and Automation"
+        },
+        {
+          "year": "2020",
+          "link": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials",
+          "title": "Cisco Certified Network Associate 2",
+          "details": "7.0 Switching, Routing, and Wireless Essentials"
+        },
+        {
+          "year": "2020",
+          "link": "https://www.netacad.com/courses/networking/ccna-introduction-networks",
+          "title": "Cisco Certified Network Associate 1",
+          "details": "7.0 Introduction to Networks"
+        },
+        {
+          "year": "2020",
+          "link": "https://learn.microsoft.com/en-us/certifications/microsoft-office-specialist-master-certification-2016/",
+          "title": "Microsoft Office Specialist 2016",
+          "details": "PowerPoint, Word, Word expert, Outlook, Excel"
+        }
+      ]
+    }
+  }
+}

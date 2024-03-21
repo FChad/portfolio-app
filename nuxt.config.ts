@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxt/ui'],
   app: {
     head: {
-      title: 'Feierstein Chad | Portfolio',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -44,32 +43,33 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: "locales",
     strategy: "no_prefix",
+    baseUrl: 'https://www.chad.lu',
     locales: [
       {
         code: "en",
-        iso: "en-GB",
+        iso: "en",
         name: "English",
-        file: "en-GB.json"
+        file: "en.json"
       },
       {
         code: "de",
-        iso: "de-DE",
+        iso: "de",
         name: "Deutsch",
-        file: "de-DE.json"
+        file: "de.json"
       },
       {
-        code: "lu",
-        iso: "lu-LU",
+        code: "lb",
+        iso: "lb",
         name: "Lëtzebuergesch",
-        file: "lu-LU.json"
+        file: "lb.json"
       },
       {
         code: "fr",
-        iso: "fr-FR",
+        iso: "fr",
         name: "Français",
-        file: "fr-FR.json"
+        file: "fr.json"
       }
     ],
-    defaultLocale: 'en'
+    defaultLocale: 'de'
   }
 })
