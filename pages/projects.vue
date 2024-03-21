@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="Projekte"/>
+    <PageHeader :title="$t('projects.pageHeader')" />
 </template>
 
 <script setup></script>

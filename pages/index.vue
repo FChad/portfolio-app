@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="Home" />
+    <PageHeader :title="$t('home.pageHeader')" />
     <div class="flex justify-between items-center w-full max-md:grid">
         <div class="flex md:flex-col mr-8">
             <UButton to="" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"

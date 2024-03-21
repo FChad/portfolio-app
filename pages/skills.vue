@@ -1,23 +1,28 @@
 <template>
-    <PageHeader title="Fähigkeiten" />
+    <PageHeader :title="$t('skills.pageHeader')" />
 
-    <div class="max-w-[600px]">
-        <h3>Kompetenzen</h3>
-        <p>In diesem Abschnitt können Sie meine Schullaufbahn sehen, in der ich wichtige Meilensteine
-            erreicht habe.</p>
+    <div class="max-w-[600px] my-4">
+        <h3>{{ $t('skills.sectionCompetencies.title') }}</h3>
+        <p>{{ $t('skills.sectionCompetencies.description') }}</p>
     </div>
+
 
     <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto">
         <div>
-            <span class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
-                <Icon name="i-material-symbols-school" class="w-6 h-6"/> Bildung
+            <span
+                class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                <Icon name="i-material-symbols-school" class="w-6 h-6" /> Bildung
             </span>
             <ul>
-                <li v-for="item in $tm('skills.education.items')" :key="item.year" class="card">
-                    <span class="flex items-center justify-start gap-1"><Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5"/>{{ extractValue(item.year) }}</span>
+                <li v-for="item in $tm('skills.education.items')" class="card">
+                    <span class="flex items-center justify-start gap-1">
+                        <Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5" />{{
+                    extractValue(item.year) }}
+                    </span>
 
                     <NuxtLink v-if="item.link" :to="extractValue(item.link)" target="_blank">
-                        <Icon name="i-material-symbols-open-in-new-rounded" class="w-5 h-5 absolute top-0 right-0 m-2 cursor-pointer text-blue-500"/>
+                        <Icon name="i-material-symbols-open-in-new-rounded"
+                            class="w-5 h-5 absolute top-0 right-0 m-2 cursor-pointer text-blue-500" />
                     </NuxtLink>
 
                     <p>
@@ -31,13 +36,15 @@
 
         </div>
         <div>
-            <span class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
-                <Icon name="i-material-symbols-language" class="w-6 h-6"/> Sprachen
+            <span
+                class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                <Icon name="i-material-symbols-language" class="w-6 h-6" /> Sprachen
             </span>
             <ul>
-                <li v-for="item in $tm('skills.languages.items')" :key="item.language" class="card">
+                <li v-for="item in $tm('skills.languages.items')" class="card">
                     <div class="flex justify-between items-center mb-1">
-                        <img :src="extractValue(item.flag)" alt="Luxemburgische Flagge" class="max-w-[30px] rounded-[6px]">
+                        <img :src="extractValue(item.flag)" alt="Luxemburgische Flagge"
+                            class="max-w-[30px] rounded-[6px]">
                         <span v-if="item.language">{{ extractValue(item.language) }}</span>
                         <span v-if="item.level">{{ extractValue(item.level) }}</span>
                     </div>
@@ -46,17 +53,22 @@
             </ul>
 
         </div>
-        <div class="education">
-            <span class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
-                <Icon name="i-material-symbols-verified-rounded" class="w-6 h-6"/> Zertifizierungen
+        <div>
+            <span
+                class="flex items-center justify-center gap-2 text-xl font-bold bg-blue-500 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                <Icon name="i-material-symbols-verified-rounded" class="w-6 h-6" /> Zertifizierungen
             </span>
-            <ul class="edu-list">
+            <ul>
 
-                <li v-for="item in $tm('skills.certifications.items')" :key="item.certification" class="card">
-                    <span class="flex items-center justify-start gap-1"><Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5"/>{{ extractValue(item.year) }}</span>
+                <li v-for="item in $tm('skills.certifications.items')" class="card">
+                    <span class="flex items-center justify-start gap-1">
+                        <Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5" />{{
+                    extractValue(item.year) }}
+                    </span>
 
                     <NuxtLink v-if="item.link" :to="extractValue(item.link)" target="_blank">
-                        <Icon name="i-material-symbols-open-in-new-rounded" class="w-5 h-5 absolute top-0 right-0 m-2 cursor-pointer text-blue-500"/>
+                        <Icon name="i-material-symbols-open-in-new-rounded"
+                            class="w-5 h-5 absolute top-0 right-0 m-2 cursor-pointer text-blue-500" />
                     </NuxtLink>
 
                     <p>
@@ -68,13 +80,89 @@
         </div>
     </div>
 
-    <div class="max-w-[600px]">
-        <h3>Arbeit & Erfahrung</h3>
-        <p>Mehrere Jahre lang konnte ich Berufserfahrung sammeln. Ich konnte sowohl selbstständig als auch in einem Team an Projekten arbeiten.</p>
+    <div class="max-w-[600px] my-4">
+        <h3>{{ $t('skills.sectionWork.title') }}</h3>
+        <p>{{ $t('skills.sectionWork.description') }}</p>
+    </div>
+
+    <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto">
+
+        <div class="card" v-for="(item, index) in $tm('skills.work.items')">
+            <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
+                <h4 class="text-xl font-bold w-full">{{ extractValue(item.title) }}</h4>
+                <div class="w-full flex justify-between">
+                    <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
+                        <Icon name="i-material-symbols-work" class="w-5 h-5" /> {{ extractValue(item.company) }}
+                    </span>
+                    <span v-if="item.type" class="font-medium">{{ extractValue(item.type) }}</span>
+                </div>
+                <div class="w-full flex justify-between">
+                    <span v-if="item.date" class="flex items-center justify-start gap-1">
+                        <Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5" /> {{
+                    extractValue(item.date) }}
+                    </span>
+                    <span v-if="item.duration">{{ extractValue(item.duration) }}</span>
+                </div>
+            </div>
+            <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
+            <p v-if="item.description">{{ extractValue(item.description) }}</p>
+
+            <UButton v-if="item.tasks" icon='i-heroicons-window-20-solid' color="gray" variant="solid" class="p-2 my-2"
+                @click="openModal(index)">
+                {{ $t('skills.work.show_more') }}</UButton>
+
+            <UModal v-if="item.tasks" :model-value="openModalIndex === index"
+                @update:model-value="value => value ? openModal(index) : closeModal()">
+                <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
+                    <template #header>
+                        <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
+                            <h4 class="text-xl font-bold w-full text-center">{{ extractValue(item.title) }}</h4>
+                            <div class="w-full flex justify-between">
+
+                                <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
+                                    <Icon name="i-material-symbols-work" class="w-5 h-5" /> {{ $t('skills.work.company') }}
+                                    {{ extractValue(item.company) }}
+                                </span>
+                                <span v-if="item.type" class="font-medium">{{ $t('skills.work.type') }} {{ extractValue(item.type) }}</span>
+                            </div>
+                            <div class="w-full flex justify-between">
+                                <span v-if="item.date" class="flex items-center justify-start gap-1">
+                                    <Icon name="i-material-symbols-calendar-month-rounded" class="w-5 h-5" />{{ $t('skills.work.date') }} {{
+                    extractValue(item.date) }}
+                                </span>
+                                <span v-if="item.duration">{{ $t('skills.work.duration') }} {{ extractValue(item.duration) }}</span>
+                            </div>
+                        </div>
+                    </template>
+
+                    <span class="font-medium">{{ $t('skills.work.description') }}</span>
+                    <p v-if="item.description">{{ extractValue(item.description) }}</p>
+                    <span class="font-medium">{{ $t('skills.work.tasks') }}</span>
+                    <ul class="list-disc pl-6">
+                        <li v-for="task in item.tasks">{{ extractValue(task.name) }}</li>
+                    </ul>
+                </UCard>
+            </UModal>
+        </div>
+    </div>
+
+    <div class="max-w-[600px] my-4">
+        <h3>{{ $t('skills.sectionOtherSkills.title') }}</h3>
+        <p>{{ $t('skills.sectionOtherSkills.description') }}</p>
     </div>
 </template>
 
 <script setup>
+
+const openModalIndex = ref(null);
+
+function openModal(index) {
+    openModalIndex.value = index;
+}
+
+function closeModal() {
+    openModalIndex.value = null;
+}
 
 function extractValue(obj) {
     if (obj.hasOwnProperty('body')) {
@@ -82,7 +170,7 @@ function extractValue(obj) {
     } else if (obj.hasOwnProperty('b')) {
         return obj['b']['s'];
     }
-  return null;
+    return null;
 }
 
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <PageHeader title="Kontakt"/>
+    <PageHeader :title="$t('contact.pageHeader')" />
     
     <UButton color="primary" icon="i-mdi-linkedin" variant="solid"
         class="p-2 justify-center transition duration-150 ease-in-out" />

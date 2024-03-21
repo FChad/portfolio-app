@@ -14,6 +14,7 @@
     "title": "Wähle deine Sprache:"
   },
   "home": {
+    "pageHeader": "Home",
     "greeting": "Hallo, ich bin Chad",
     "introduction_title": "Student mit Abschluss",
     "introduction": "Herzlich willkommen auf meiner Portfolio-Website!",
@@ -21,7 +22,7 @@
     "learn_more": "Erfahren Sie mehr"
   },
   "about": {
-    "header": "Über mich",
+    "pageHeader": "Über mich",
     "introduction": {
       "name": "Ich heiße Chad Feierstein",
       "description": "Ein junger, motivierter absolventer Student",
@@ -36,7 +37,7 @@
     "contact_me": "Kontaktieren Sie mich"
   },
   "hobbies": {
-    "header": "Hobbies",
+    "pageHeader": "Hobbies",
     "list": {
       "programming": {
         "title": "Programmierung",
@@ -54,7 +55,7 @@
   },
   "skills": {
     "pageHeader": "Fähigkeiten",
-    "section": {
+    "sectionCompetencies": {
       "title": "Kompetenzen",
       "description": "In diesem Abschnitt können Sie meine Schullaufbahn sehen, in der ich wichtige Meilensteine erreicht habe."
     },
@@ -159,6 +160,158 @@
           "details": "PowerPoint, Word, Word expert, Outlook, Excel"
         }
       ]
+    },
+    "sectionWork": {
+      "title": "Arbeit & Erfahrung",
+      "description": "Mehrere Jahre lang konnte ich Berufserfahrung sammeln. Ich konnte sowohl selbstständig als auch in einem Team an Projekten arbeiten."
+    },
+    "work": {
+      "company": "Firma:",
+      "type": "Typ:",
+      "date": "Datum:",
+      "duration": "Dauer:",
+      "description": "Beschreibung:",
+      "tasks": "Aufgaben:",
+      "show_more": "Mehr anzeigen",
+      "items": [
+        {
+          "title": "Jobsuche in der Informatik",
+          "type": "Vollzeit",
+          "date": "Jetzt",
+          "description": "Ich suche nach spannenden Herausforderungen: Auf der Suche nach neuen beruflichen Möglichkeiten in der Informatikbranche, um wertvolle Erfahrungen zu sammeln und meine Fähigkeiten weiterzuentwickeln."
+        },
+        {
+          "title": "IT Cloud Engineer",
+          "type": "Praktikum",
+          "duration": "12 Wochen",
+          "date": "2021",
+          "company": "QPark Consulting",
+          "description": "Ein Praktikum bei QPark Consulting, wo ich drei Monate lang an zwei großen Projekten gearbeitet habe.",
+          "tasks": [
+            {
+              "name": "Erstellung eines Plans für ein Projekt mit agilen Methoden"
+            },
+            {
+              "name": "Erstellung und Konfiguration von virtuellen Maschinen (Google Cloud Platform)"
+            },
+            {
+              "name": "Implementierung einer Website in einer virtuellen Maschine (Google Cloud Platform)"
+            },
+            {
+              "name": "Implementierung einer statischen Website auf AWS S3 Bucket für Kosteneffizienz (Amazon Web Services)"
+            },
+            {
+              "name": "Abrufen und Transformieren von Daten aus einer vorhandenen REST API (Amazon Web Services)"
+            }
+          ]
+        },
+        {
+          "title": "IT-Techniker",
+          "type": "Ferienjob",
+          "duration": "8 Wochen",
+          "date": "2020",
+          "company": "Lycée Guillaume Kroll",
+          "description": "Ein Ferienjob am Lycée Guillaume Kroll, wo ich zwei Monate lang in der IT-Abteilung mitgearbeitet habe.",
+          "tasks": [
+            {
+              "name": "Einrichten der von MIXvoip bereitgestellten Telefone"
+            },
+            {
+              "name": "Verwalten der von MIXvoip bereitgestellten Telefone"
+            },
+            {
+              "name": "Die neuen Telefonanschlüsse im Rackraum nach Plan angeschlossen"
+            },
+            {
+              "name": "Veränderung eines Plans für die Patchstellen in Microsoft Excel"
+            }
+          ]
+        },
+        {
+          "title": "IT-Techniker",
+          "type": "Ferienjob",
+          "duration": "4 Wochen",
+          "date": "2019",
+          "company": "Lycée Guillaume Kroll",
+          "description": "Ein Ferienjob am Lycée Guillaume Kroll, wo ich einen Monat lang ein Projekt abgeschlossen habe, das ich während meines Praktikums begonnen hatte.",
+          "tasks": [
+            {
+              "name": "Geplante Kundenbesprechungen"
+            },
+            {
+              "name": "Das Back-End für eine Website programmiert und modifiziert"
+            },
+            {
+              "name": "Eine Verbindung zu einem SAML Authentifizierungsdienst erstellt"
+            },
+            {
+              "name": "Das Front-End für eine Website programmiert und modifiziert"
+            },
+            {
+              "name": "Alte Computer fachgerecht entsorgt und die Festplatten formatiert"
+            }
+          ]
+        },
+        {
+          "title": "IT-Techniker",
+          "type": "Praktikum",
+          "duration": "6 Wochen",
+          "date": "2019",
+          "company": "Lycée Guillaume Kroll",
+          "description": "Während meines Praktikums am Lycée Guillaume Kroll verbrachte ich hauptsächlich sechs Wochen damit, an einem Website-Projekt zu arbeiten.",
+          "tasks": [
+            {
+              "name": "Geplante Kundenbesprechungen"
+            },
+            {
+              "name": "Das Back-End für eine Website programmiert und modifiziert"
+            },
+            {
+              "name": "Das Front-End für eine Website programmiert und modifiziert"
+            },
+            {
+              "name": "Erstellung eines konzeptionellen Datenmodells für eine Datenbank"
+            },
+            {
+              "name": "Erstellung eines logischen Datenmodells für eine Datenbank"
+            },
+            {
+              "name": "Eine Datenbank mit den richtigen Feldern erstellt, Datentypen und Beziehungen"
+            }
+          ]
+        },
+        {
+          "title": "IT-Netzwerktechniker",
+          "type": "Praktikum",
+          "duration": "6 Wochen",
+          "date": "2016",
+          "company": "STEP",
+          "description": "Ein Praktikum bei STEP Syndicat intercommunal in Peppange, wo ich eine Menge über IT Netzwerke gelernt habe.",
+          "tasks": [
+            {
+              "name": "Einführung in die zentralen Aspekte der internen Organisationsstruktur"
+            },
+            {
+              "name": "Die Funktionsweise einer Kläranlage, insbesondere der kontinuierliche Durchlauf-Prozess"
+            },
+            {
+              "name": "Erstellung eines neuen Plans für das interne Patchpanel"
+            },
+            {
+              "name": "Nach dem neuen Plan die Patchkabel gepatcht und neu beschriftet"
+            },
+            {
+              "name": "Viel über die praktische interne Netzwerkstruktur gelernt"
+            }
+          ]
+        }
+      ]
     }
+  },
+  "projects": {
+    "pageHeader": "Projekte"
+  },
+  "contact": {
+    "pageHeader": "Kontakt"
   }
 }

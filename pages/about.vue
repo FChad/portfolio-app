@@ -1,5 +1,5 @@
 <template>
-    <PageHeader :title="$t('about.header')" />
+    <PageHeader :title="$t('about.pageHeader')" />
 
     <div class="flex justify-center items-center gap-10 max-lg:w-full max-lg:grid max-lg:gap-5 pb-10">
         <div class="relative">
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-    <PageHeader :title="$t('hobbies.header')" />
+    <PageHeader :title="$t('hobbies.pageHeader')" />
 
     <div class="w-full mb-4">
         <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto min-h-[500px]">
