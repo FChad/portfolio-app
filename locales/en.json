@@ -1,11 +1,11 @@
 {
-  "TBD": "To be determined",
+  "TBD": "Still to be determined",
   "layouts": {
     "title": "Feierstein Chad - Portfolio"
   },
   "navigation": {
     "title_home": "Home",
-    "title_about": "About Me",
+    "title_about": "About me",
     "title_skills": "Skills",
     "title_projects": "Projects",
     "title_contact": "Contact"
@@ -14,42 +14,1076 @@
     "title": "Choose your language:"
   },
   "home": {
-    "greeting": "Hello, I am Chad",
-    "introduction_title": "Graduated Student",
+    "pageHeader": "Home",
+    "greeting": "Hello, I'm Chad",
+    "introduction_title": "Graduate student",
     "introduction": "Welcome to my portfolio website!",
-    "about_me": "Here, I have created a platform to showcase my academic and professional activities with comprehensive details. Should you have any questions, feel free to contact me.",
+    "about_me": "Here I have created a platform to present my educational and professional activities with comprehensive details. If you have any further questions, please do not hesitate to contact me.",
     "learn_more": "Learn more"
   },
   "about": {
-    "header": "About Me",
+    "pageHeader": "About me",
     "introduction": {
       "name": "My name is Chad Feierstein",
       "description": "A young, motivated graduate student",
-      "bio": "I'm Chad Feierstein from the enchanting Luxembourg, currently living in Rumelange. My passion for technology drives me to constantly explore new technologies and to continually improve myself. One of my standout qualities is that I enjoy learning. This has always helped me in my academic career so far, and I am convinced that it will also be of great benefit in the world of information technology."
+      "bio": "My name is Chad Feierstein, I come from magical Luxembourg and currently live in Rumelange. My passion for technology drives me to constantly explore new technologies and to continuously develop myself. One of my outstanding qualities is that I enjoy learning. This has always helped me in my school career so far and I am convinced that it will also be of great benefit in the world of information technology."
     },
     "stats": {
-      "age": "years old",
+      "age": "year old",
       "school_years": "school years",
-      "training_years": "training years",
+      "training_years": "years of training",
       "study_years": "years of study"
     },
     "contact_me": "Contact Me"
   },
   "hobbies": {
-    "header": "Hobbies",
+    "pageHeader": "Hobbies",
     "list": {
       "programming": {
-        "title": "Programming",
-        "description": "I take pleasure in developing innovative solutions and continuously deepening my skills in this area."
+        "title": "programming",
+        "description": "It is my pleasure to develop innovative solutions and to continually deepen my skills in this area."
       },
       "learning": {
-        "title": "Learning",
+        "title": "Learn",
         "description": "Expanding my knowledge in the field of information technology, always striving to deepen my understanding and skills."
       },
       "dogs": {
-        "title": "My Dogs",
-        "description": "In my free time, I passionately dedicate myself to my three loyal companions, even enjoying their company on my vacations. Names: Grimmel, Fusel, Popeye"
+        "title": "my dogs",
+        "description": "In my free time I devote myself passionately to my three faithful companions, and I even enjoy their company on my vacations. "
       }
     }
+  },
+  "skills": {
+    "pageHeader": "Skills",
+    "sectionCompetencies": {
+      "title": "Competencies",
+      "description": "In this section you can see my school career where I achieved important milestones."
+    },
+    "education": {
+      "title": "Education",
+      "icon": "i-material-symbols-school",
+      "items": [
+        {
+          "year": "2021",
+          "degree": "Higher technical qualification (Brevet de Technicien Supérieur)",
+          "field": "Specialization: Cloud Computing",
+          "grade": "Diploma (with rating: Good)"
+        },
+        {
+          "year": "2019-2021",
+          "link": "https://www.lgk.lu/bts/clc/",
+          "degree": "Higher technical qualification (Brevet de Technicien Supérieur)",
+          "field": "Specialization: Cloud Computing",
+          "school": "at the Lycée Guillaume Kroll in Esch-sur-Alzette"
+        },
+        {
+          "year": "2019",
+          "degree": "IT technician",
+          "grade": "Diploma (with rating: Good)"
+        },
+        {
+          "year": "2015-2019",
+          "link": "https://www.lgk.lu/training/formation-professionnelle/informaticien-technicien-dap",
+          "degree": "IT technician",
+          "school": "at the Lycée Guillaume Kroll in Esch-sur-Alzette"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "icon": "i-material-symbols-language",
+      "items": [
+        {
+          "language": "Luxembourgish",
+          "level": "C2",
+          "flag": "/img/flags/lb.svg",
+          "percentage": 100
+        },
+        {
+          "language": "German",
+          "level": "C2",
+          "flag": "/img/flags/de.svg",
+          "percentage": 100
+        },
+        {
+          "language": "French",
+          "level": "B2",
+          "flag": "/img/flags/fr.svg",
+          "percentage": 60
+        },
+        {
+          "language": "English",
+          "level": "C1",
+          "flag": "/img/flags/en.svg",
+          "percentage": 80
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "icon": "i-material-symbols-verified-rounded",
+      "items": [
+        {
+          "year": "2023",
+          "link": "https://govjobs.public.lu/fr/examen-concours/administration/inscription.html",
+          "title": "The general aptitude test for the state sector",
+          "details": "L'épreuve d'aptitude générale secteur étatique (administration)"
+        },
+        {
+          "year": "2021",
+          "link": "https://learningnetwork.cisco.com/s/cbrops-exam-topics?ccid=cyberopsassociate",
+          "title": "Cisco Certified CyberOps Associate",
+          "details": "Course Completion"
+        },
+        {
+          "year": "2021",
+          "link": "https://www.netacad.com/courses/networking/ccna-enterprise-networking-security-automation",
+          "title": "Cisco Certified Network Associate 3",
+          "details": "7.0 Enterprise Networking, Security, and Automation"
+        },
+        {
+          "year": "2020",
+          "link": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials",
+          "title": "Cisco Certified Network Associate 2",
+          "details": "7.0 Switching, Routing, and Wireless Essentials"
+        },
+        {
+          "year": "2020",
+          "link": "https://www.netacad.com/courses/networking/ccna-introduction-networks",
+          "title": "Cisco Certified Network Associate 1",
+          "details": "7.0 Introduction to Networks"
+        },
+        {
+          "year": "2020",
+          "link": "https://learn.microsoft.com/en-us/certifications/microsoft-office-specialist-master-certification-2016/",
+          "title": "Microsoft Office Specialist 2016",
+          "details": "PowerPoint, Word, Word expert, Outlook, Excel"
+        }
+      ]
+    },
+    "sectionWork": {
+      "title": "Work",
+      "description": "I was able to gain professional experience for several years. "
+    },
+    "work": {
+      "company": "Company:",
+      "type": "Type:",
+      "date": "Date:",
+      "duration": "Duration:",
+      "description": "Description:",
+      "tasks": "Tasks:",
+      "show_more": "Show more",
+      "items": [
+        {
+          "title": "Looking for a job in computer science",
+          "type": "Full time",
+          "date": "Now",
+          "description": "I'm looking for exciting challenges: Looking for new professional opportunities in the IT industry to gain valuable experience and further develop my skills."
+        },
+        {
+          "title": "IT Cloud Engineer",
+          "type": "Internship",
+          "duration": "12 weeks",
+          "date": "2021",
+          "company": "QPark Consulting",
+          "description": "An internship at QPark Consulting, where I worked on two large projects for three months.",
+          "tasks": [
+            {
+              "name": "Creating a plan for a project using agile methods"
+            },
+            {
+              "name": "Creation and configuration of virtual machines (Google Cloud Platform)"
+            },
+            {
+              "name": "Implementing a website in a virtual machine (Google Cloud Platform)"
+            },
+            {
+              "name": "Implementing a static website on AWS S3 bucket for cost efficiency (Amazon Web Services)"
+            },
+            {
+              "name": "Retrieve and transform data from an existing REST API (Amazon Web Services)"
+            }
+          ]
+        },
+        {
+          "title": "IT technician",
+          "type": "Holiday job",
+          "duration": "8 weeks",
+          "date": "2020",
+          "company": "Lycée Guillaume Kroll",
+          "description": "A holiday job at the Lycée Guillaume Kroll, where I worked in the IT department for two months.",
+          "tasks": [
+            {
+              "name": "Setting up the phones provided by MIXvoip"
+            },
+            {
+              "name": "Manage the phones provided by MIXvoip"
+            },
+            {
+              "name": "The new telephone connections in the rack room were connected according to plan"
+            },
+            {
+              "name": "Modification of a plan for the patch locations in Microsoft Excel"
+            }
+          ]
+        },
+        {
+          "title": "IT technician",
+          "type": "Holiday job",
+          "duration": "4 weeks",
+          "date": "2019",
+          "company": "Lycée Guillaume Kroll",
+          "description": "A summer job at the Lycée Guillaume Kroll, where I spent a month completing a project that I started during my internship.",
+          "tasks": [
+            {
+              "name": "Scheduled customer meetings"
+            },
+            {
+              "name": "Programmed and modified the backend for a website"
+            },
+            {
+              "name": "Created a connection to a SAML authentication service"
+            },
+            {
+              "name": "Programmed and modified the front end for a website"
+            },
+            {
+              "name": "Old computers disposed of properly and the hard drives formatted"
+            }
+          ]
+        },
+        {
+          "title": "IT technician",
+          "type": "Internship",
+          "duration": "6 weeks",
+          "date": "2019",
+          "company": "Lycée Guillaume Kroll",
+          "description": "During my internship at Lycée Guillaume Kroll, I mainly spent six weeks working on a website project.",
+          "tasks": [
+            {
+              "name": "Scheduled customer meetings"
+            },
+            {
+              "name": "Programmed and modified the backend for a website"
+            },
+            {
+              "name": "Programmed and modified the front end for a website"
+            },
+            {
+              "name": "Creation of a conceptual data model for a database"
+            },
+            {
+              "name": "Creation of a logical data model for a database"
+            },
+            {
+              "name": "Created a database with the correct fields, data types and relationships"
+            }
+          ]
+        },
+        {
+          "title": "IT network technician",
+          "type": "Internship",
+          "duration": "6 weeks",
+          "date": "2016",
+          "company": "STEP",
+          "description": "An internship at STEP Syndicat intercommunal in Peppange, where I learned a lot about IT networks.",
+          "tasks": [
+            {
+              "name": "Introduction to the central aspects of the internal organizational structure"
+            },
+            {
+              "name": "How a sewage treatment plant works, especially the continuous flow process"
+            },
+            {
+              "name": "Creating a new plan for the internal patch panel"
+            },
+            {
+              "name": "According to the new plan, the patch cables were patched and relabeled"
+            },
+            {
+              "name": "Learned a lot about the practical internal network structure"
+            }
+          ]
+        }
+      ]
+    },
+    "sectionOtherSkills": {
+      "title": "Other skills",
+      "description": "Programs, software, services and other things that I used during my education, study or work."
+    },
+    "otherSkills": {
+      "show_more": "Show more",
+      "description": "Description:",
+      "items": [
+        {
+          "title": "Public Cloud Provider",
+          "icon": "i-material-symbols-cloud",
+          "description": "Experience with providers of public cloud services.",
+          "details": [
+            {
+              "category": "Amazon Web Services",
+              "items": [
+                {
+                  "type": "Simple Storage Service (S3)",
+                  "description": "A scalable cloud storage service that allows users to securely store and retrieve data and objects."
+                },
+                {
+                  "type": "Elastic Compute Cloud (EC2)",
+                  "description": "A scalable cloud computing service that provides virtual server instances to run applications that require computing resources."
+                },
+                {
+                  "type": "Relational Database Service (RDS)",
+                  "description": "A managed service that makes it easy to set up, operate and scale relational databases in the cloud, such as MySQL, PostgreSQL, Oracle or SQL Server."
+                },
+                {
+                  "type": "Virtual Private Cloud (VPC)",
+                  "description": "An isolated network in the AWS cloud that allows users to operate resources such as EC2 instances in a defined, private environment."
+                },
+                {
+                  "type": "Elastic Beanstalk",
+                  "description": "A service that simplifies the deployment and scaling of web applications and services by automatically managing resources such as EC2 instances, load balancers, and scale sets."
+                },
+                {
+                  "type": "Identity Access Management (IAM)",
+                  "description": "A user access and permissions management service in AWS that allows administrators to manage users, groups, and policies to control access to AWS resources."
+                },
+                {
+                  "type": "Lambda",
+                  "description": "A serverless computing service that allows developers to run code without having to worry about deploying or managing servers. "
+                }
+              ]
+            },
+            {
+              "category": "Google Cloud Platform",
+              "items": [
+                {
+                  "type": "Compute Engine",
+                  "description": "A scalable and flexible service for creating and managing virtual machines (VMs) running on Google's infrastructure. "
+                }
+              ]
+            },
+            {
+              "category": "Microsoft Azure",
+              "items": [
+                {
+                  "type": "Linux Virtual Machines",
+                  "description": "Azure offers a variety of Linux VMs that are flexible and scalable. "
+                },
+                {
+                  "type": "Virtual machines",
+                  "description": "In addition to Linux VMs, Azure also offers a wide range of Windows VMs. "
+                },
+                {
+                  "type": "Static web apps",
+                  "description": "A service for hosting static web applications and websites in Azure. "
+                },
+                {
+                  "type": "Functions",
+                  "description": "Azure Functions is a serverless service that allows developers to run code based on events or requests without having to worry about the underlying infrastructure. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Virtualization",
+          "icon": "i-material-symbols-box-rounded",
+          "description": "Experience with Type 1",
+          "details": [
+            {
+              "category": "Type 1 hypervisor",
+              "items": [
+                {
+                  "type": "VMware ESXi",
+                  "description": "A hypervisor that runs directly on physical hardware and can host multiple virtual machines."
+                },
+                {
+                  "type": "Proxmox (using KVM)",
+                  "description": "An open source virtualization platform based on Linux and using KVM."
+                }
+              ]
+            },
+            {
+              "category": "Type 2 hypervisor",
+              "items": [
+                {
+                  "type": "VMware Workstation",
+                  "description": "Desktop virtualization software for running VMs on a host operating system."
+                },
+                {
+                  "type": "VirtualBox",
+                  "description": "Free virtualization software for running VMs on a host operating system."
+                }
+              ]
+            },
+            {
+              "category": "Container software",
+              "items": [
+                {
+                  "type": "docker",
+                  "description": "A container platform for packaging and running applications and their dependencies."
+                },
+                {
+                  "type": "Docker Swarm",
+                  "description": "An orchestration tool for managing Docker container clusters."
+                },
+                {
+                  "type": "Kubernetes",
+                  "description": "An open source orchestration system for automating container deployment and management."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Operating systems",
+          "icon": "i-material-symbols-computer",
+          "description": "The operating systems with which I have gained experience so far.",
+          "details": [
+            {
+              "category": "Windows",
+              "items": [
+                {
+                  "type": "Windows 7",
+                  "description": "An operating system developed by Microsoft that was widely used and used for many years."
+                },
+                {
+                  "type": "Windows 8",
+                  "description": "A version of Microsoft Windows with a redesigned user interface concept optimized specifically for touchscreens."
+                },
+                {
+                  "type": "Windows 10",
+                  "description": "Microsoft's current operating system, which offers a variety of features and improvements compared to its predecessors."
+                },
+                {
+                  "type": "Windows 11",
+                  "description": "The latest version of Microsoft Windows with updated design and new features."
+                },
+                {
+                  "type": "Windows Server 2012",
+                  "description": "A server version of Microsoft Windows designed specifically for use in corporate environments."
+                },
+                {
+                  "type": "Windows Server 2016",
+                  "description": "Another server version of Microsoft Windows with improved features for business use."
+                },
+                {
+                  "type": "Windows Server 2019",
+                  "description": "The latest server version of Microsoft Windows with advanced business features and cloud integration."
+                }
+              ]
+            },
+            {
+              "category": "Linux",
+              "items": [
+                {
+                  "type": "Ubuntu",
+                  "description": "A popular Linux distribution known for its ease of use and versatility."
+                },
+                {
+                  "type": "Debian",
+                  "description": "A stable and widely used Linux distribution that serves as the basis for many other distributions."
+                },
+                {
+                  "type": "Kali Linux",
+                  "description": "A Linux distribution specializing in penetration testing and security audits."
+                },
+                {
+                  "type": "Raspberry Pi OS",
+                  "description": "An operating system developed by the Raspberry Pi Foundation that is specifically optimized for use on the Raspberry Pi computer."
+                }
+              ]
+            },
+            {
+              "category": "Other",
+              "items": [
+                {
+                  "type": "Cisco IOS",
+                  "description": "The operating system that runs on Cisco network devices such as routers and switches and manages network connectivity and functions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Office software",
+          "icon": "i-mdi-microsoft",
+          "description": "A deep insight into Microsoft Office and my extensive knowledge of it.",
+          "details": [
+            {
+              "category": "Microsoft Office",
+              "items": [
+                {
+                  "type": "Microsoft Word",
+                  "description": "A word processing program for creating and editing all kinds of documents."
+                },
+                {
+                  "type": "Microsoft Excel",
+                  "description": "A spreadsheet application for managing data, creating charts, and performing calculations."
+                },
+                {
+                  "type": "Microsoft PowerPoint",
+                  "description": "A presentation software for creating and editing visually appealing presentations."
+                },
+                {
+                  "type": "Microsoft Access",
+                  "description": "A database application for managing and analyzing large amounts of data."
+                },
+                {
+                  "type": "Microsoft Outlook",
+                  "description": "An email and organization application to manage emails, appointments and contacts."
+                },
+                {
+                  "type": "Microsoft Teams",
+                  "description": "A teamwork communication platform that offers chat, video calling, file sharing and real-time collaboration."
+                },
+                {
+                  "type": "Microsoft OneDrive",
+                  "description": "A cloud storage service for storing, syncing and sharing files and folders."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "programming",
+          "icon": "i-material-symbols-code-blocks-rounded",
+          "description": "The range of my skills in different programming languages.",
+          "details": [
+            {
+              "category": "Script language",
+              "items": [
+                {
+                  "type": "Microsoft PowerShell",
+                  "description": "A command line shell and scripting language developed by Microsoft specifically designed for system administration and automation in Windows environments."
+                },
+                {
+                  "type": "Linux Bash",
+                  "description": "The Bourne-Again Shell (Bash) is a standard shell for Unix-based operating systems such as Linux and macOS, providing a powerful command-line interface and scripting capabilities."
+                },
+                {
+                  "type": "python",
+                  "description": "A versatile and user-friendly programming language known for its simplicity, readability and extensive standard library. "
+                }
+              ]
+            },
+            {
+              "category": "Web development",
+              "items": [
+                {
+                  "type": "HTML",
+                  "description": "Hypertext Markup Language (HTML) is a markup language for structuring web pages and content on the World Wide Web."
+                },
+                {
+                  "type": "CSS",
+                  "description": "Cascading Style Sheets (CSS) is a style sheet language for designing the appearance of HTML and XML documents."
+                },
+                {
+                  "type": "JavaScript (including jQuery)",
+                  "description": "A programming language commonly used for developing interactive websites and applications. "
+                },
+                {
+                  "type": "PHP",
+                  "description": "A server-side scripting language primarily used for developing dynamic websites and web applications. "
+                }
+              ]
+            },
+            {
+              "category": "Database language",
+              "items": [
+                {
+                  "type": "SQL",
+                  "description": "Structured Query Language (SQL) is a special programming language for managing and querying relational databases. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Project management",
+          "icon": "i-material-symbols-list-alt-rounded",
+          "description": "Core concepts and important aspects that make up project management.",
+          "details": [
+            {
+              "category": "Essential aspects of project management",
+              "items": [
+                {
+                  "type": "Project planning",
+                  "description": "This includes defining project goals, scope, schedule, resource requirements, budget and risks. "
+                },
+                {
+                  "type": "Risk management",
+                  "description": "The identification, assessment and treatment of risks that could influence the course of the project and the project result. "
+                },
+                {
+                  "type": "communication",
+                  "description": "Effective communication is crucial to keep the team, stakeholders and other stakeholders informed about project progress, changes, issues and decisions. "
+                },
+                {
+                  "type": "Resource management",
+                  "description": "Allocating and managing resources such as staff, budget, equipment and materials to ensure the project is completed on time and within budget."
+                },
+                {
+                  "type": "Time management",
+                  "description": "Planning and monitoring schedules to ensure project goals and milestones are achieved in a timely manner. "
+                },
+                {
+                  "type": "Quality management",
+                  "description": "Planning, monitoring and ensuring the quality of project products and results in accordance with requirements and standards. "
+                },
+                {
+                  "type": "Stakeholder management",
+                  "description": "Identifying, engaging and managing the interests and expectations of all stakeholders, including customers, team members, suppliers and other stakeholders."
+                },
+                {
+                  "type": "Change management",
+                  "description": "Managing changes in project scope, schedule or budget. "
+                },
+                {
+                  "type": "Team management",
+                  "description": "Leading, motivating and developing the project team to ensure effective collaboration and performance. "
+                },
+                {
+                  "type": "Conclusion and evaluation",
+                  "description": "The closing phase includes completing all project activities, delivering final products to the customer, and conducting follow-up to reflect on experiences, identify learning points, and document best practices for future projects."
+                }
+              ]
+            },
+            {
+              "category": "Connection between project management and JIRA",
+              "items": [
+                {
+                  "type": "Description",
+                  "description": "These aspects of project management are closely related and must work in harmony to ensure the success of a project. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IT network",
+          "icon": "i-mdi-ip-network",
+          "description": "Expertise in network planning, setup and maintenance for reliable communications.",
+          "details": [
+            {
+              "category": "Cisco Certified Network Associate 1 - CCNA1",
+              "items": [
+                {
+                  "type": "Network basics",
+                  "description": "Basics of networks, their architectures, topologies and protocols."
+                },
+                {
+                  "type": "OSI model and TCP/IP",
+                  "description": "Understanding of OSI layer model and TCP/IP protocol."
+                },
+                {
+                  "type": "Network devices and components",
+                  "description": "Functions and configuration of network devices such as switches and routers."
+                },
+                {
+                  "type": "IP addressing",
+                  "description": "IPv4 and possibly also introduction to IPv6, IP address classes, subnetting and addressing schemes."
+                },
+                {
+                  "type": "Network protocols",
+                  "description": "Basic network protocols like ICMP, ARP, DHCP, DNS and how they work."
+                },
+                {
+                  "type": "LAN (Local Area Network)",
+                  "description": "Configuration and management of LANs, Ethernet technologies, VLANs and their configuration."
+                },
+                {
+                  "type": "WAN (Wide Area Network)",
+                  "description": "Basics of WANs, serial connections, PPP and HDLC."
+                },
+                {
+                  "type": "Network security",
+                  "description": "Introduction to network security concepts, authentication, encryption, and basic security measures."
+                },
+                {
+                  "type": "Network management and monitoring",
+                  "description": "Network management basics, configuration and monitoring tools, troubleshooting and diagnostics."
+                },
+                {
+                  "type": "Practical exercises and laboratories",
+                  "description": "Practical application of the knowledge learned through laboratories and simulations to carry out configurations and implement networks."
+                }
+              ]
+            },
+            {
+              "category": "Cisco Certified Network Associate 2 - CCNA2",
+              "items": [
+                {
+                  "type": "Routing and Switching",
+                  "description": "Deepen the concepts of routing and switching, including configuring routers and switches."
+                },
+                {
+                  "type": "IPv4 and IPv6 routing",
+                  "description": "Advanced knowledge of IPv4 and IPv6 routing protocols such as RIP, OSPF and EIGRP."
+                },
+                {
+                  "type": "Spanning Tree Protocol (STP)",
+                  "description": "How STP works and how to avoid loops in network topologies."
+                },
+                {
+                  "type": "VLANs and inter-VLAN routing",
+                  "description": "In-depth configuration and management of VLANs as well as the implementation of routing between VLANs."
+                },
+                {
+                  "type": "Access Control Lists (ACLs)",
+                  "description": "Using ACLs to control network access and security."
+                },
+                {
+                  "type": "DHCP (Dynamic Host Configuration Protocol)",
+                  "description": "Configuring and managing DHCP for automatic IP address assignment."
+                },
+                {
+                  "type": "Network Address Translation (NAT)",
+                  "description": "Understanding and configuring NAT to convert private IP addresses into public IP addresses."
+                },
+                {
+                  "type": "WAN technologies",
+                  "description": "Introduction to various WAN technologies such as HDLC, PPP, Frame Relay and possibly VPNs."
+                },
+                {
+                  "type": "Network diagnostics and troubleshooting",
+                  "description": "Advanced troubleshooting techniques and diagnostic procedures for network problems."
+                }
+              ]
+            },
+            {
+              "category": "Cisco Certified Network Associate 3 - CCNA3",
+              "items": [
+                {
+                  "type": "Scalable networks",
+                  "description": "Concepts and techniques for scaling networks to support larger and more complex environments."
+                },
+                {
+                  "type": "VLANs and trunking",
+                  "description": "In-depth configuration of VLANs and trunking, including the use of VTP."
+                },
+                {
+                  "type": "VLSM and IPv4 addressing",
+                  "description": "Increased understanding of Variable Length Subnet Masking (VLSM) and its application to IPv4 addressing schemes."
+                },
+                {
+                  "type": "IPv6",
+                  "description": "Advanced aspects of IPv6, including addressing, configuration, and integration into IPv4 networks."
+                },
+                {
+                  "type": "Routing protocols",
+                  "description": "In-depth knowledge and configuration of routing protocols such as OSPF, EIGRP and possibly BGP."
+                },
+                {
+                  "type": "WAN technologies and services",
+                  "description": "Advanced configuration of WAN technologies such as PPP, Frame Relay and possibly MPLS."
+                },
+                {
+                  "type": "Network security",
+                  "description": "Advanced security concepts and techniques, including implementing ACLs, routing-level security, and securing network devices."
+                },
+                {
+                  "type": "Network management and monitoring",
+                  "description": "Advanced network monitoring, management and diagnostics, including the use of SNMP and Syslog."
+                },
+                {
+                  "type": "Troubleshooting concepts",
+                  "description": "In-depth skills in diagnosing and troubleshooting network issues in complex environments."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IT security",
+          "icon": "i-material-symbols-security",
+          "description": "Competence in securing IT networks for protected communication.",
+          "details": [
+            {
+              "category": "Encryption methods",
+              "items": [
+                {
+                  "type": "Caesar and Vigenère ciphers",
+                  "description": "Basics of historical encryption methods to illustrate cryptographic principles."
+                },
+                {
+                  "type": "Data encryption tools",
+                  "description": "Use of tools such as HexViewers, BitLocker and Microsoft EFS for file encryption and security of sensitive data."
+                },
+                {
+                  "type": "Email encryption",
+                  "description": "Implementation of end-to-end encryption (PGP, GPG) to secure email communications."
+                },
+                {
+                  "type": "Symmetric, asymmetric and hybrid encryption",
+                  "description": "Use of encryption methods to ensure the security of data transmissions."
+                }
+              ]
+            },
+            {
+              "category": "Safety measures",
+              "items": [
+                {
+                  "type": "Key exchange procedure",
+                  "description": "Understanding and application of protocols such as Diffie-Hellman for secure key transfer."
+                },
+                {
+                  "type": "Password storage with hashes",
+                  "description": "Use of hashing algorithms for secure password storage."
+                },
+                {
+                  "type": "Checking downloaded programs",
+                  "description": "Using hash checksums to verify the integrity of downloaded files."
+                },
+                {
+                  "type": "Certificates and Certification Authorities (CAs)",
+                  "description": "Use of certificates and SSL/TLS handshake for authentication and encryption."
+                },
+                {
+                  "type": "Integrity assurance through hashing",
+                  "description": "Use of hashing algorithms to check the integrity of data."
+                }
+              ]
+            },
+            {
+              "category": "Network security",
+              "items": [
+                {
+                  "type": "Windows firewall and Linux iptables",
+                  "description": "Setting up firewall rules for network security on Windows and Linux."
+                },
+                {
+                  "type": "Network monitoring and evaluation",
+                  "description": "Analyzing network protocols and packets to identify security issues."
+                },
+                {
+                  "type": "Packet analysis and sniffers",
+                  "description": "Using packet sniffers to monitor and analyze network traffic."
+                }
+              ]
+            },
+            {
+              "category": "Security policies and management",
+              "items": [
+                {
+                  "type": "Policies and risk management",
+                  "description": "Develop and implement security policies and risk management procedures."
+                },
+                {
+                  "type": "Confidentiality, availability",
+                  "description": "Ensuring security aspects by restricting access, availability and integrity of data."
+                }
+              ]
+            },
+            {
+              "category": "Attack prevention and detection",
+              "items": [
+                {
+                  "type": "Types of attackers",
+                  "description": "Identification of different types of attackers and their targets."
+                },
+                {
+                  "type": "Activities of the CIA Triad",
+                  "description": "Protecting the confidentiality, integrity and availability of data."
+                },
+                {
+                  "type": "Data protection and legislative activity",
+                  "description": "Compliance with data protection laws and regulations such as the GDPR."
+                },
+                {
+                  "type": "Anatomy of an attack",
+                  "description": "Identifying security vulnerabilities and monitoring networks."
+                },
+                {
+                  "type": "Operating system hardening (Lynis)",
+                  "description": "Checking operating systems for security vulnerabilities and providing hardening recommendations."
+                },
+                {
+                  "type": "Password cracking",
+                  "description": "Methods for identifying and securing against password attacks."
+                },
+                {
+                  "type": "Digital certificates (for email)",
+                  "description": "Using certificates to secure email communications."
+                },
+                {
+                  "type": "Google Dorking",
+                  "description": "Using specific search terms and techniques to identify vulnerabilities and sensitive information via search engines such as Google."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IT automation",
+          "icon": "i-material-symbols-robot",
+          "description": "Automating IT processes for efficiency and scalability.",
+          "details": [
+            {
+              "category": "Automation tools and scripting languages",
+              "items": [
+                {
+                  "type": "AutoHotKey",
+                  "description": "Scripting tool for Windows to automate mouse and keyboard input; "
+                },
+                {
+                  "type": "Automated image processing",
+                  "description": "Automated processing of images through scripts or tools for resizing, filter application or batch processing."
+                },
+                {
+                  "type": "Batch rename",
+                  "description": "Automatically rename files in bulk via predefined rules or patterns."
+                },
+                {
+                  "type": "Data from external sources",
+                  "description": "Automated collection or integration of data from external sources such as APIs, websites or databases."
+                },
+                {
+                  "type": "Microsoft Flow",
+                  "description": "Microsoft tool for automating workflows by linking different apps and services."
+                },
+                {
+                  "type": "Regular expressions (RegEX)",
+                  "description": "Powerful tool for processing and searching texts based on patterns; "
+                },
+                {
+                  "type": "Linux shell scripting",
+                  "description": "Using commands and scripts in the Linux shell (such as Bash) to automate processes, file management and system maintenance."
+                },
+                {
+                  "type": "Windows PowerShell",
+                  "description": "Powerful framework and command line interface from Microsoft for automating tasks and system management in Windows-based systems."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Database",
+          "icon": "i-material-symbols-database",
+          "description": "Efficiently organize and secure databases.",
+          "details": [
+            {
+              "category": "Database management",
+              "items": [
+                {
+                  "type": "Creation of databases and relations",
+                  "description": "Setting up databases and defining relationships between the various tables."
+                },
+                {
+                  "type": "Modeling of databases (MCD and MLD)",
+                  "description": "Use of modeling techniques like MCD and MLD for designing the database structure."
+                },
+                {
+                  "type": "Working with different database types",
+                  "description": "Knowledge and experience in managing different database types such as MySQL, MSSQL."
+                },
+                {
+                  "type": "Database backups",
+                  "description": "Setting up and planning backup strategies for databases."
+                },
+                {
+                  "type": "SQL queries",
+                  "description": "Experience in using SQL to extract, update, delete and insert data."
+                },
+                {
+                  "type": "Managing data in Excel and Access",
+                  "description": "Knowledge of managing and analyzing data in Excel and Access."
+                }
+              ]
+            },
+            {
+              "category": "Data formats",
+              "items": [
+                {
+                  "type": "XML",
+                  "description": "Extensible Markup Language (XML) is a markup language for representing hierarchical structures in the form of text files. "
+                },
+                {
+                  "type": "JSON",
+                  "description": "JavaScript Object Notation (JSON) is an easy-to-read data format based on JavaScript objects. "
+                },
+                {
+                  "type": "CSV",
+                  "description": "Comma-separated values ​​(CSV) is a file format for displaying tabular data.  "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Other",
+          "icon": "i-material-symbols-format-list-bulleted",
+          "description": "A look at the variety of tools and technologies I'm familiar with.",
+          "details": [
+            {
+              "category": "Client",
+              "items": [
+                {
+                  "type": "Visual Studio Code",
+                  "description": "A cross-platform code editor with syntax highlighting, IntelliSense, and Git integration used by developers for software development."
+                },
+                {
+                  "type": "FTP client",
+                  "description": "A software application that allows users to transfer files between their computer and an FTP server."
+                },
+                {
+                  "type": "SSH client",
+                  "description": "A software application that allows users to securely connect to an SSH server to log in, transfer files, and execute commands."
+                },
+                {
+                  "type": "Remote Desktop",
+                  "description": "Allows users to connect to and control a remote computer to access files, applications, and resources as if they were physically in front of the remote computer."
+                },
+                {
+                  "type": "Cisco Packet Tracer",
+                  "description": "A network simulation tool from Cisco that allows users to design, configure, and test complex networks without requiring physical hardware."
+                }
+              ]
+            },
+            {
+              "category": "server",
+              "items": [
+                {
+                  "type": "Apache2",
+                  "description": "A widely used open source web server for delivering web content to the Internet."
+                },
+                {
+                  "type": "Microsoft IIS",
+                  "description": "A web server from Microsoft for Windows Server that hosts websites, web applications, and other Internet services."
+                },
+                {
+                  "type": "Active Directory",
+                  "description": "A directory service from Microsoft for managing users, groups, computers, and resources in a Windows domain."
+                },
+                {
+                  "type": "FTP servers",
+                  "description": "A server that enables file transfer via the File Transfer Protocol (FTP)."
+                },
+                {
+                  "type": "SSH servers",
+                  "description": "A server that supports Secure Shell (SSH) to allow users to securely connect remotely and execute commands."
+                }
+              ]
+            },
+            {
+              "category": "Other",
+              "items": [
+                {
+                  "type": "WordPress (CMS)",
+                  "description": "A user-friendly platform for creating and managing websites and blogs with numerous customization options through themes and plugins."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "pageHeader": "Projects"
+  },
+  "contact": {
+    "pageHeader": "Contact"
   }
 }

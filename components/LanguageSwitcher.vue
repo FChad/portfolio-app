@@ -11,7 +11,7 @@ const isLanguageModalOpen = ref(false);
     <UModal v-model="isLanguageModalOpen">
         <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
             <template #header>
-                <h2 class="text-center"> {{ $t('language_modal.title') }}</h2>
+                <p class="text-center font-semibold text-lg"> {{ $t('language_modal.title') }}</p>
             </template>
 
             <ul class="flex gap-2 flex-wrap">
