@@ -10,6 +10,10 @@
     "title_projects": "Projekte",
     "title_contact": "Kontakt"
   },
+  "footer": {
+    "copyright": "© 2024 von Chad Feierstein. Alle Rechte vorbehalten.",
+    "host": "Website gehostet auf Cloudflare"
+  },
   "language_modal": {
     "title": "Wähle deine Sprache:"
   },
@@ -1084,6 +1088,9 @@
     "pageHeader": "Projekte"
   },
   "contact": {
-    "pageHeader": "Kontakt"
+    "pageHeader": "Kontakt",
+    "socials_title": "Soziale Medien",
+    "private_title": "Privat",
+    "private_label": "Privat"
   }
 }

@@ -10,6 +10,10 @@
     "title_projects": "Projects",
     "title_contact": "Contact"
   },
+  "footer": {
+    "copyright": "© 2024 by Chad Feierstein. All rights reserved.",
+    "host": "Site hosted on Cloudflare"
+  },
   "language_modal": {
     "title": "Choose your language:"
   },
@@ -78,13 +82,13 @@
         },
         {
           "year": "2019",
-          "degree": "IT technician",
+          "degree": "IT Technician",
           "grade": "Diploma (with rating: Good)"
         },
         {
           "year": "2015-2019",
           "link": "https://www.lgk.lu/training/formation-professionnelle/informaticien-technicien-dap",
-          "degree": "IT technician",
+          "degree": "IT Technician",
           "school": "at the Lycée Guillaume Kroll in Esch-sur-Alzette"
         }
       ]
@@ -206,7 +210,7 @@
           ]
         },
         {
-          "title": "IT technician",
+          "title": "IT Technician",
           "type": "Holiday job",
           "duration": "8 weeks",
           "date": "2020",
@@ -228,7 +232,7 @@
           ]
         },
         {
-          "title": "IT technician",
+          "title": "IT Technician",
           "type": "Holiday job",
           "duration": "4 weeks",
           "date": "2019",
@@ -253,7 +257,7 @@
           ]
         },
         {
-          "title": "IT technician",
+          "title": "IT Technician",
           "type": "Internship",
           "duration": "6 weeks",
           "date": "2019",
@@ -281,7 +285,7 @@
           ]
         },
         {
-          "title": "IT network technician",
+          "title": "IT Network Technician",
           "type": "Internship",
           "duration": "6 weeks",
           "date": "2016",
@@ -388,7 +392,7 @@
         {
           "title": "Virtualization",
           "icon": "i-material-symbols-box-rounded",
-          "description": "Experience with Type 1",
+          "description": "Experience with Type 1 and 2 hypervisors and container technologies.",
           "details": [
             {
               "category": "Type 1 hypervisor",
@@ -420,7 +424,7 @@
               "category": "Container software",
               "items": [
                 {
-                  "type": "docker",
+                  "type": "Docker",
                   "description": "A container platform for packaging and running applications and their dependencies."
                 },
                 {
@@ -436,7 +440,7 @@
           ]
         },
         {
-          "title": "Operating systems",
+          "title": "Operating Systems",
           "icon": "i-material-symbols-computer",
           "description": "The operating systems with which I have gained experience so far.",
           "details": [
@@ -506,7 +510,7 @@
           ]
         },
         {
-          "title": "Office software",
+          "title": "Office Software",
           "icon": "i-mdi-microsoft",
           "description": "A deep insight into Microsoft Office and my extensive knowledge of it.",
           "details": [
@@ -546,7 +550,7 @@
           ]
         },
         {
-          "title": "programming",
+          "title": "Programming",
           "icon": "i-material-symbols-code-blocks-rounded",
           "description": "The range of my skills in different programming languages.",
           "details": [
@@ -562,7 +566,7 @@
                   "description": "The Bourne-Again Shell (Bash) is a standard shell for Unix-based operating systems such as Linux and macOS, providing a powerful command-line interface and scripting capabilities."
                 },
                 {
-                  "type": "python",
+                  "type": "Python",
                   "description": "A versatile and user-friendly programming language known for its simplicity, readability and extensive standard library. "
                 }
               ]
@@ -600,7 +604,7 @@
           ]
         },
         {
-          "title": "Project management",
+          "title": "Project Management",
           "icon": "i-material-symbols-list-alt-rounded",
           "description": "Core concepts and important aspects that make up project management.",
           "details": [
@@ -616,7 +620,7 @@
                   "description": "The identification, assessment and treatment of risks that could influence the course of the project and the project result. "
                 },
                 {
-                  "type": "communication",
+                  "type": "Communication",
                   "description": "Effective communication is crucial to keep the team, stakeholders and other stakeholders informed about project progress, changes, issues and decisions. "
                 },
                 {
@@ -661,7 +665,7 @@
           ]
         },
         {
-          "title": "IT network",
+          "title": "IT-Network",
           "icon": "i-mdi-ip-network",
           "description": "Expertise in network planning, setup and maintenance for reliable communications.",
           "details": [
@@ -795,7 +799,7 @@
           ]
         },
         {
-          "title": "IT security",
+          "title": "IT-Security",
           "icon": "i-material-symbols-security",
           "description": "Competence in securing IT networks for protected communication.",
           "details": [
@@ -915,7 +919,7 @@
           ]
         },
         {
-          "title": "IT automation",
+          "title": "IT-Automation",
           "icon": "i-material-symbols-robot",
           "description": "Automating IT processes for efficiency and scalability.",
           "details": [
@@ -1042,7 +1046,7 @@
               ]
             },
             {
-              "category": "server",
+              "category": "Server",
               "items": [
                 {
                   "type": "Apache2",
@@ -1084,6 +1088,9 @@
     "pageHeader": "Projects"
   },
   "contact": {
-    "pageHeader": "Contact"
+    "pageHeader": "Contact",
+    "socials_title": "Sozial Media",
+    "private_title": "Private",
+    "private_label": "Private"
   }
 }

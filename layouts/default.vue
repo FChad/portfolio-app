@@ -1,3 +1,38 @@
+<script setup>
+
+const route = useRoute()
+const { t } = useI18n()
+const head = useLocaleHead({
+    addDirAttribute: true,
+    identifierAttribute: 'id',
+    addSeoAttributes: true
+})
+const title = computed(() => t('layouts.title', { title: t(route.meta.title ?? 'TBD') }))
+
+const navigationList = ref([
+    {
+        "title": "title_home",
+        "_path": "/",
+    },
+    {
+        "title": "title_about",
+        "_path": "/about",
+    },
+    {
+        "title": "title_skills",
+        "_path": "/skills",
+    },
+    {
+        "title": "title_projects",
+        "_path": "/projects",
+    },
+    {
+        "title": "title_contact",
+        "_path": "/contact",
+    }
+]);
+</script>
+
 <template>
     <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
 
@@ -13,7 +48,7 @@
 
     <Body>
         <header>
-            <Navigation></Navigation>
+            <Navigation :navigation-list="navigationList"></Navigation>
             <ScrollOnTop></ScrollOnTop>
         </header>
 
@@ -24,12 +59,7 @@
         </main>
 
         <footer>
-            <div class="w-full bg-slate-300 dark:bg-slate-700 text-center min-h-24 flex items-center justify-center mt-4">
-                <p>© 2024 von Chad Feierstein.
-                    <br>Alle Rechte vorbehalten.
-                    <br>Website gehostet auf Cloudflare
-                </p>
-            </div>
+            <LayoutFooter :navigation-list="navigationList"/>
         </footer>
 
         <UNotifications />
@@ -37,18 +67,5 @@
 
     </Html>
 </template>
-
-<script setup>
-
-const route = useRoute()
-const { t } = useI18n()
-const head = useLocaleHead({
-    addDirAttribute: true,
-    identifierAttribute: 'id',
-    addSeoAttributes: true
-})
-const title = computed(() => t('layouts.title', { title: t(route.meta.title ?? 'TBD') }))
-
-</script>
 
 <style scoped></style>

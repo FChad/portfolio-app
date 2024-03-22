@@ -8,9 +8,9 @@
         </div>
         <div class="max-lg:min-w-0 max-lg:w-full">
             <div class="max-w-[600px]">
-                <h3 class="text-3xl font-semibold mb-2">{{ $t('about.introduction.name') }}</h3>
-                <h4 class="text-xl font-semibold mb-2">{{ $t('about.introduction.description') }}</h4>
-                <p class="text-lg mb-3 pb-6 border-b-2 border-gray-300 dark:border-gray-600">{{
+                <h3 class="font-semibold mb-2">{{ $t('about.introduction.name') }}</h3>
+                <h4 class="text-lg font-semibold mb-2">{{ $t('about.introduction.description') }}</h4>
+                <p class="mb-3 pb-6 border-b-2 border-gray-300 dark:border-gray-600">{{
         $t('about.introduction.bio') }}</p>
             </div>
             <ul class="flex gap-x-8 max-lg:flex-col">

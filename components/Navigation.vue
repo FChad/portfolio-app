@@ -1,5 +1,7 @@
 <script setup lang="ts">
 
+const props = defineProps(["navigationList"]);
+
 const hideNav = ref(true);
 const stickyNav = ref(true);
 
@@ -15,29 +17,6 @@ onUnmounted(() => {
     window.removeEventListener('scroll', handleScroll);
 });
 
-
-const navigationList = [
-    {
-        "title": "title_home",
-        "_path": "/",
-    },
-    {
-        "title": "title_about",
-        "_path": "/about",
-    },
-    {
-        "title": "title_skills",
-        "_path": "/skills",
-    },
-    {
-        "title": "title_projects",
-        "_path": "/projects",
-    },
-    {
-        "title": "title_contact",
-        "_path": "/contact",
-    }
-]
 </script>
 
 <template>
