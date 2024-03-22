@@ -16,7 +16,7 @@
                 class="m-2 justify-center transition duration-150 ease-in-out"> {{ $t('contact.email') }}: mail@chad.lu</UButton>
         </div>
         <div class="w-full">
-            <ul class="flex justify-center items-center">
+            <ul class="flex justify-center items-center flex-wrap">
                 <li v-for="item in navigationList">
                     <NuxtLink :to="item._path" active-class="flex py-2 mx-3 text-blue-500 rounded hover:"
                         class="flex py-2 mx-3 rounded hover:text-gray-500 bg-opacity-25 hover:bg-opacity-25 dark:bg-opacity-25 dark:hover:bg-opacity-50 dark:hover:text-gray-500">
