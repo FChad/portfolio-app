@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ['@nuxtjs/i18n', '@nuxt/ui'],
+  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxtjs/sitemap', 'nuxt-simple-robots'],
+  site: {
+    url: 'https://www.chad.lu',
+  },
   app: {
     head: {
       link: [
@@ -23,10 +26,6 @@ export default defineNuxtConfig({
         {
           rel: 'manifest',
           href: '/img/favicon/site.webmanifest'
-        },
-        {
-          rel: 'canonical',
-          href: 'https://www.chad.lu/'
         }
       ]
     }
