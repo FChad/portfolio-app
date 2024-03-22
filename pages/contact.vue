@@ -1,7 +1,7 @@
 <template>
     <PageHeader :title="$t('contact.pageHeader')" />
 
-    <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] w-full gap-8 m-auto">
+    <div class="flex w-full max-sm:flex-wrap gap-8 m-auto">
 
         <div class="card">
             <span
