@@ -21,12 +21,9 @@ onUnmounted(() => {
 
 <template>
     <nav class="w-full z-20 top-0 left-0 backdrop-blur-xl" :class="stickyNav ? 'fixed' : 'relative'">
-
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse" title="Feierstein Chad | Portfolio">
-
-                <span class="self-center text-2xl font-semibold whitespace-nowrap">Feierstein Chad</span>
+                <h1 class="self-center text-2xl font-semibold whitespace-nowrap">Feierstein Chad</h1>
             </a>
             <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
 
