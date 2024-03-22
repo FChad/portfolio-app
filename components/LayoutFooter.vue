@@ -1,7 +1,7 @@
 <template>
     <div
         class="w-full bg-gray-200 dark:bg-gray-800 text-center min-h-24 flex items-center justify-center flex-wrap mt-4">
-        <div class="w-full">
+        <div class="w-full px-2">
             <UButton :to="$t('contact.links.linkedin')" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
             <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
@@ -11,11 +11,11 @@
             <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> GitHub</UButton>
         </div>
-        <div class="w-full">
+        <div class="w-full px-2">
             <UButton to="mailto:mail@chad.lu" color="gray" icon="i-heroicons-envelope-20-solid" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> {{ $t('contact.email') }}: mail@chad.lu</UButton>
         </div>
-        <div class="w-full">
+        <div class="w-full px-2">
             <ul class="flex justify-center items-center flex-wrap">
                 <li v-for="item in navigationList">
                     <NuxtLink :to="item._path" active-class="flex py-2 mx-3 text-blue-500 rounded hover:"
@@ -25,7 +25,7 @@
                 </li>
             </ul>
         </div>
-        <div class="w-full my-2">
+        <div class="w-full my-2 px-2">
             <p>{{ $t('footer.copyright')}}
                 <br>{{ $t('footer.host')}}
             </p>
