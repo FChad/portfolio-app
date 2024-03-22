@@ -4,7 +4,7 @@
     <div class="flex justify-center items-center gap-10 max-lg:w-full max-lg:grid max-lg:gap-5 pb-10">
         <div class="relative">
             <img src="/img/about-img.webp" class="max-lg:min-w-0 max-lg:w-full max-w-full rounded-lg"
-                alt="Chad Feierstein beim Fallschirmspringen">
+                alt="Chad Feierstein beim Fallschirmspringen" width="600" height="456">
         </div>
         <div class="max-lg:min-w-0 max-lg:w-full">
             <div class="max-w-[600px]">
@@ -50,7 +50,7 @@
                         <h3 class="text-2xl font-bold">{{ $t('hobbies.list.programming.title') }}</h3>
                         <span class="text-xl">{{ $t('hobbies.list.programming.description') }}</span>
                     </div>
-                    <img src="/img/hobbies/hobby-img1.webp" alt="Programmierung" class="w-full h-full object-cover">
+                    <img src="/img/hobbies/hobby-img1.webp" alt="Programmierung" width="500" height="360" class="w-full h-full object-cover">
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
                         <h3 class="text-2xl font-bold">{{ $t('hobbies.list.learning.title') }}</h3>
                         <span class="text-xl">{{ $t('hobbies.list.learning.description') }}</span>
                     </div>
-                    <img src="/img/hobbies/hobby-img2.webp" alt="Lernen" class="w-full h-full object-cover">
+                    <img src="/img/hobbies/hobby-img2.webp" alt="Lernen" width="500" height="360" class="w-full h-full object-cover">
                 </div>
             </div>
 
@@ -78,7 +78,7 @@
                         <h3 class="text-2xl font-bold">{{ $t('hobbies.list.dogs.title') }}</h3>
                         <span class="text-xl">{{ $t('hobbies.list.dogs.description') }}</span>
                     </div>
-                    <img src="/img/hobbies/hobby-img3.webp" alt="Meine Hunde" class="w-full h-full object-cover">
+                    <img src="/img/hobbies/hobby-img3.webp" alt="Meine Hunde" width="520" height="470" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
