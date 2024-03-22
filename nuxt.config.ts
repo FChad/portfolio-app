@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxtjs/sitemap', 'nuxt-simple-robots'],
   site: {
     url: 'https://www.chad.lu',
+    name: 'Feierstein Chad - Portfolio',
   },
   app: {
     head: {
