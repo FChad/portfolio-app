@@ -4,11 +4,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxt/ui'],
   app: {
     head: {
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' }
-      ],
       link: [
         {
           rel: 'apple-touch-icon',

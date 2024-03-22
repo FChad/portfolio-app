@@ -38,7 +38,16 @@ const navigationList = ref([
 
     <Head>
         <Title>{{ title }}</Title>
+
+        <Meta name="keywords" :content="$t('layouts.keywords')"/>
         <Meta name="description" :content="$t('layouts.description')"/>
+        <Meta name="author" content="Chad Feierstein"/>
+
+        <Meta name="og:title" :content="title"/>
+        <Meta name="og:description" :content="$t('layouts.description')"/>
+        <Meta name="og:url" content="https://www.chad.lu/"/>
+        <Meta name="og:type" content="website"/>
+
         <template v-for="link in head.link" :key="link.id">
             <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
         </template>

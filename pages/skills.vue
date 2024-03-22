@@ -173,7 +173,7 @@
                 class="p-2 my-2" @click="openModal('skill' + index)">
                 {{ $t('skills.otherSkills.show_more') }}</UButton>
 
-            <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index"
+            <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index" prevent-close
                 @update:model-value="value => value ? openModal(index) : closeModal()">
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }" prevent-close>
                     <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0" @click="closeModal()" />
