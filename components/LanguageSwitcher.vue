@@ -8,10 +8,11 @@ const isLanguageModalOpen = ref(false);
 <template>
     <UButton icon="i-heroicons-language-20-solid" color="gray" variant="solid" @click="isLanguageModalOpen = true" />
 
-    <UModal v-model="isLanguageModalOpen">
+    <UModal v-model="isLanguageModalOpen" prevent-close>
         <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
             <template #header>
                 <p class="text-center font-semibold text-lg"> {{ $t('language_modal.title') }}</p>
+                <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0" @click="isLanguageModalOpen = false" />
             </template>
 
             <ul class="flex gap-2 flex-wrap">

@@ -113,10 +113,12 @@
                 {{ $t('skills.work.show_more') }}</UButton>
 
             <UModal v-if="item.tasks" :model-value="openModalIndex === 'job' + index" 
-                @update:model-value="value => value ? openModal(index) : closeModal()">
+                @update:model-value="value => value ? openModal(index) : closeModal()" prevent-close>
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
+                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0" @click="closeModal()" />
                     <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
                         <h4 class="text-xl font-bold w-full text-center">{{ extractValue(item.title) }}</h4>
+
                         <div class="w-full flex justify-between">
 
                             <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
@@ -173,7 +175,9 @@
 
             <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index"
                 @update:model-value="value => value ? openModal(index) : closeModal()">
-                <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
+                <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }" prevent-close>
+                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0" @click="closeModal()" />
+
                     <div class="flex justify-between items-center flex-wrap relative">
                         <h4 class="flex items-center justify-start gap-1 text-xl font-bold w-full">
                             <Icon :name="extractValue(item.icon)" class="w-6 h-6" />{{ extractValue(item.title) }}
