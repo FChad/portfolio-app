@@ -4,7 +4,7 @@
     <div class="flex justify-center items-center gap-10 max-lg:w-full max-lg:grid max-lg:gap-5 pb-10">
         <div class="relative">
             <img src="/img/about-img.webp" class="max-lg:min-w-0 max-lg:w-full max-w-full rounded-lg"
-                alt="Chad Feierstein beim Fallschirmspringen über einem malerischen Landschaftsbild">
+                alt="Chad Feierstein beim Fallschirmspringen">
         </div>
         <div class="max-lg:min-w-0 max-lg:w-full">
             <div class="max-w-[600px]">

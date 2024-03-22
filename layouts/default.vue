@@ -38,6 +38,7 @@ const navigationList = ref([
 
     <Head>
         <Title>{{ title }}</Title>
+        <Meta name="description" :content="$t('layouts.description')"/>
         <template v-for="link in head.link" :key="link.id">
             <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
         </template>

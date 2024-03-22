@@ -23,7 +23,7 @@
         </div>
 
         <div class="rounded-lg p-2 flex items-center justify-center">
-            <img src="/img/main-img.webp" class="object-cover"></img>
+            <img src="/img/main-img.webp" class="object-cover" alt="Chad Feierstein"></img>
         </div>
     </div>
 </template>
