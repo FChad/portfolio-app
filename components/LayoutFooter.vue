@@ -2,18 +2,18 @@
     <div
         class="w-full bg-gray-200 dark:bg-gray-800 text-center min-h-24 flex items-center justify-center flex-wrap mt-4">
         <div class="w-full">
-            <UButton color="gray" icon="i-mdi-linkedin" variant="solid"
+            <UButton :to="$t('contact.links.linkedin')" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
-            <UButton color="gray" icon="i-mdi-facebook-box" variant="solid"
+            <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> Facebook</UButton>
-            <UButton color="gray" icon="i-mdi-instagram" variant="solid"
+            <UButton :to="$t('contact.links.instagram')" target="_blank" color="gray" icon="i-mdi-instagram" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> Instagram</UButton>
-            <UButton color="gray" icon="i-mdi-github" variant="solid"
+            <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> GitHub</UButton>
         </div>
         <div class="w-full">
-            <UButton color="gray" icon="i-heroicons-envelope-20-solid" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> E-Mail: mail@chad.lu</UButton>
+            <UButton to="mailto:mail@chad.lu" color="gray" icon="i-heroicons-envelope-20-solid" variant="solid"
+                class="m-2 justify-center transition duration-150 ease-in-out"> {{ $t('contact.email') }}: mail@chad.lu</UButton>
         </div>
         <div class="w-full">
             <ul class="flex justify-center items-center">

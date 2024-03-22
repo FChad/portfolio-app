@@ -2,13 +2,13 @@
     <PageHeader :title="$t('home.pageHeader')" />
     <div class="flex justify-between items-center w-full max-md:grid">
         <div class="flex md:flex-col mr-8">
-            <UButton color="gray" icon="i-mdi-linkedin" variant="solid"
+            <UButton :to="$t('contact.links.linkedin')" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
-            <UButton color="gray" icon="i-mdi-facebook-box" variant="solid"
+            <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> Facebook</UButton>
-            <UButton color="gray" icon="i-mdi-instagram" variant="solid"
+            <UButton :to="$t('contact.links.instagram')" target="_blank" color="gray" icon="i-mdi-instagram" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> Instagram</UButton>
-            <UButton color="gray" icon="i-mdi-github" variant="solid"
+            <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> GitHub</UButton>
         </div>
 

@@ -1091,6 +1091,15 @@
       "pageHeader": "Contact",
       "socials_title": "Réseaux sociaux",
       "private_title": "Privé",
-      "private_label": "Privé"
+      "private_label": "Privé",
+      "email": "E-Mail",
+      "telephone": "Téléphone",
+      "address": "Adresse",
+      "links": {
+        "linkedin" : "https://www.linkedin.com/in/chad-feierstein/",
+        "facebook" : "https://www.facebook.com/chad.feierstein.7/",
+        "instagram" : "https://www.instagram.com/chadfeierstein/",
+        "github" : "https://github.com/FChad?tab=repositories"
+      }
     }
 }
