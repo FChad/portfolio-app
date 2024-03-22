@@ -1,7 +1,7 @@
 <template>
     <PageHeader :title="$t('home.pageHeader')" />
     <div class="flex justify-between items-center w-full max-md:grid">
-        <div class="flex md:flex-col mr-8">
+        <div class="flex md:flex-col mr-8 flex-wrap">
             <UButton :to="$t('contact.links.linkedin')" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
             <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
