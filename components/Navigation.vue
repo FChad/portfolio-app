@@ -30,14 +30,12 @@ onUnmounted(() => {
             </a>
             <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
 
-                <LanguageSwitcher/>
+                <LanguageSwitcher />
 
-                <ThemeSwitcher/>
+                <ThemeSwitcher />
 
-                <ClientOnly>
-                    <UButton icon="i-heroicons-bars-3-20-solid" color="gray" variant="solid"
-                        @click="hideNav ? hideNav = false : hideNav = true" class="md:hidden" />
-                </ClientOnly>
+                <UButton icon="i-heroicons-bars-3-20-solid" color="gray" variant="solid"
+                    @click="hideNav ? hideNav = false : hideNav = true" class="md:hidden" />
 
             </div>
             <div class="w-full md:flex md:w-auto md:order-1" :class="{ 'hidden': hideNav }">
