@@ -45,8 +45,8 @@
                     <div class="flex justify-between items-center mb-1">
                         <img :src="extractValue(item.flag)" alt="Luxemburgische Flagge"
                             class="max-w-[30px] rounded-[6px]">
-                        <span v-if="item.language">{{ extractValue(item.language) }}</span>
-                        <span v-if="item.level">{{ extractValue(item.level) }}</span>
+                        <span v-if="item.language" class="font-medium">{{ extractValue(item.language) }}</span>
+                        <span v-if="item.level" class="font-medium">{{ extractValue(item.level) }}</span>
                     </div>
                     <UProgress v-if="item.percentage" :value="item.percentage" color="blue"/>
                 </li>

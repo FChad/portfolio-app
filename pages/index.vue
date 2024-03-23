@@ -6,17 +6,17 @@
                 class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
             <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> Facebook</UButton>
-            <UButton :to="$t('contact.links.instagram')" target="_blank" color="gray" icon="i-mdi-instagram" variant="solid"
+            <UButton :to="$t('contact.links.instagram')" target="_blank" color="gray" icon="i-mdi-instagram" variant="solid" 
                 class="m-2 justify-center transition duration-150 ease-in-out"> Instagram</UButton>
-            <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid"
+            <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid" 
                 class="m-2 justify-center transition duration-150 ease-in-out"> GitHub</UButton>
         </div>
 
         <div class="max-md:text-sm">
             <h3 class="leading-normal font-semibold">{{ $t('home.greeting') }}</h3>
             <p><b class="text-lg leading-loose font-semibold">{{ $t('home.introduction_title') }}</b></p>
-            <p class="">{{ $t('home.introduction') }}</p>
-            <p class=" max-w-[450px]">{{ $t('home.about_me') }}</p>
+            <p class="text-lg">{{ $t('home.introduction') }}</p>
+            <p class="text-lg max-w-[450px]">{{ $t('home.about_me') }}</p>
 
             <UButton :label="$t('navigation.title_about')" to="/about" size="xl" color="blue"
                 class="my-4 py-4 px-6 text-lg" />
