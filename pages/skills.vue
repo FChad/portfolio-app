@@ -48,7 +48,7 @@
                         <span v-if="item.language">{{ extractValue(item.language) }}</span>
                         <span v-if="item.level">{{ extractValue(item.level) }}</span>
                     </div>
-                    <UProgress v-if="item.percentage" :value="item.percentage" />
+                    <UProgress v-if="item.percentage" :value="item.percentage" color="blue"/>
                 </li>
             </ul>
 

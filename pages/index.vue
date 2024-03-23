@@ -18,7 +18,7 @@
             <p class="">{{ $t('home.introduction') }}</p>
             <p class=" max-w-[450px]">{{ $t('home.about_me') }}</p>
 
-            <UButton :label="$t('navigation.title_about')" to="/about" size="xl" color="primary"
+            <UButton :label="$t('navigation.title_about')" to="/about" size="xl" color="blue"
                 class="my-4 py-4 px-6 text-lg" />
         </div>
 
