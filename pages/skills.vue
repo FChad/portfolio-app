@@ -91,7 +91,7 @@
         <div class="card" v-for="(item, index) in $tm('skills.work.items')">
             <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
                 <h4 class="text-xl font-bold w-full">{{ extractValue(item.title) }}</h4>
-                <div class="w-full flex justify-between">
+                <div class="w-full flex justify-between flex-wrap">
                     <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
                         <Icon name="i-material-symbols-work" class="w-5 h-5" /> {{ extractValue(item.company) }}
                     </span>
@@ -115,11 +115,11 @@
             <UModal v-if="item.tasks" :model-value="openModalIndex === 'job' + index" 
                 @update:model-value="value => value ? openModal(index) : closeModal()" prevent-close>
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
-                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0" @click="closeModal()" />
+                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0 z-50" @click="closeModal()" />
                     <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
                         <h4 class="text-xl font-bold w-full text-center">{{ extractValue(item.title) }}</h4>
 
-                        <div class="w-full flex justify-between">
+                        <div class="w-full flex justify-between flex-wrap">
 
                             <span v-if="item.company" class="font-medium flex items-center justify-start gap-1">
                                 <Icon name="i-material-symbols-work" class="w-5 h-5" /> {{ $t('skills.work.company')
@@ -176,7 +176,7 @@
             <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index" prevent-close
                 @update:model-value="value => value ? openModal(index) : closeModal()">
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }" prevent-close>
-                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0" @click="closeModal()" />
+                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0 z-50" @click="closeModal()" />
 
                     <div class="flex justify-between items-center flex-wrap relative">
                         <h4 class="flex items-center justify-start gap-1 text-xl font-bold w-full">

@@ -577,12 +577,12 @@
               "category": "Web-Entwicklung",
               "items": [
                 {
-                  "type": "HTML",
-                  "description": "Die Hypertext Markup Language (HTML) ist eine Markup-Sprache zur Strukturierung von Webseiten und Inhalten im World Wide Web."
+                  "type": "Hypertext Markup Language (HTML)",
+                  "description": "HTML ist eine Markup-Sprache zur Strukturierung von Webseiten und Inhalten im World Wide Web."
                 },
                 {
-                  "type": "CSS",
-                  "description": "Cascading Style Sheets (CSS) ist eine Stylesheet-Sprache zur Gestaltung des Erscheinungsbilds von HTML- und XML-Dokumenten."
+                  "type": "Cascading Style Sheets (CSS)",
+                  "description": "CSS ist eine Stylesheet-Sprache zur Gestaltung des Erscheinungsbilds von HTML- und XML-Dokumenten."
                 },
                 {
                   "type": "JavaScript (einschließlich jQuery)",
@@ -598,8 +598,8 @@
               "category": "Datenbank-Sprache",
               "items": [
                 {
-                  "type": "SQL",
-                  "description": "Structured Query Language (SQL) ist eine spezielle Programmiersprache zur Verwaltung und Abfrage von relationalen Datenbanken. SQL wird für das Abrufen, Aktualisieren, Einfügen und Löschen von Daten verwendet."
+                  "type": "Structured Query Language (SQL)",
+                  "description": "SQL ist eine spezielle Programmiersprache zur Verwaltung und Abfrage von relationalen Datenbanken. SQL wird für das Abrufen, Aktualisieren, Einfügen und Löschen von Daten verwendet."
                 }
               ]
             }
@@ -1002,16 +1002,16 @@
               "category": "Daten-Formate",
               "items": [
                 {
-                  "type": "XML",
-                  "description": "Extensible Markup Language (XML) ist eine Auszeichnungssprache zur Darstellung hierarchischer Strukturen in Form von Textdateien. Es wird häufig für den Austausch von Daten zwischen verschiedenen Systemen verwendet."
+                  "type": "Extensible Markup Language (XML)",
+                  "description": "XML ist eine Auszeichnungssprache zur Darstellung hierarchischer Strukturen in Form von Textdateien. Es wird häufig für den Austausch von Daten zwischen verschiedenen Systemen verwendet."
                 },
                 {
-                  "type": "JSON",
-                  "description": "JavaScript Object Notation (JSON) ist ein leicht lesbares Datenformat, das auf JavaScript-Objekten basiert. Es wird häufig für den Datenaustausch zwischen einem Server und einem Webclient verwendet."
+                  "type": "JavaScript Object Notation (JSON)",
+                  "description": "JSON ist ein leicht lesbares Datenformat, das auf JavaScript-Objekten basiert. Es wird häufig für den Datenaustausch zwischen einem Server und einem Webclient verwendet."
                 },
                 {
-                  "type": "CSV",
-                  "description": "Comma-separated values (CSV) ist ein Dateiformat zur Darstellung tabellarischer Daten. Dabei werden die Datenzeilen durch Zeilenumbrüche getrennt und die einzelnen Felder in einer Zeile durch Kommas oder andere Trennzeichen voneinander abgegrenzt. "
+                  "type": "Comma-separated values (CSV)",
+                  "description": "CSV ist ein Dateiformat zur Darstellung tabellarischer Daten. Dabei werden die Datenzeilen durch Zeilenumbrüche getrennt und die einzelnen Felder in einer Zeile durch Kommas oder andere Trennzeichen voneinander abgegrenzt."
                 }
               ]
             }

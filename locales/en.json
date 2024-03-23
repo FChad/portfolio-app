@@ -376,11 +376,11 @@
                   "description": "Azure offers a variety of Linux VMs that are flexible and scalable. "
                 },
                 {
-                  "type": "Virtual machines",
+                  "type": "Virtual Machines",
                   "description": "In addition to Linux VMs, Azure also offers a wide range of Windows VMs. "
                 },
                 {
-                  "type": "Static web apps",
+                  "type": "Static Web Apps",
                   "description": "A service for hosting static web applications and websites in Azure. "
                 },
                 {
@@ -577,12 +577,12 @@
               "category": "Web development",
               "items": [
                 {
-                  "type": "HTML",
-                  "description": "Hypertext Markup Language (HTML) is a markup language for structuring web pages and content on the World Wide Web."
+                  "type": "Hypertext Markup Language (HTML)",
+                  "description": "HTML is a markup language for structuring web pages and content on the World Wide Web."
                 },
                 {
-                  "type": "CSS",
-                  "description": "Cascading Style Sheets (CSS) is a style sheet language for designing the appearance of HTML and XML documents."
+                  "type": "Cascading Style Sheets (CSS)",
+                  "description": "CSS is a style sheet language for designing the appearance of HTML and XML documents."
                 },
                 {
                   "type": "JavaScript (including jQuery)",
@@ -598,8 +598,8 @@
               "category": "Database language",
               "items": [
                 {
-                  "type": "SQL",
-                  "description": "Structured Query Language (SQL) is a special programming language for managing and querying relational databases. "
+                  "type": "Structured Query Language (SQL)",
+                  "description": "SQL is a special programming language for managing and querying relational databases. "
                 }
               ]
             }
@@ -650,7 +650,7 @@
                   "description": "Leading, motivating and developing the project team to ensure effective collaboration and performance. "
                 },
                 {
-                  "type": "Conclusion and evaluation",
+                  "type": "Conclusion and Evaluation",
                   "description": "The closing phase includes completing all project activities, delivering final products to the customer, and conducting follow-up to reflect on experiences, identify learning points, and document best practices for future projects."
                 }
               ]
@@ -1002,16 +1002,16 @@
               "category": "Data formats",
               "items": [
                 {
-                  "type": "XML",
-                  "description": "Extensible Markup Language (XML) is a markup language for representing hierarchical structures in the form of text files. "
+                  "type": "Extensible Markup Language (XML)",
+                  "description": "XML is a markup language for representing hierarchical structures in the form of text files. It is often used for exchanging data between different systems."
                 },
                 {
-                  "type": "JSON",
-                  "description": "JavaScript Object Notation (JSON) is an easy-to-read data format based on JavaScript objects. "
+                  "type": "JavaScript Object Notation (JSON)",
+                  "description": "JSON is an easy-to-read data format based on JavaScript objects. It is often used for data exchange between a server and a web client."
                 },
                 {
-                  "type": "CSV",
-                  "description": "Comma-separated values ​​(CSV) is a file format for displaying tabular data.  "
+                  "type": "Comma-separated values (CSV)",
+                  "description": "CSV is a file format for displaying tabular data. The data lines are separated by line breaks and the individual fields in a line are separated from each other by commas or other separators."
                 }
               ]
             }

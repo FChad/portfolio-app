@@ -84,13 +84,13 @@
           },
           {
             "year": "2019",
-            "degree": "Techniker an der Informatik",
+            "degree": "Techniker an der Informatik",
             "grade": "Diplom (mat Bewäertung: Gutt)"
           },
           {
             "year": "2015-2019",
             "link": "https://www.lgk.lu/training/formation-professionnelle/informaticien-technicien-dap",
-            "degree": "Techniker an der Informatik",
+            "degree": "Techniker an der Informatik",
             "school": "am Lycée Guillaume Kroll zu Esch-Uelzecht"
           }
         ]
@@ -331,31 +331,31 @@
                 "items": [
                   {
                     "type": "Simple Storage Service (S3)",
-                    "description": "Ein skalierbarer Cloud-Speicherdienst, der es Benutzern ermöglicht, Daten und Objekte sicher zu speichern und abzurufen."
+                    "description": "Ein skalierbaren Cloud-Späicherdéngscht, deen et Benotzer erméiglecht, Daten an Objeten sécher ze späicheren an ofzeruffen."
                   },
                   {
                     "type": "Elastic Compute Cloud (EC2)",
-                    "description": "Ein skalierbarer Cloud-Computing-Dienst, der virtuelle Serverinstanzen bereitstellt, um Anwendungen auszuführen, die Computing-Ressourcen erfordern."
+                    "description": "Ee skalierbaren Cloud-Computing-Déngscht, deen virtuell Serverinstanzen zur Verfügung stellt, fir Applikatiounen auszeféieren, déi Computing-Ressourcen erfuerderen."
                   },
                   {
                     "type": "Relational Database Service (RDS)",
-                    "description": "Ein verwalteter Dienst, der das Einrichten, Betreiben und Skalieren von relationalen Datenbanken in der Cloud erleichtert, wie z.B. MySQL, PostgreSQL, Oracle oder SQL Server."
+                    "description": "Ee verwalteten Déngscht, dee d'Ariichten, Bedreiwen an Skaléiere vun relationalen Datebanken an der Cloud vereinfacht, wéi z.B. MySQL, PostgreSQL, Oracle oder SQL Server."
                   },
                   {
                     "type": "Virtual Private Cloud (VPC)",
-                    "description": "Ein isoliertes Netzwerk in der AWS-Cloud, das es Benutzern ermöglicht, Ressourcen wie EC2-Instanzen in einer definierten, privaten Umgebung zu betreiben."
+                    "description": "En isoléiert Netzwerk an der AWS-Cloud, dat et Benotzer erméiglecht, Ressourcen wéi EC2-Instanzen an enger definéierter, privater Ëmfeld ze bedreiwen."
                   },
                   {
                     "type": "Elastic Beanstalk",
-                    "description": "Ein Dienst, der die Bereitstellung und Skalierung von Webanwendungen und -diensten vereinfacht, indem er automatisch Ressourcen wie EC2-Instanzen, Load Balancer und Skalierungsgruppen verwaltet."
+                    "description": "Ee Déngscht, deen d'Bereetstellung an Skaléierung vun Webapplikatiounen an -déngschter vereinfacht, andeems en automatesch Ressourcen wéi EC2-Instanzen, Load Balancer an Skaléierungsgruppen verwalt."
                   },
                   {
                     "type": "Identity Access Management (IAM)",
-                    "description": "Ein Dienst zur Verwaltung von Benutzerzugriffen und Berechtigungen in AWS, der es Administratoren ermöglicht, Benutzer, Gruppen und Richtlinien zur Steuerung des Zugriffs auf AWS-Ressourcen zu verwalten."
+                    "description": "Ee Déngscht zur Verwaltung vu Benotzerzougäng an Berechtegungen an AWS, deen et Administrateuren erméiglecht, Benotzer, Gruppen an Richtlinnen ze verwalten, fir den Zougang zu AWS-Ressourcen ze steieren."
                   },
                   {
                     "type": "Lambda",
-                    "description": "Ein serverloser Computing-Dienst, mit dem Entwickler Code ausführen können, ohne sich um die Bereitstellung oder Verwaltung von Servern kümmern zu müssen. Es ermöglicht die Ausführung von Code in Reaktion auf Ereignisse oder Anforderungen, die von anderen AWS-Services ausgelöst werden."
+                    "description": "Ee serverlose Computing-Déngscht, mat deem Entwéckler Code kënne lafen ouni sech ëm d'Bereetstellung oder Verwaltung vu Serveren ze këmmeren. Et erméiglecht d'Ausféierung vu Code a Reaktioun op Evenementer oder Ufroen, déi vu aneren AWS-Servicer ausgeléist ginn."
                   }
                 ]
               },
@@ -364,7 +364,7 @@
                 "items": [
                   {
                     "type": "Compute Engine",
-                    "description": "Ein skalierbarer und flexibler Dienst zum Erstellen und Verwalten von virtuellen Maschinen (VMs), die auf der Infrastruktur von Google laufen. Compute Engine bietet Hochleistungs-VMs mit branchenführender Preis-Leistung und globaler Verfügbarkeit."
+                    "description": "Ee skalierbaren an flexibelen Déngscht fir virtuell Maschinnen (VMs) ze kreéieren an ze verwalten, déi op der Infrastruktur vu Google lafen. Compute Engine bitt Hochleistungs-VMs mat brancheféierender Präis-Leeschtung an globaler Verfügbarkeet."
                   }
                 ]
               },
@@ -373,19 +373,19 @@
                 "items": [
                   {
                     "type": "Linux Virtual Machines",
-                    "description": "Azure bietet eine Vielzahl von Linux-VMs, die flexibel und skalierbar sind. Benutzer können aus verschiedenen Linux-Distributionen wählen und die VMs nach Bedarf anpassen."
+                    "description": "Azure bitt eng Varietéit vun Linux-VMs, déi flexibel a skalierbar sinn. Benotzer kënnen aus verschiddene Linux-Distributiounen wielen an d'VMs no Bedarf upassen."
                   },
                   {
                     "type": "Virtual Machines",
-                    "description": "Neben Linux-VMs bietet Azure auch eine breite Palette von Windows-VMs. Diese VMs können für verschiedene Zwecke wie Entwicklung, Tests und Produktion eingesetzt werden."
+                    "description": "Nieft Linux-VMs bitt Azure och eng breet Palette vu Windows-VMs. Dës VMs kënne fir verschidden Zwecker wéi Entwécklung, Tester an Produktioun agesat ginn."
                   },
                   {
                     "type": "Static Web Apps",
-                    "description": "Ein Dienst zum Hosting von statischen Webanwendungen und Websites in Azure. Entwickler können ihre Anwendungen einfach bereitstellen und verwalten, ohne sich um die Infrastruktur kümmern zu müssen."
+                    "description": "Ee Déngscht fir statesch Webapplikatiounen a Websäiten an Azure ze hosten. Entwéckler kënnen hir Applikatiounen einfach bereetstellen a verwalten, ouni sech ëm d'Infrastruktur këmmeren ze mussen."
                   },
                   {
                     "type": "Functions",
-                    "description": "Azure Functions ist ein serverloser Dienst, mit dem Entwickler Code ausführen können, der auf Ereignissen oder Anforderungen basiert, ohne sich um die zugrunde liegende Infrastruktur kümmern zu müssen. Entwickler können Funktionen in verschiedenen Programmiersprachen schreiben und sie nahtlos in ihre Anwendungen integrieren."
+                    "description": "Azure Functions ass ee serverlosen Déngscht, deen et Entwéckler erméiglecht, Code auszeféieren, deen op Eventer oder Ufroen baséiert, ouni sech ëm déi ënnerlëgend Infrastruktur këmmeren ze mussen. Entwéckler kënnen Funktiounen an ënnerschiddleche Programméiersproochen schreiwen an se nahtlos an hir Applikatioune integréieren."
                   }
                 ]
               }
@@ -401,11 +401,11 @@
                 "items": [
                   {
                     "type": "VMware ESXi",
-                    "description": "Ein Hypervisor, der direkt auf physischer Hardware läuft und mehrere virtuelle Maschinen hosten kann."
+                    "description": "Ee Hypervisor, deen direkt op physescher Hardware leeft an e puer virtuell Maschinne ka hosten."
                   },
                   {
-                    "type": "Proxmox (unter Verwendung von KVM)",
-                    "description": "Eine Open-Source-Virtualisierungsplattform, die auf Linux basiert und KVM nutzt."
+                    "type": "Proxmox (ënner der Benotzung vun KVM)",
+                    "description": "Eng Open-Source-Virtualiséierungsplattform, déi op Linux baséiert an KVM notzt."
                   }
                 ]
               },
@@ -414,11 +414,11 @@
                 "items": [
                   {
                     "type": "VMware Workstation",
-                    "description": "Desktop-Virtualisierungssoftware für die Ausführung von VMs auf einem Host-Betriebssystem."
+                    "description": "Desktop-Virtualiséierungssoftware fir d'Ausféierung vu VMs op engem Host-Betribssystem."
                   },
                   {
                     "type": "VirtualBox",
-                    "description": "Kostenlose Virtualisierungssoftware für die Ausführung von VMs auf einem Host-Betriebssystem."
+                    "description": "Gratis Virtualiséierungssoftware fir d'Ausféierung vu VMs op engem Host-Betribssystem."
                   }
                 ]
               },
@@ -427,15 +427,15 @@
                 "items": [
                   {
                     "type": "Docker",
-                    "description": "Eine Container-Plattform für die Verpackung und Ausführung von Anwendungen und ihren Abhängigkeiten."
+                    "description": "Eng Container-Plattform fir d'Verpackung an Ausféierung vu Applikatiounen an hiren Ofhängegkeeten."
                   },
                   {
                     "type": "Docker Swarm",
-                    "description": "Ein Orchestrierungstool für die Verwaltung von Docker-Containerclustern."
+                    "description": "Ee Orchestreierungstool fir d'Verwaltung vu Docker-Containerclusteren."
                   },
                   {
                     "type": "Kubernetes",
-                    "description": "Ein Open-Source-Orchestrierungssystem für die Automatisierung der Containerbereitstellung und -verwaltung."
+                    "description": "Ee Open-Source-Orchestreierungssystem fir d'Automatiséierung vun der Containerbereetstellung a -verwaltung."
                   }
                 ]
               }
@@ -451,31 +451,31 @@
                 "items": [
                   {
                     "type": "Windows 7",
-                    "description": "Ein von Microsoft entwickeltes Betriebssystem, das weit verbreitet war und viele Jahre lang genutzt wurde."
+                    "description": "Ee vun Microsoft entwéckelt Betribssystem, dat wäit verbreet war an vill Joren laang genotzt gouf."
                   },
                   {
                     "type": "Windows 8",
-                    "description": "Eine Version von Microsoft Windows mit einem neu gestalteten Benutzeroberflächenkonzept, das speziell für Touchscreens optimiert wurde."
+                    "description": "Eng Versioun vun Microsoft Windows mat engem nei gestaltene Benotzeroberflächenkonzept, dat speziell fir Touchscreens optiméiert gouf."
                   },
                   {
                     "type": "Windows 10",
-                    "description": "Das aktuelle Betriebssystem von Microsoft, das eine Vielzahl von Funktionen und Verbesserungen im Vergleich zu seinen Vorgängern bietet."
+                    "description": "Dat aktuellt Betriebssystem vun Microsoft, dat eng Villzuel vu Funktiounen an Verbesserungen am Verglach zu senge Virgänger bitt."
                   },
                   {
                     "type": "Windows 11",
-                    "description": "Die neueste Version von Microsoft Windows mit aktualisiertem Design und neuen Funktionen."
+                    "description": "Déi neist Versioun vun Microsoft Windows mat aktualiséiertem Design an neie Funktiounen."
                   },
                   {
                     "type": "Windows Server 2012",
-                    "description": "Eine Serverversion von Microsoft Windows, die speziell für den Einsatz in Unternehmensumgebungen entwickelt wurde."
+                    "description": "Eng Serverversioun vun Microsoft Windows, déi speziell fir den Asaz an Ënnernehmensëmfeld entwéckelt gouf."
                   },
                   {
                     "type": "Windows Server 2016",
-                    "description": "Eine weitere Serverversion von Microsoft Windows mit verbesserten Funktionen für die Unternehmensnutzung."
+                    "description": "Eng weider Serverversioun vun Microsoft Windows mat verbesserte Funktioune fir d'Ënnernehmensnotzung."
                   },
                   {
                     "type": "Windows Server 2019",
-                    "description": "Die aktuellste Serverversion von Microsoft Windows mit erweiterten Funktionen für Unternehmen und Cloud-Integration."
+                    "description": "Déi aktuellst Serverversioun vun Microsoft Windows mat erweiderte Funktiounen fir Entreprisen an Cloud-Integratioun."
                   }
                 ]
               },
@@ -484,28 +484,28 @@
                 "items": [
                   {
                     "type": "Ubuntu",
-                    "description": "Eine beliebte Linux-Distribution, die für ihre Benutzerfreundlichkeit und Vielseitigkeit bekannt ist."
+                    "description": "Eng beléifte Linux-Distributioun, déi fir hir Benotzerfrëndlechkeet an Vielfältegkeet bekannt ass."
                   },
                   {
                     "type": "Debian",
-                    "description": "Eine stabile und weit verbreitete Linux-Distribution, die als Grundlage für viele andere Distributionen dient."
+                    "description": "Eng stabil an wäit verbreete Linux-Distributioun, déi als Grondlag fir vill aner Distributioune déngt."
                   },
                   {
                     "type": "Kali Linux",
-                    "description": "Eine Linux-Distribution, die sich auf Penetrationstests und Sicherheitsaudits spezialisiert hat."
+                    "description": "Eng Linux-Distributioun, déi sech op Penetratiounstester an Sécherheetsauditen spezialiséiert huet."
                   },
                   {
                     "type": "Raspberry Pi OS",
-                    "description": "Ein von der Raspberry Pi Foundation entwickeltes Betriebssystem, das speziell für den Einsatz auf dem Raspberry Pi-Computer optimiert ist."
+                    "description": "Ee vun der Raspberry Pi Foundation entwéckelt Betribssystem, dat speziell fir den Asaz op dem Raspberry Pi-Computer optimiséiert ass."
                   }
                 ]
               },
               {
-                "category": "Anderes",
+                "category": "Aner",
                 "items": [
                   {
                     "type": "Cisco IOS",
-                    "description": "Das Betriebssystem, das auf Cisco-Netzwerkgeräten wie Routern und Switches läuft und die Netzwerkkonnektivität und -funktionen verwaltet."
+                    "description": "Dat Betribssystem, dat op Cisco-Netzwierkapparater wéi Routeren an Switchen leeft an d'Netzwierkkonnektivitéit an -funktiounen verwalt."
                   }
                 ]
               }
@@ -521,31 +521,31 @@
                 "items": [
                   {
                     "type": "Microsoft Word",
-                    "description": "Ein Textverarbeitungsprogramm zum Erstellen und Bearbeiten von Dokumenten aller Art."
+                    "description": "Ee Textveraarbechtungsprogramm fir Dokumenter vun all Zort ze kreéieren an ze änneren."
                   },
                   {
                     "type": "Microsoft Excel",
-                    "description": "Eine Tabellenkalkulationsanwendung zur Verwaltung von Daten, Erstellung von Diagrammen und Durchführung von Berechnungen."
+                    "description": "Eng Tabellenkalkulatiounsapplikatioun fir Daten ze verwalten, Diagrammer ze kreéieren an Berechnungen duerchzeféieren."
                   },
                   {
                     "type": "Microsoft PowerPoint",
-                    "description": "Eine Präsentationssoftware zum Erstellen und Bearbeiten von visuell ansprechenden Präsentationen."
+                    "description": "Eng Präsentatiounssoftware fir visuell uspriechend Präsentatiounen ze kreéieren an z'änneren."
                   },
                   {
                     "type": "Microsoft Access",
-                    "description": "Eine Datenbankanwendung zur Verwaltung und Analyse großer Datenmengen."
+                    "description": "Eng Datenbankapplikatioun fir grouss Datenmengen ze verwalten an ze analyséieren."
                   },
                   {
                     "type": "Microsoft Outlook",
-                    "description": "Eine E-Mail- und Organisationsanwendung zur Verwaltung von E-Mails, Terminen und Kontakten."
+                    "description": "Eng E-Mail- an Organisatiounsapplikatioun fir E-Maile, Rendezvousen an Kontakter ze verwalten."
                   },
                   {
                     "type": "Microsoft Teams",
-                    "description": "Eine Kommunikationsplattform für Teamarbeit, die Chat, Videoanrufe, Dateifreigabe und Zusammenarbeit in Echtzeit bietet."
+                    "description": "Eng Kommunikatiounsplattform fir Teamaarbecht, déi Chat, Videoopriff, Dateifreigab an Zesummenaarbecht an Echtzäit bitt."
                   },
                   {
                     "type": "Microsoft OneDrive",
-                    "description": "Ein Cloud-Speicherdienst zur Speicherung, Synchronisierung und Freigabe von Dateien und Ordnern."
+                    "description": "Ee Cloud-Späicherdéngscht fir Dateien an Dossieren ze späicheren, ze synchroniséieren an ze deelen."
                   }
                 ]
               }
@@ -561,15 +561,15 @@
                 "items": [
                   {
                     "type": "Microsoft PowerShell",
-                    "description": "Eine von Microsoft entwickelte Befehlszeilen-Shell und Skriptsprache, die speziell für die Systemverwaltung und Automatisierung in Windows-Umgebungen konzipiert ist."
+                    "description": "Eng vun Microsoft entwéckelt Kommandozeil-Shell an Skriptsprooch, déi speziell fir d'Systemverwaltung an Automatiséierung an Windows-Umgebungen entworf ass."
                   },
                   {
                     "type": "Linux Bash",
-                    "description": "Die Bourne-Again-Shell (Bash) ist eine Standard-Shell für Unix-basierte Betriebssysteme wie Linux und macOS, die eine leistungsstarke Befehlszeilen-Schnittstelle und Skriptfähigkeiten bietet."
+                    "description": "D'Bourne-Again-Shell (Bash) ass eng Standard-Shell fir Unix-baséiert Betribssystemer wéi Linux an macOS, déi eng mächteg Kommandozeil-Schnittstell an Skriptfäegkeeten ubitt."
                   },
                   {
                     "type": "Python",
-                    "description": "Eine vielseitige und benutzerfreundliche Programmiersprache, die für ihre Einfachheit, Lesbarkeit und umfangreiche Standardbibliothek bekannt ist. Python wird für verschiedene Anwendungsbereiche wie Webentwicklung, Datenanalyse, künstliche Intelligenz und Automatisierung eingesetzt."
+                    "description": "Eng vielseiteg an benotzerfrëndlech Programméiersprooch, déi fir hir Einfachheet, Liesbarkeet an ëmfaassend Standardbibliothéik bekannt ass. Python gëtt fir verschidden Uwendungsberäicher wéi Webentwécklung, Datenanalyse, kënschtlech Intelligenz an Automatiséierung agesat."
                   }
                 ]
               },
@@ -577,29 +577,29 @@
                 "category": "Web-Entwicklung",
                 "items": [
                   {
-                    "type": "HTML",
-                    "description": "Die Hypertext Markup Language (HTML) ist eine Markup-Sprache zur Strukturierung von Webseiten und Inhalten im World Wide Web."
+                    "type": "Hypertext Markup Language (HTML)",
+                    "description": "HTML ass eng Markup-Sprooch fir Webseiten an Inhalter am World Wide Web ze strukturéieren."
                   },
                   {
-                    "type": "CSS",
-                    "description": "Cascading Style Sheets (CSS) ist eine Stylesheet-Sprache zur Gestaltung des Erscheinungsbilds von HTML- und XML-Dokumenten."
+                    "type": "Cascading Style Sheets (CSS)",
+                    "description": "CSS ass eng Stylesheet-Sprooch fir d'Gestaltung vum Erscheinungsbild vun HTML- an XML-Dokumenter."
                   },
                   {
-                    "type": "JavaScript (einschließlich jQuery)",
-                    "description": "Eine Programmiersprache, die häufig für die Entwicklung interaktiver Webseiten und Anwendungen verwendet wird. jQuery ist eine JavaScript-Bibliothek, die die Client-seitige Skriptprogrammierung vereinfacht."
+                    "type": "JavaScript (mat abegraff jQuery)",
+                    "description": "Eng Programméiersprooch, déi dacks fir d'Entwécklung vun interaktive Webseiten an Applikatiounen benotzt gëtt. jQuery ass eng JavaScript-Bibliothéik, déi d'Client-säit Skriptprogramméierung vereinfacht."
                   },
                   {
                     "type": "PHP",
-                    "description": "Eine serverseitige Skriptsprache, die hauptsächlich für die Entwicklung dynamischer Webseiten und Webanwendungen verwendet wird. PHP wird häufig mit MySQL oder anderen Datenbanken kombiniert."
+                    "description": "Eng server-säit Skriptsprooch, déi haaptsächlech fir d'Entwécklung vun dynamesche Webseiten an Webapplikatiounen benotzt gëtt. PHP gëtt dacks mat MySQL oder anere Datebanken kombinéiert."
                   }
                 ]
               },
               {
-                "category": "Datenbank-Sprache",
+                "category": "Datebank Sprooch",
                 "items": [
                   {
-                    "type": "SQL",
-                    "description": "Structured Query Language (SQL) ist eine spezielle Programmiersprache zur Verwaltung und Abfrage von relationalen Datenbanken. SQL wird für das Abrufen, Aktualisieren, Einfügen und Löschen von Daten verwendet."
+                    "type": "Structured Query Language (SQL)",
+                    "description": "SQL ass eng speziell Programméiersprooch fir d'Verwaltung an d'Ufro vun relationalen Datebanken. SQL gëtt fir d'Ofroen, Aktualiséieren, Anfügen an Läschen vu Daten benotzt."
                   }
                 ]
               }
@@ -611,56 +611,56 @@
             "description": "Kär Konzepter a wichteg Aspekter déi de Projet Gestioun ausmaachen.",
             "details": [
               {
-                "category": "Essentielle Aspekte des Projektmanagements",
+                "category": "Wesentlech Aspekter vum Projektmanagement",
                 "items": [
                   {
-                    "type": "Projektplanung",
-                    "description": "Dies umfasst die Definition von Projektzielen, Umfang, Zeitplan, Ressourcenbedarf, Budget und Risiken. Die Erstellung eines detaillierten Projektplans ist entscheidend, um alle Projektphasen und Aufgaben zu identifizieren und zu organisieren."
+                    "type": "Projet Planung",
+                    "description": "Dëst ëmfaasst d'Definitioun vu Projetziler, Ëmfang, Zäitplang, Ressourcebedarf, Budget a Risiken. D'Erstellung vun engem detailléierte Projetplang ass entscheedend, fir all Projetphasen an Aufgaben z'identifizéieren an z'organiséieren."
                   },
                   {
-                    "type": "Risikomanagement",
-                    "description": "Die Identifizierung, Bewertung und Behandlung von Risiken, die den Projektverlauf und das Projektergebnis beeinflussen könnten. Dies beinhaltet die Entwicklung von Maßnahmen zur Risikominderung und -kontrolle."
+                    "type": "Risiko Gestioun",
+                    "description": "D'Identifizéierung, Bewäertung an Behandlung vu Risiken, déi de Projetverlaf an d'Projetresultat beaflosse kéinten. Dëst beinhalt d'Entwécklung vu Moossnamen zur Risikominderung an -kontroll."
                   },
                   {
-                    "type": "Kommunikation",
-                    "description": "Effektive Kommunikation ist entscheidend, um das Team, Stakeholder und andere Beteiligte über den Projektfortschritt, Änderungen, Probleme und Entscheidungen auf dem Laufenden zu halten. Dies umfasst regelmäßige Besprechungen, Statusberichte und andere Kommunikationsmittel."
+                    "type": "Kommunikatioun",
+                    "description": "Effektiv Kommunikatioun ass entscheedend, fir d'Team, Stakeholder an aner Bedeelegt iwwer de Projetfortschrëtt, Ännerungen, Problemer an Entscheedungen um Lafenden ze halen. Dëst ëmfaasst reegelméisseg Bespriechungen, Statusberichter an aner Kommunikatiounsmëttel."
                   },
                   {
-                    "type": "Ressourcenmanagement",
-                    "description": "Die Zuweisung und Verwaltung von Ressourcen wie Personal, Budget, Ausrüstung und Materialien, um sicherzustellen, dass das Projekt rechtzeitig und innerhalb des Budgets abgeschlossen wird."
+                    "type": "Ressource Gestioun",
+                    "description": "D'Zouweisung an Verwaltung vu Ressourcen wéi Personal, Budget, Ausrëschtung a Materialien, fir sécherzestellen, datt de Projet rechtzäiteg an bannent dem Budget ofgeschloss gëtt."
                   },
                   {
-                    "type": "Zeitmanagement",
-                    "description": "Die Planung und Überwachung von Zeitplänen, um sicherzustellen, dass Projektziele und Meilensteine ​​rechtzeitig erreicht werden. Dies beinhaltet die Identifizierung von kritischen Pfaden und die Verwaltung von Zeitplanabweichungen."
+                    "type": "Zäit Gestioun",
+                    "description": "D'Planung an Iwwerwaachung vu Zäitpläng, fir sécherzestellen, datt Projetziler an Meilesteng rechtzäiteg erreecht ginn. Dëst beinhalt d'Identifizéierung vu kritesche Weeër an d'Verwaltung vu Zäitplangofwäichungen."
                   },
                   {
-                    "type": "Qualitätsmanagement",
-                    "description": "Die Planung, Überwachung und Sicherstellung der Qualität von Projektprodukten und -ergebnissen gemäß den Anforderungen und Standards. Dies beinhaltet Qualitätskontrollen, Tests und Audits."
+                    "type": "Qualitéits Gestioun",
+                    "description": "D'Planung, Iwwerwaachung an Sécherstellung vun der Qualitéit vu Projetprodukter an -resultater no de Ufuerderungen an Normen. Dëst beinhalt Qualitéitskontrollen, Tester an Auditen."
                   },
                   {
-                    "type": "Stakeholdermanagement",
-                    "description": "Die Identifizierung, Einbeziehung und Verwaltung der Interessen und Erwartungen aller Stakeholder, einschließlich Kunden, Teammitglieder, Lieferanten und anderen Beteiligten."
+                    "type": "Stakeholder Gestioun",
+                    "description": "D'Identifizéierung, Anbezéiung an Verwaltung vun den Interessen an Erwaardunge vun alle Stakeholder, abegraff Clienten, Teammemberen, Fournisseuren an anere Bedeelegten."
                   },
                   {
-                    "type": "Änderungsmanagement",
-                    "description": "Die Verwaltung von Änderungen im Projektumfang, Zeitplan oder Budget. Dies beinhaltet die Bewertung von Änderungsanforderungen, deren Genehmigung und Implementierung sowie die Kontrolle von Änderungen, um Auswirkungen auf das Projekt zu minimieren."
+                    "type": "Ännerungs Gestioun",
+                    "description": "D'Verwaltung vun Ännerungen am Projetëmfang, Zäitplang oder Budget. Dëst beinhalt d'Bewäertung vun Ännerungsfuerderungen, hir Genehmegung an Implementéierung souwéi d'Kontroll vun Ännerungen, fir Auswierkungen op de Projet ze minimiséieren."
                   },
                   {
                     "type": "Teammanagement",
-                    "description": "Die Führung, Motivation und Entwicklung des Projektteams, um eine effektive Zusammenarbeit und Leistung zu gewährleisten. Dies umfasst die Zuweisung von Aufgaben, das Coaching von Teammitgliedern und die Lösung von Konflikten."
+                    "description": "D'Féierung, Motivatioun an Entwécklung vum Projetteam, fir eng effektiv Zesummenaarbecht an Leeschtung ze garantéieren. Dëst ëmfaasst d'Zouweisung vun Aufgaben, d'Coaching vu Teammemberen an d'Léisung vu Konflikter."
                   },
                   {
-                    "type": "Abschluss und Evaluierung",
-                    "description": "Die Abschlussphase beinhaltet die Fertigstellung aller Projektaktivitäten, die Auslieferung der Endprodukte an den Kunden und die Durchführung einer Nachbereitung, um Erfahrungen zu reflektieren, Lernpunkte zu identifizieren und Best Practices für zukünftige Projekte zu dokumentieren."
+                    "type": "Schlussfolgerung an Evaluatioun",
+                    "description": "D'Ofschlossphas ëmfaasst d'Fäerdegstellung vun alle Projetaktivitéiten, d'Ausliwwerung vun den Endprodukter un de Client an d'Duerchféierung vun enger Noberaichtung, fir Erfahrungen ze reflektéieren, Léierpunkte z'identifizéieren an Best Practices fir zukünfteg Projeten ze dokumentéieren."
                   }
                 ]
               },
               {
-                "category": "Zusammenhang von Projektmanagement und JIRA",
+                "category": "Zesummenhang tëscht Projetmanagement a JIRA",
                 "items": [
                   {
-                    "type": "Beschreibung",
-                    "description": "Diese Aspekte des Projektmanagements sind eng miteinander verbunden und müssen im Einklang stehen, um den Erfolg eines Projekts sicherzustellen. JIRA, ein Tool von Atlassian, wird oft in Verbindung mit agilen Methoden wie Scrum und Kanban verwendet, um Projektmanagement und Zusammenarbeit zu unterstützen."
+                    "type": "Beschreiwung",
+                    "description": "Dës Aspekter vum Projetmanagement si staark matenee verbonnen an mussen am Aklang stoen, fir den Erfolleg vun engem Projet ze sécheren. JIRA, eent Tool vun Atlassian, gëtt dacks a Verbindung mat agile Methode wéi Scrum an Kanban benotzt, fir Projetmanagement an Zesummenaarbecht ze ënnerstëtzen."
                   }
                 ]
               }
@@ -675,44 +675,44 @@
                 "category": "Cisco Certified Network Associate 1 - CCNA1",
                 "items": [
                   {
-                    "type": "Netzwerkgrundlagen",
-                    "description": "Grundlagen von Netzwerken, ihre Architekturen, Topologien und Protokolle."
+                    "type": "Netzwierkgrondlagen",
+                    "description": "Grondlage vu Netzwierker, hir Architekturen, Topologien an Protokoller."
                   },
                   {
-                    "type": "OSI-Modell und TCP/IP",
-                    "description": "Verständnis des OSI-Schichtenmodells und des TCP/IP-Protokolls."
+                    "type": "OSI-Modell a TCP/IP",
+                    "description": "Verständnis vum OSI-Schichtenmodell an dem TCP/IP-Protokoll."
                   },
                   {
-                    "type": "Netzwerkgeräte und -komponenten",
-                    "description": "Funktionen und Konfiguration von Netzwerkgeräten wie Switches und Routern."
+                    "type": "Netzwierkapparater a -komponenten",
+                    "description": "Funktiounen an Konfiguratioun vu Netzwerkgeräter wéi Switchen a Routeren."
                   },
                   {
-                    "type": "IP-Adressierung",
-                    "description": "IPv4 und möglicherweise auch Einführung in IPv6, IP-Adressklassen, Subnetting und Adressierungsschemata."
+                    "type": "IP-Adresséierung",
+                    "description": "IPv4 an eventuell och Aféierung an IPv6, IP-Adressklassen, Subnetting an Adresséierungsschemen."
                   },
                   {
-                    "type": "Netzwerkprotokolle",
-                    "description": "Grundlegende Netzwerkprotokolle wie ICMP, ARP, DHCP, DNS und deren Funktionsweise."
+                    "type": "Netzwierkprotokoller",
+                    "description": "Grondleeënd Netzwerkprotokoller wéi ICMP, ARP, DHCP, DNS an hir Funktiounsweis."
                   },
                   {
                     "type": "LAN (Local Area Network)",
-                    "description": "Konfiguration und Management von LANs, Ethernet-Technologien, VLANs und deren Konfiguration."
+                    "description": "Konfiguratioun an Management vu LANs, Ethernet-Technologien, VLANs an hir Konfiguratioun."
                   },
                   {
                     "type": "WAN (Wide Area Network)",
-                    "description": "Grundlagen von WANs, serielle Verbindungen, PPP und HDLC."
+                    "description": "Grondlage vu WANs, seriell Verbindungen, PPP an HDLC."
                   },
                   {
-                    "type": "Netzwerk-Sicherheit",
-                    "description": "Einführung in Netzwerksicherheitskonzepte, Authentifizierung, Verschlüsselung und grundlegende Sicherheitsmaßnahmen."
+                    "type": "Netzwierksécherheet",
+                    "description": "Aféierung an Netzwerksécherheetskonzepter, Authentifizéierung, Verschlësselung an grondleeënd Sécherheetsmoossnamen."
                   },
                   {
-                    "type": "Netzwerkmanagement und -überwachung",
-                    "description": "Grundlagen des Netzwerkmanagements, Konfigurations- und Überwachungstools, Fehlerbehebung und Diagnose."
+                    "type": "Netzwierkmanagement a -iwwerwaachung",
+                    "description": "Grondlage vum Netzwierkmanagement, Konfiguratiouns- an Iwwerwaachungstools, Fehlerbehandlung an Diagnostik."
                   },
                   {
-                    "type": "Praktische Übungen und Labore",
-                    "description": "Praktische Anwendung des erlernten Wissens durch Labors und Simulationen, um Konfigurationen durchzuführen und Netzwerke zu implementieren."
+                    "type": "Praktesch Übungen a Laboen",
+                    "description": "Praktisch Applikatioun vum erléierte Wëssen duerch Laboratoiren an Simulatiounen, fir Konfiguratiounen duerchzeféieren an Netzwierker z'implementéieren."
                   }
                 ]
               },
@@ -720,40 +720,40 @@
                 "category": "Cisco Certified Network Associate 2 - CCNA2",
                 "items": [
                   {
-                    "type": "Routing und Switching",
-                    "description": "Vertiefung der Konzepte von Routing und Switching, einschließlich der Konfiguration von Routern und Switches."
+                    "type": "Routing a Switching",
+                    "description": "Vertiefung vun de Konzepter vum Routing an Switching, abegraff d'Konfiguratioun vu Routere an Switchen."
                   },
                   {
-                    "type": "IPv4- und IPv6-Routing",
-                    "description": "Weiterführende Kenntnisse über IPv4- und IPv6-Routing-Protokolle wie RIP, OSPF und EIGRP."
+                    "type": "IPv4- an IPv6-Routing",
+                    "description": "Weiderféierend Kenntnisser iwwer IPv4- an IPv6-Routing-Protokoller wéi RIP, OSPF an EIGRP."
                   },
                   {
                     "type": "Spanning Tree Protocol (STP)",
-                    "description": "Funktionsweise von STP und die Vermeidung von Schleifen in Netzwerktopologien."
+                    "description": "Funktiounswäis vun STP an d'Verhënnerung vu Schleefe bei Netzwierktopologien."
                   },
                   {
-                    "type": "VLANs und Inter-VLAN-Routing",
-                    "description": "Vertiefte Konfiguration und Verwaltung von VLANs sowie die Umsetzung des Routings zwischen VLANs."
+                    "type": "VLANen an Inter-VLAN-Routing",
+                    "description": "Vertieft Konfiguratioun a Verwaltung vu VLANen souwéi d'Ëmsetzung vum Routing tëscht VLANen."
                   },
                   {
-                    "type": "Access Control Lists (ACLs)",
-                    "description": "Verwendung von ACLs zur Steuerung des Netzwerkzugriffs und der Sicherheit."
+                    "type": "Access Control Lists (ACLen)",
+                    "description": "Notzung vu ACLen fir de Netzwerkzougang an d'Sécherheet ze steieren."
                   },
                   {
                     "type": "DHCP (Dynamic Host Configuration Protocol)",
-                    "description": "Konfiguration und Verwaltung von DHCP für die automatische IP-Adresszuweisung."
+                    "description": "Konfiguratioun a Verwaltung vu DHCP fir déi automatesch IP-Adresszouweisung."
                   },
                   {
                     "type": "Network Address Translation (NAT)",
-                    "description": "Verständnis und Konfiguration von NAT zur Umsetzung von privaten IP-Adressen in öffentliche IP-Adressen."
+                    "description": "Verständnis an Konfiguratioun vu NAT fir d'Ëmsetzung vu private IP-Adressen an ëffentlech IP-Adressen."
                   },
                   {
                     "type": "WAN-Technologien",
-                    "description": "Einführung in verschiedene WAN-Technologien wie HDLC, PPP, Frame Relay und möglicherweise auch VPNs."
+                    "description": "Aféierung an verschidden WAN-Technologien wéi HDLC, PPP, Frame Relay an eventuell och VPNen."
                   },
                   {
-                    "type": "Netzwerkdiagnose und -fehlerbehebung",
-                    "description": "Weiterführende Fehlerbehebungstechniken und Diagnoseverfahren für Netzwerkprobleme."
+                    "type": "Netzwierkdiagnos a -fehlerbehebung",
+                    "description": "Weiderféierend Feelerbehandlungstechniken an Diagnosprozeduren fir Netzwerkproblemer."
                   }
                 ]
               },
@@ -761,40 +761,40 @@
                 "category": "Cisco Certified Network Associate 3 - CCNA3",
                 "items": [
                   {
-                    "type": "Skalierbare Netzwerke",
-                    "description": "Konzepte und Techniken zur Skalierung von Netzwerken, um größere und komplexere Umgebungen zu unterstützen."
+                    "type": "Skalierbar Netzwierker",
+                    "description": "Konzepter an Techniken fir Netzwierker ze skaléieren, fir méi grouss a méi komplexe Ëmfeld ze ënnerstëtzen."
                   },
                   {
-                    "type": "VLANs und Trunking",
-                    "description": "Vertiefte Konfiguration von VLANs und Trunking, einschließlich der Verwendung von VTP."
+                    "type": "VLANen an Trunking",
+                    "description": "Vertieft Konfiguratioun vu VLANen a Trunking, abegraff d'Benotzung vu VTP."
                   },
                   {
-                    "type": "VLSM und IPv4-Adressierung",
-                    "description": "Verstärktes Verständnis von Variable Length Subnet Masking (VLSM) und seiner Anwendung auf IPv4-Adressierungsschemata."
+                    "type": "VLSM an IPv4-Adresséierung",
+                    "description": "Verstäerkte Verständnis vun Variable Length Subnet Masking (VLSM) an senger Applikatioun op IPv4-Adresséierungsschemen."
                   },
                   {
                     "type": "IPv6",
-                    "description": "Fortgeschrittene Aspekte von IPv6, einschließlich Adressierung, Konfiguration und Integration in IPv4-Netzwerken."
+                    "description": "Fortgeschratt Aspekter vun IPv6, abegraff Adresséierung, Konfiguratioun an Integratioun an IPv4-Netzwierker."
                   },
                   {
-                    "type": "Routing-Protokolle",
-                    "description": "Vertiefte Kenntnisse und Konfiguration von Routing-Protokollen wie OSPF, EIGRP und möglicherweise auch BGP."
+                    "type": "Routing-Protokoller",
+                    "description": "Vertieft Kenntnisser a Konfiguratioun vu Routing-Protokoller wéi OSPF, EIGRP a méiglecherweis och BGP."
                   },
                   {
-                    "type": "WAN-Technologien und Dienste",
-                    "description": "Erweiterte Konfiguration von WAN-Technologien wie PPP, Frame Relay und möglicherweise auch MPLS."
+                    "type": "WAN-Technologien a Servicer",
+                    "description": "Erweidert Konfiguratioun vu WAN-Technologien wéi PPP, Frame Relay a méiglecherweis och MPLS."
                   },
                   {
-                    "type": "Netzwerksicherheit",
-                    "description": "Fortgeschrittene Sicherheitskonzepte und -techniken, einschließlich der Implementierung von ACLs, Sicherheit auf Routing-Ebene und Sicherung von Netzwerkgeräten."
+                    "type": "Netzwierksécherheet",
+                    "description": "Fortgeschratt Sécherheetskonzepter a -techniken, abegraff d'Implementéierung vu ACLen, Sécherheet op Routing-Niveau an d'Sécheren vu Netzwerkapparater."
                   },
                   {
-                    "type": "Netzwerkmanagement und -überwachung",
-                    "description": "Erweiterte Netzwerküberwachung, -verwaltung und -diagnose, einschließlich der Verwendung von SNMP und Syslog."
+                    "type": "Netzwierkmanagement a -iwwerwaachung",
+                    "description": "Erweidert Netzwierk Iwwerwaachung, -verwaltung an -diagnos, abegraff d'Benotzung vu SNMP a Syslog."
                   },
                   {
-                    "type": "Troubleshooting-Konzepte",
-                    "description": "Vertiefte Fähigkeiten zur Diagnose und Behebung von Netzwerkproblemen in komplexen Umgebungen."
+                    "type": "Troubleshooting-Konzepter",
+                    "description": "Vertieft Fäegkeeten zur Diagnos a Behebung vu Netzwerkproblemer a komplexe Ëmfeld."
                   }
                 ]
               }
@@ -806,65 +806,65 @@
             "description": "Kompetenz fir IT Netzwierker fir geschützte Kommunikatioun ze sécheren.",
             "details": [
               {
-                "category": "Verschlüsselungsmethoden",
+                "category": "Verschlësselungsmethoden",
                 "items": [
                   {
-                    "type": "Caesar- und Vigenère-Verschlüsselung",
-                    "description": "Grundlagen historischer Verschlüsselungsmethoden zur Veranschaulichung kryptografischer Prinzipien."
+                    "type": "Caesar- a Vigenère-Verschlësselung",
+                    "description": "Grondlage vun historesche Verschlësselungsmethoden zur Veranschaulichung kryptographesche Prinzipien."
                   },
                   {
-                    "type": "Datenverschlüsselungstools",
-                    "description": "Nutzung von Tools wie HexViewern, BitLocker und Microsoft EFS zur Dateiverschlüsselung und Sicherheit sensibler Daten."
+                    "type": "Datenverschlësselungstools",
+                    "description": "Notzung vu Tools wéi HexVieweren, BitLocker an Microsoft EFS fir Dateiverschlësselung an Sécherheet vu sensibele Daten."
                   },
                   {
-                    "type": "E-Mail-Verschlüsselung",
-                    "description": "Implementierung von End-to-End-Verschlüsselung (PGP, GPG) zur Sicherung der E-Mail-Kommunikation."
+                    "type": "E-Mail-Verschlësselung",
+                    "description": "Ëmsetzung vun End-to-End-Verschlësselung (PGP, GPG) fir d'Sécherung vun der E-Mail-Kommunikatioun."
                   },
                   {
-                    "type": "Symmetrische, asymmetrische und Hybrid-Verschlüsselung",
-                    "description": "Verwendung von Verschlüsselungsverfahren zur Gewährleistung der Sicherheit von Datenübertragungen."
+                    "type": "Symmetresch, asymmetresch an Hybrid-Verschlësselung",
+                    "description": "Verwendung vu Verschlësselungsverfahre fir d'Sécherheet vu Dateniwwerdroungen ze garantéieren."
                   }
                 ]
               },
               {
-                "category": "Sicherheitsmaßnahmen",
+                "category": "Sécherheetsmoossnamen",
                 "items": [
                   {
-                    "type": "Schlüsselaustauschverfahren",
-                    "description": "Verständnis und Anwendung von Protokollen wie Diffie-Hellman für sichere Schlüsselübertragung."
+                    "type": "Schlësselaustauschverfaren",
+                    "description": "Verständnis an Uwendung vu Protokoller wéi Diffie-Hellman fir sécher Schlësseliwwerdroung."
                   },
                   {
-                    "type": "Passwortspeicherung mit Hashes",
-                    "description": "Verwendung von Hash-Algorithmen zur sicheren Passwortspeicherung."
+                    "type": "Passwortspeicherung mat Hashen",
+                    "description": "Notzung vu Hash-Algorithmen fir sécher Passwortspeicherung."
                   },
                   {
-                    "type": "Überprüfung von heruntergeladenen Programmen",
-                    "description": "Verwendung von Hash-Prüfsummen zur Überprüfung der Integrität heruntergeladener Dateien."
+                    "type": "Iwwerpréiwung vu erofgeluedene Programmer",
+                    "description": "Notzung vu Hash-Prüfsummen fir d'Integritéit vun erofgeluedene Fichieren ze iwwerpréiwen."
                   },
                   {
-                    "type": "Zertifikate und Zertifizierungsstellen (CAs)",
-                    "description": "Nutzung von Zertifikaten und SSL/TLS-Handshake zur Authentifizierung und Verschlüsselung."
+                    "type": "Zertifikater a Zertifizéierungsstellen (CAs)",
+                    "description": "Notzung vu Zertifikater an SSL/TLS-Handshake fir Authentifizéierung an Verschlësselung."
                   },
                   {
-                    "type": "Integritätssicherung durch Hashing",
-                    "description": "Nutzung von Hash-Algorithmen zur Überprüfung der Integrität von Daten."
+                    "type": "Integritéitssécherung duerch Hashing",
+                    "description": "Notzung vu Hash-Algorithmen fir d'Integritéit vun Daten ze iwwerpréiwen."
                   }
                 ]
               },
               {
-                "category": "Netzwerksicherheit",
+                "category": "Netzwierk Sécherheet",
                 "items": [
                   {
-                    "type": "Windows Firewall und Linux iptables",
-                    "description": "Einrichtung von Firewall-Regeln zur Netzwerksicherheit auf Windows und Linux."
+                    "type": "Windows Firewall a Linux iptables",
+                    "description": "Ariichtung vu Firewall-Regelen fir Netzwierksécherheet op Windows a Linux."
                   },
                   {
-                    "type": "Netzwerküberwachung und Auswertung",
-                    "description": "Analyse von Netzwerkprotokollen und -paketen zur Erkennung von Sicherheitsproblemen."
+                    "type": "Netzwierkiwwerwaachung an Auswäertung",
+                    "description": "Analyse vu Netzwerkprotokoller a -pakete fir Sécherheetsproblemer ze erkennen."
                   },
                   {
-                    "type": "Paketanalyse und Sniffer",
-                    "description": "Verwendung von Packet Sniffers zur Überwachung und Analyse des Netzwerkverkehrs."
+                    "type": "Paketenalys a Sniffer",
+                    "description": "Notzung vu Packet Sniffers fir d'Iwwerwaachung an Analyse vum Netzwerkverkéier."
                   }
                 ]
               },
@@ -872,49 +872,49 @@
                 "category": "Sicherheitsrichtlinien und -management",
                 "items": [
                   {
-                    "type": "Richtlinien und Risikomanagement",
-                    "description": "Entwicklung und Implementierung von Sicherheitsrichtlinien und Risikomanagementverfahren."
+                    "type": "Richtlinnen a Risikomanagement",
+                    "description": "Entwécklung an Ëmsetzung vu Sécherheetsrichtlinnen a Risikomanagementprozeduren."
                   },
                   {
-                    "type": "Vertraulichkeit, Verfügbarkeit & Integrität",
-                    "description": "Sicherstellung der Sicherheitsaspekte durch Einschränkung des Zugriffs, Verfügbarkeit und Integrität von Daten."
+                    "type": "Vertraulechkeet, Verfügbarkeet & Integritéit",
+                    "description": "Sécherstellung vun de Sécherheetsaspekter duerch Aschränkung vum Zougang, Verfügbarkeet an Integritéit vu Daten."
                   }
                 ]
               },
               {
-                "category": "Angriffsprävention und -erkennung",
+                "category": "Attack Präventioun an Detektioun",
                 "items": [
                   {
-                    "type": "Typen von Angreifern",
-                    "description": "Identifikation verschiedener Angreifertypen und ihrer Ziele."
+                    "type": "Aarte vun Ugräifer",
+                    "description": "Identifikatioun vu verschiddene Angreifertypen an hiren Ziler."
                   },
                   {
-                    "type": "Aktivitäten der CIA-Triade",
-                    "description": "Schutz der Vertraulichkeit, Integrität und Verfügbarkeit von Daten."
+                    "type": "Aktivitéite vun der CIA-Triade",
+                    "description": "Schutz vun der Vertraulechkeet, Integritéit an Verfügbarkeet vu Daten."
                   },
                   {
-                    "type": "Datenschutz und gesetzgebende Tätigkeit",
-                    "description": "Einhaltung von Datenschutzgesetzen und -vorschriften wie der DSGVO."
+                    "type": "Dateschutz an gesetzlech Aktivitéiten",
+                    "description": "Anhalen vu Dateschutzgesetzer a -reglementer wéi der DSGVO."
                   },
                   {
-                    "type": "Anatomie eines Angriffs",
-                    "description": "Identifizierung von Sicherheitslücken und Überwachung von Netzwerken."
+                    "type": "Anatomie vun engem Ugrëff",
+                    "description": "Identifizéierung vu Sécherheetslücken an Iwwerwaachung vu Netzwierker."
                   },
                   {
-                    "type": "Betriebssystem-Härtung (Lynis)",
-                    "description": "Überprüfung von Betriebssystemen auf Sicherheitslücken und Empfehlungen zur Härtung."
+                    "type": "Betribssystem-Verhäertung (Lynis)",
+                    "description": "Iwwerpréifung vu Betriebssystemer op Sécherheetslücken an Empfeelungen zur Härtung."
                   },
                   {
-                    "type": "Passwortknacken",
-                    "description": "Methoden zur Identifizierung und Sicherung vor Passwortangriffen."
+                    "type": "Passwuertknacken",
+                    "description": "Methoden zur Identifizéierung a Sécherung viru Passwuertattacken."
                   },
                   {
-                    "type": "Digitale Zertifikate (für E-Mail)",
-                    "description": "Verwendung von Zertifikaten zur Sicherung von E-Mail-Kommunikation."
+                    "type": "Digital Zertifikater (fir E-Mail)",
+                    "description": "Benotzung vu Zertifikater fir d'Sécherung vun E-Mail-Kommunikatioun."
                   },
                   {
                     "type": "Google Dorking",
-                    "description": "Verwendung spezieller Suchbegriffe und -techniken zur Identifizierung von Schwachstellen und sensiblen Informationen über Suchmaschinen wie Google."
+                    "description": "Benotzung vu spezielle Sichbegrëffer a -technike fir Schwachstellen a sensibel Informatiounen iwwer Sichmaschinne wéi Google z'identifizéieren."
                   }
                 ]
               }
@@ -926,39 +926,39 @@
             "description": "Automatiséiert IT Prozesser fir Effizienz a Skalierbarkeet.",
             "details": [
               {
-                "category": "Automatisierungstools und Skriptsprachen",
+                "category": "Automatisatiounsinstrumenter a Skriptsproochen",
                 "items": [
                   {
                     "type": "AutoHotKey",
-                    "description": "Skripting-Tool für Windows zur Automatisierung von Maus- und Tastatureingaben; ermöglicht die Erstellung von Makros und Skripten für repetitive Aufgaben."
+                    "description": "Skripting-Tool fir Windows zur Automatiséierung vu Maus- an Tastatureingaben; erméiglecht d'Erstellung vu Makroen a Skripte fir repetitiv Aufgaben."
                   },
                   {
-                    "type": "Automatisierte Bildverarbeitung",
-                    "description": "Automatisierte Verarbeitung von Bildern durch Skripte oder Tools zur Größenänderung, Filteranwendung oder Stapelverarbeitung."
+                    "type": "Automatiséiert Bildveraarbechtung",
+                    "description": "Automatiséiert Veraarbechtung vu Biller duerch Skripten oder Tools fir Gréisstenännerung, Filterapplikatioun oder Stapelveraarbechtung."
                   },
                   {
-                    "type": "Batch-Umbenennung",
-                    "description": "Automatisches Umbenennen von Dateien in großen Mengen über vordefinierte Regeln oder Muster."
+                    "type": "Batch-Ëmbenennung",
+                    "description": "Automatescht Ëmbenennen vu Fichieren a groussen Quantitéiten iwwer virdefinéiert Reegele oder Muster."
                   },
                   {
-                    "type": "Daten von externen Quellen",
-                    "description": "Automatisierte Erfassung oder Integration von Daten aus externen Quellen wie APIs, Webseiten oder Datenbanken."
+                    "type": "Daten aus externen Quellen",
+                    "description": "Automatiséiert Erfassung oder Integratioun vu Daten aus externe Quelle wéi APIen, Websäiten oder Datebanken."
                   },
                   {
                     "type": "Microsoft Flow",
-                    "description": "Tool von Microsoft zur Automatisierung von Workflows durch Verknüpfung verschiedener Apps und Dienste."
+                    "description": "Tool vu Microsoft fir d'Automatiséierung vu Workflows duerch d'Verknëppung vun verschiddene Apps a Servicer."
                   },
                   {
-                    "type": "Reguläre Ausdrücke (RegEX)",
-                    "description": "Mächtiges Werkzeug zur Verarbeitung und Suche von Texten basierend auf Mustern; ermöglicht die Identifizierung und Bearbeitung bestimmter Textmuster."
+                    "type": "Regelméisseg Ausdréck (RegEX)",
+                    "description": "Mächtegt Tool zur Veraarbechtung a Sich vu Texter baséiert op Muster; erméiglecht d'Identifizéierung an d'Beaarbechtung vu spezifesche Textmuster."
                   },
                   {
                     "type": "Linux-Shell-Scripting",
-                    "description": "Verwendung von Befehlen und Skripten in der Linux-Shell (wie Bash) zur Automatisierung von Prozessen, Dateiverwaltung und Systemwartung."
+                    "description": "Notzung vu Kommandoen a Skripte an der Linux-Shell (wéi Bash) fir d'Automatiséierung vu Prozesser, Dateiverwaltung an Systemerhalung."
                   },
                   {
                     "type": "Windows PowerShell",
-                    "description": "Leistungsstarkes Framework und Befehlszeilenschnittstelle von Microsoft für die Automatisierung von Aufgaben und Systemverwaltung in Windows-basierten Systemen."
+                    "description": "Leeschtungsstaarkt Framework an Kommandolinnenschnittstell vu Microsoft fir d'Automatiséierung vu Aufgaben an d'Systemverwaltung an Windows-baséierte Systemer."
                   }
                 ]
               }
@@ -970,31 +970,31 @@
             "description": "Organiséieren a sécher Datenbanken effizient.",
             "details": [
               {
-                "category": "Datenbankverwaltung",
+                "category": "Datebank Gestioun",
                 "items": [
                   {
-                    "type": "Erstellung von Datenbanken und Relationen",
-                    "description": "Einrichtung von Datenbanken und Definition von Beziehungen zwischen den verschiedenen Tabellen."
+                    "type": "Kreatioun vun Datenbanken a Relatiounen",
+                    "description": "Ariichtung vu Datebanken an Definitioun vu Bezéiungen tëscht de verschiddene Tabellen."
                   },
                   {
-                    "type": "Modellierung von Datenbanken (MCD und MLD)",
-                    "description": "Verwendung von Modellierungstechniken wie MCD und MLD für die Konzeption der Datenbankstruktur."
+                    "type": "Modelléierung vun Datenbanken (MCD an MLD)",
+                    "description": "Notzung vu Modelléierungstechnike wéi MCD an MLD fir d'Konzeptioun vun der Datebankstruktur."
                   },
                   {
-                    "type": "Arbeiten mit verschiedenen Datenbanktypen",
-                    "description": "Kenntnisse und Erfahrung in der Verwaltung unterschiedlicher Datenbanktypen wie MySQL, MSSQL."
+                    "type": "Schaffen mat verschiddenen Zorte vun Datenbanken",
+                    "description": "Kenntnisser an Erfarung an der Verwaltung vu verschiddene Datebanktypen wéi MySQL, MSSQL."
                   },
                   {
                     "type": "Datenbank-Backups",
-                    "description": "Einrichtung und Planung von Backup-Strategien für Datenbanken."
+                    "description": "Ariichtung an Planung vu Backup-Strategie fir Datebanken."
                   },
                   {
-                    "type": "SQL-Abfragen",
-                    "description": "Erfahrung in der Verwendung von SQL zum Extrahieren, Aktualisieren, Löschen und Einfügen von Daten."
+                    "type": "SQL Ufroen",
+                    "description": "Erfarung an der Notzung vu SQL fir Daten ze extrahéieren, aktualiséieren, läschen an anzeféieren."
                   },
                   {
-                    "type": "Verwaltung von Daten in Excel und Access",
-                    "description": "Kenntnisse in der Verwaltung und Analyse von Daten in Excel und Access."
+                    "type": "Gestioun vun Donnéeën an Excel an Access",
+                    "description": "Kenntnisser an der Verwaltung an Analyse vu Daten an Excel an Access."
                   }
                 ]
               },
@@ -1002,16 +1002,16 @@
                 "category": "Daten-Formate",
                 "items": [
                   {
-                    "type": "XML",
-                    "description": "Extensible Markup Language (XML) ist eine Auszeichnungssprache zur Darstellung hierarchischer Strukturen in Form von Textdateien. Es wird häufig für den Austausch von Daten zwischen verschiedenen Systemen verwendet."
+                    "type": "Extensible Markup Language (XML)",
+                    "description": "XML ass eng Auszeechnungssprooch fir d'Duerstellung vun hierarchesche Strukturen a Form vu Textdateien. Et gëtt dacks fir den Austausch vu Daten tëscht verschiddene Systemer benotzt."
                   },
                   {
-                    "type": "JSON",
-                    "description": "JavaScript Object Notation (JSON) ist ein leicht lesbares Datenformat, das auf JavaScript-Objekten basiert. Es wird häufig für den Datenaustausch zwischen einem Server und einem Webclient verwendet."
+                    "type": "JavaScript Object Notation (JSON)",
+                    "description": "JSON ass e liicht liesbart Datenformat, dat op JavaScript-Objete baséiert. Et gëtt häufig fir den Datenaustausch tëscht engem Server an engem Webclient benotzt."
                   },
                   {
-                    "type": "CSV",
-                    "description": "Comma-separated values (CSV) ist ein Dateiformat zur Darstellung tabellarischer Daten. Dabei werden die Datenzeilen durch Zeilenumbrüche getrennt und die einzelnen Felder in einer Zeile durch Kommas oder andere Trennzeichen voneinander abgegrenzt. "
+                    "type": "Comma-separated values (CSV)",
+                    "description": "CSV ass e Dateiformat fir d'Duerstellung tabellarischer Daten. Dobäi ginn d'Datenzeilen duerch Zeilenumbréch getrennt an déi eenzel Felder an enger Zeil duerch Kommaen oder aner Trennzeichen vuneneen ofgegrenzt."
                   }
                 ]
               }
@@ -1027,23 +1027,23 @@
                 "items": [
                   {
                     "type": "Visual Studio Code",
-                    "description": "Ein plattformübergreifender Code-Editor mit Syntaxhervorhebung, IntelliSense und Git-Integration, der von Entwicklern für die Softwareentwicklung verwendet wird."
+                    "description": "Ee plattformiwwergräifenden Code-Editor mat Syntaxhervirhiewung, IntelliSense an Git-Integratioun, deen vu Entwéckler fir d'Softwareentwécklung benotzt gëtt."
                   },
                   {
                     "type": "FTP Client",
-                    "description": "Eine Softwareanwendung, die Benutzern ermöglicht, Dateien zwischen ihrem Computer und einem FTP-Server zu übertragen."
+                    "description": "Eng Softwareapplikatioun, déi et Benotzer erméiglecht, Dateien tëscht hirem Computer an engem FTP-Server ze transferéieren."
                   },
                   {
                     "type": "SSH Client",
-                    "description": "Eine Softwareanwendung, mit der Benutzer eine sichere Verbindung zu einem SSH-Server herstellen können, um sich einzuloggen, Dateien zu übertragen und Befehle auszuführen."
+                    "description": "Eng Softwareapplikatioun, mat där Benotzer eng sécher Verbindung zu engem SSH-Server hierstelle kënnen, fir sech anzemellen, Dateien ze transferéieren an Kommandoen auszeféieren."
                   },
                   {
                     "type": "Remote Desktop",
-                    "description": "Ermöglicht Benutzern, eine Verbindung zu einem entfernten Computer herzustellen und diesen fernzusteuern, um auf Dateien, Anwendungen und Ressourcen zuzugreifen, als wären sie physisch vor dem entfernten Computer."
+                    "description": "Erméiglecht Benotzer, eng Verbindung zu engem entfäernte Computer hierzestellen an dësen aus der Distanz ze steieren, fir op Dateien, Applikatiounen an Ressourcen zouzegräifen, wéi wann se physesch virum entfäernte Computer wieren."
                   },
                   {
                     "type": "Cisco Packet Tracer",
-                    "description": "Ein Netzwerksimulationstool von Cisco, das Benutzern ermöglicht, komplexe Netzwerke zu entwerfen, zu konfigurieren und zu testen, ohne physische Hardware zu benötigen."
+                    "description": "Ee Netzwerksimulatiounstool vu Cisco, dat et Benotzer erméiglecht, komplexe Netzwierker ze entwerfen, ze konfiguréieren an ze testen, ouni physesch Hardware ze benötigen."
                   }
                 ]
               },
@@ -1052,23 +1052,23 @@
                 "items": [
                   {
                     "type": "Apache2",
-                    "description": "Ein weit verbreiteter Open-Source-Webserver für die Bereitstellung von Webinhalten im Internet."
+                    "description": "Ee wäit verbreeten Open-Source-Webserver fir d'Bereetstellung vu Webinhalter am Internet."
                   },
                   {
                     "type": "Microsoft IIS",
-                    "description": "Ein Webserver von Microsoft für Windows-Server, der Websites, Webanwendungen und andere Internetdienste hostet."
+                    "description": "Ee Webserver vu Microsoft fir Windows-Server, deen Websäiten, Webapplikatiounen an aner Internetdéngschter host."
                   },
                   {
                     "type": "Active Directory",
-                    "description": "Ein Verzeichnisdienst von Microsoft zur Verwaltung von Benutzern, Gruppen, Computern und Ressourcen in einer Windows-Domäne."
+                    "description": "Ee Verzeechnesdéngscht vu Microsoft fir d'Verwaltung vu Benotzer, Gruppen, Computeren an Ressourcen an enger Windows-Domän."
                   },
                   {
                     "type": "FTP Server",
-                    "description": "Ein Server, der den Dateitransfer über das File Transfer Protocol (FTP) ermöglicht."
+                    "description": "Ee Server, dee den Dateitransfer iwwer dat File Transfer Protocol (FTP) erméiglecht."
                   },
                   {
                     "type": "SSH Server",
-                    "description": "Ein Server, der Secure Shell (SSH) unterstützt, um Benutzern eine sichere Remote-Verbindung zu ermöglichen und Befehle auszuführen."
+                    "description": "Ee Server, dee Secure Shell (SSH) ënnerstëtzt, fir Benotzer eng sécher Remote-Verbindung ze erméiglechen an Kommandoen auszeféieren."
                   }
                 ]
               },
@@ -1077,7 +1077,7 @@
                 "items": [
                   {
                     "type": "Wordpress (CMS)",
-                    "description": "Eine benutzerfreundliche Plattform zur Erstellung und Verwaltung von Websites und Blogs mit zahlreichen Anpassungsmöglichkeiten durch Themes und Plugins."
+                    "description": "Eng benotzerfrëndlech Plattform fir d'Erstellung a Verwaltung vu Websäiten a Blogs mat ville Unpassungsméiglechkeete duerch Themen a Plugins."
                   }
                 ]
               }
