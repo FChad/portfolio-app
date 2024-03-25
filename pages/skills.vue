@@ -7,10 +7,9 @@
     </div>
 
 
-    <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto">
+    <div class="grid-card-layout">
         <div>
-            <span
-                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+            <span class="card-category-title">
                 <Icon name="i-material-symbols-school" class="w-6 h-6" /> {{ $t('skills.education.title') }}
             </span>
             <ul>
@@ -36,8 +35,7 @@
 
         </div>
         <div>
-            <span
-                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+            <span class="card-category-title">
                 <Icon name="i-material-symbols-language" class="w-6 h-6" /> {{ $t('skills.languages.title') }}
             </span>
             <ul>
@@ -48,14 +46,13 @@
                         <span v-if="item.language" class="font-medium">{{ extractValue(item.language) }}</span>
                         <span v-if="item.level" class="font-medium">{{ extractValue(item.level) }}</span>
                     </div>
-                    <UProgress v-if="item.percentage" :value="item.percentage" color="blue"/>
+                    <UProgress v-if="item.percentage" :value="item.percentage" color="blue" />
                 </li>
             </ul>
 
         </div>
         <div>
-            <span
-                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+            <span class="card-category-title">
                 <Icon name="i-material-symbols-verified-rounded" class="w-6 h-6" /> {{ $t('skills.certifications.title')
                 }}
             </span>
@@ -86,7 +83,7 @@
         <p>{{ $t('skills.sectionWork.description') }}</p>
     </div>
 
-    <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto">
+    <div class="grid-card-layout">
 
         <div class="card" v-for="(item, index) in $tm('skills.work.items')">
             <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
@@ -108,14 +105,15 @@
             <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
             <p v-if="item.description">{{ extractValue(item.description) }}</p>
 
-            <UButton v-if="item.tasks" icon='i-heroicons-window-20-solid' color="gray" variant="solid" class="p-2 my-2"
+            <UButton v-if="item.tasks" icon='i-heroicons-window-20-solid' color="gray" variant="solid" class="my-2"
                 @click="openModal('job' + index)">
                 {{ $t('skills.work.show_more') }}</UButton>
 
-            <UModal v-if="item.tasks" :model-value="openModalIndex === 'job' + index" 
+            <UModal v-if="item.tasks" :model-value="openModalIndex === 'job' + index"
                 @update:model-value="value => value ? openModal(index) : closeModal()" prevent-close>
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
-                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0 z-50" @click="closeModal()" />
+                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid"
+                        class="m-1 absolute right-0 top-0 z-50" @click="closeModal()" />
                     <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
                         <h4 class="text-xl font-bold w-full text-center">{{ extractValue(item.title) }}</h4>
 
@@ -159,7 +157,7 @@
         <p>{{ $t('skills.sectionOtherSkills.description') }}</p>
     </div>
 
-    <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto">
+    <div class="grid-card-layout">
         <div class="card" v-for="(item, index) in $tm('skills.otherSkills.items')">
             <div class="leading-[30px] flex justify-between items-center flex-wrap relative">
                 <h4 class="flex items-center justify-start gap-1 text-xl font-bold w-full">
@@ -170,13 +168,14 @@
             <p>{{ extractValue(item.description) }}</p>
 
             <UButton v-if="item.details" icon='i-heroicons-window-20-solid' color="gray" variant="solid"
-                class="p-2 my-2" @click="openModal('skill' + index)">
+                class="my-2" @click="openModal('skill' + index)">
                 {{ $t('skills.otherSkills.show_more') }}</UButton>
 
             <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index" prevent-close
                 @update:model-value="value => value ? openModal(index) : closeModal()">
                 <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }" prevent-close>
-                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid" class="m-1 absolute right-0 top-0 z-50" @click="closeModal()" />
+                    <UButton color="gray" variant="solid" icon="i-heroicons-x-mark-20-solid"
+                        class="m-1 absolute right-0 top-0 z-50" @click="closeModal()" />
 
                     <div class="flex justify-between items-center flex-wrap relative">
                         <h4 class="flex items-center justify-start gap-1 text-xl font-bold w-full">

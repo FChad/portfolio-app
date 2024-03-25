@@ -18,6 +18,14 @@ h3 {
     @apply max-w-7xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10;
 }
 
+.grid-card-layout {
+    @apply grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] w-full gap-8 m-auto;
+}
+
 .card {
     @apply bg-white dark:bg-gray-800 shadow-lg border-b-[3px] border-blue-500 rounded-lg relative p-5 mb-2;
+}
+
+.card-category-title {
+    @apply flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg;
 }
