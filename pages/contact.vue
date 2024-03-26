@@ -10,6 +10,12 @@
             </span>
             
             <div class="card">
+                <div class="hidden">
+                    <Icon name="i-mdi-linkedin"></Icon>
+                    <Icon name="i-mdi-facebook-box"></Icon>
+                    <Icon name="i-mdi-instagram"></Icon>
+                    <Icon name="i-mdi-github"></Icon>
+                </div>
                 <UButton v-for="social in $tm('socials')" :to="extractValue(social.link)" target="_blank" color="gray" :icon="extractValue(social.icon)" variant="solid"
                 class="m-2 justify-center transition duration-150 ease-in-out"> {{ extractValue(social.name) }}</UButton>
             </div>
