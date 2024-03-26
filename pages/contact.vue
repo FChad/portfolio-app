@@ -10,7 +10,7 @@
             </span>
             
             <div class="card">
-                <div class="hidden">
+                <div class="hidden icon-loader">
                     <Icon name="i-mdi-linkedin"></Icon>
                     <Icon name="i-mdi-facebook-box"></Icon>
                     <Icon name="i-mdi-instagram"></Icon>
