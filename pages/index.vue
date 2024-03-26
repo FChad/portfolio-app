@@ -2,14 +2,8 @@
     <PageHeader :title="$t('home.pageHeader')" />
     <div class="flex justify-between items-center w-full max-md:grid">
         <div class="flex md:flex-col mr-8 flex-wrap">
-            <UButton :to="$t('contact.links.linkedin')" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
-            <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> Facebook</UButton>
-            <UButton :to="$t('contact.links.instagram')" target="_blank" color="gray" icon="i-mdi-instagram" variant="solid" 
-                class="m-2 justify-center transition duration-150 ease-in-out"> Instagram</UButton>
-            <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid" 
-                class="m-2 justify-center transition duration-150 ease-in-out"> GitHub</UButton>
+            <UButton v-for="social in $tm('socials')" :to="extractValue(social.link)" target="_blank" color="gray" :icon="extractValue(social.icon)" variant="solid"
+                class="m-2 justify-center transition duration-150 ease-in-out"> {{ extractValue(social.name) }}</UButton>
         </div>
 
         <div class="max-md:text-sm">
@@ -29,7 +23,14 @@
 </template>
 
 <script setup>
-
+function extractValue(obj) {
+    if (obj.hasOwnProperty('body')) {
+        return obj['body']['static'];
+    } else if (obj.hasOwnProperty('b')) {
+        return obj['b']['s'];
+    }
+    return null;
+}
 </script>
 
 <style scoped></style>

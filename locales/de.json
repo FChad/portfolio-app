@@ -24,8 +24,7 @@
     "greeting": "Hallo, ich bin Chad",
     "introduction_title": "Student mit Abschluss",
     "introduction": "Herzlich willkommen auf meiner Portfolio-Website!",
-    "about_me": "Hier habe ich eine Plattform geschaffen, um meine schulischen und beruflichen Aktivitäten mit umfassenden Details zu präsentieren. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung, zögern Sie nicht, mich zu kontaktieren.",
-    "learn_more": "Erfahren Sie mehr"
+    "about_me": "Hier habe ich eine Plattform geschaffen, um meine schulischen und beruflichen Aktivitäten mit umfassenden Details zu präsentieren. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung, zögern Sie nicht, mich zu kontaktieren."
   },
   "about": {
     "pageHeader": "Über mich",
@@ -181,10 +180,17 @@
       "show_more": "Mehr anzeigen",
       "items": [
         {
-          "title": "Jobsuche in der Informatik",
-          "type": "Vollzeit",
-          "date": "Jetzt",
-          "description": "Ich suche nach spannenden Herausforderungen: Auf der Suche nach neuen beruflichen Möglichkeiten in der Informatikbranche, um wertvolle Erfahrungen zu sammeln und meine Fähigkeiten weiterzuentwickeln."
+          "title": "Web-Entwickler",
+          "type": "Arbeit",
+          "duration": "Unbefristet",
+          "date": "2024",
+          "company": "Rotyre SARL",
+          "description": "**Beschreibung**",
+          "tasks": [
+            {
+              "name": "**Aufgabe**"
+            }
+          ]
         },
         {
           "title": "IT Cloud Engineer",
@@ -1089,6 +1095,28 @@
   "projects": {
     "pageHeader": "Projekte"
   },
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "icon": "i-mdi-linkedin",
+      "link": "https://www.linkedin.com/in/chad-feierstein/"
+    },
+    {
+      "name": "Facebook",
+      "icon": "i-mdi-facebook-box",
+      "link": "https://www.facebook.com/chad.feierstein.7/"
+    },
+    {
+      "name": "Instagram",
+      "icon": "i-mdi-instagram",
+      "link": "https://www.instagram.com/chadfeierstein/"
+    },
+    {
+      "name": "GitHub",
+      "icon": "i-mdi-github",
+      "link": "https://github.com/FChad?tab=repositories"
+    }
+  ],
   "contact": {
     "pageHeader": "Kontakt",
     "socials_title": "Soziale Medien",
@@ -1096,12 +1124,6 @@
     "private_label": "Privat",
     "email": "E-Mail",
     "telephone": "Telefon",
-    "address": "Adresse",
-    "links": {
-      "linkedin" : "https://www.linkedin.com/in/chad-feierstein/",
-      "facebook" : "https://www.facebook.com/chad.feierstein.7/",
-      "instagram" : "https://www.instagram.com/chadfeierstein/",
-      "github" : "https://github.com/FChad?tab=repositories"
-    }
+    "address": "Adresse"
   }
 }

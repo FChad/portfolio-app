@@ -1,1107 +1,1129 @@
 {
-    "TBD": "Nach ze bestëmmen",
-    "layouts": {
-      "title": "Feierstein Chad - Portfolio",
-      "description": "Wëllkomm op Chad Feierstein Portfolio Websäit. Hei deelen ech meng berufflech Aktivitéiten fir Abléck an meng Aarbecht a Wëssen ze ginn.",
-      "keywords": "Chad Feierstein, BTS, Cloud Computing, Luxemburg, Student, IT-Techniker, Webprogrammierung, Portfolio, Cloud-Ingenieur, Technologie, Informationstechnologie, Projekte, Zertifizierungen, Sprachkenntnisse, Berufserfahrung, Programmiersprachen, Netzwerktechnik, IT-Sicherheit, Datenbanken, Automatisierung, Office-Software, Public Cloud Provider, Virtualisierung, Projektmanagement, IoT, Webentwicklung, Technologie-Enthusiast"
+  "TBD": "Nach ze bestëmmen",
+  "layouts": {
+    "title": "Feierstein Chad - Portfolio",
+    "description": "Wëllkomm op Chad Feierstein Portfolio Websäit. Hei deelen ech meng berufflech Aktivitéiten fir Abléck an meng Aarbecht a Wëssen ze ginn.",
+    "keywords": "Chad Feierstein, BTS, Cloud Computing, Luxemburg, Student, IT-Techniker, Webprogrammierung, Portfolio, Cloud-Ingenieur, Technologie, Informationstechnologie, Projekte, Zertifizierungen, Sprachkenntnisse, Berufserfahrung, Programmiersprachen, Netzwerktechnik, IT-Sicherheit, Datenbanken, Automatisierung, Office-Software, Public Cloud Provider, Virtualisierung, Projektmanagement, IoT, Webentwicklung, Technologie-Enthusiast"
+  },
+  "navigation": {
+    "title_home": "Home",
+    "title_about": "Iwwer mech",
+    "title_skills": "Fäegkeeten",
+    "title_projects": "Projeten",
+    "title_contact": "Kontakt"
+  },
+  "footer": {
+    "copyright": "© 2024 vum Chad Feierstein. All Rechter reservéiert.",
+    "host": "Websäit op Cloudflare gehost"
+  },
+  "language_modal": {
+    "title": "Wielt Är Sprooch:"
+  },
+  "home": {
+    "pageHeader": "Home",
+    "greeting": "Moien, ech sinn den Chad",
+    "introduction_title": "Graduéierter Schüler",
+    "introduction": "Wëllkomm op meng Portfolio Websäit!",
+    "about_me": "Hei hunn ech eng Plattform erstallt fir meng Schoul a berufflech Aktivitéite mat iwwergräifend Detailer ze presentéieren. Wann Dir weider Froen hutt, zéckt net fir mech ze kontaktéieren."
+  },
+  "about": {
+    "pageHeader": "Iwwer mech",
+    "introduction": {
+      "name": "Mäin Numm ass Chad Feierstein",
+      "description": "E jonken, motivéierten Diplomstudent",
+      "bio": "Mäin Numm ass Chad Feierstein, ech kommen aus magescht Lëtzebuerg a wunnen am Moment zu Rëmeleng. Meng Leidenschaft fir Technologie dréit mech dauernd nei Technologien ze entdecken a mech kontinuéierlech z'entwéckelen. Ee vun mengen aussergewéinleche Charakteristiken ass datt ech gär léieren. Dëst huet mir ëmmer a menger akademescher Carrière gehollef, an ech sinn iwwerzeegt, datt et och an der Welt vun der Informatiounstechnologie wäert profitéieren."
     },
-    "navigation": {
-      "title_home": "Home",
-      "title_about": "Iwwer mech",
-      "title_skills": "Fäegkeeten",
-      "title_projects": "Projeten",
-      "title_contact": "Kontakt"
+    "stats": {
+      "age": "Joer al",
+      "school_years": "Schouljoer",
+      "training_years": "Formatioun Joer",
+      "study_years": "Joer studéiert"
     },
-    "footer": {
-      "copyright": "© 2024 vum Chad Feierstein. All Rechter reservéiert.",
-      "host": "Websäit op Cloudflare gehost"
-    },
-    "language_modal": {
-      "title": "Wielt Är Sprooch:"
-    },
-    "home": {
-      "pageHeader": "Home",
-      "greeting": "Moien, ech sinn den Chad",
-      "introduction_title": "Graduéierter Schüler",
-      "introduction": "Wëllkomm op meng Portfolio Websäit!",
-      "about_me": "Hei hunn ech eng Plattform erstallt fir meng Schoul a berufflech Aktivitéite mat iwwergräifend Detailer ze presentéieren. Wann Dir weider Froen hutt, zéckt net fir mech ze kontaktéieren.",
-      "learn_more": "Léier méi"
-    },
-    "about": {
-      "pageHeader": "Iwwer mech",
-      "introduction": {
-        "name": "Mäin Numm ass Chad Feierstein",
-        "description": "E jonken, motivéierten Diplomstudent",
-        "bio": "Mäin Numm ass Chad Feierstein, ech kommen aus magescht Lëtzebuerg a wunnen am Moment zu Rëmeleng. Meng Leidenschaft fir Technologie dréit mech dauernd nei Technologien ze entdecken a mech kontinuéierlech z'entwéckelen. Ee vun mengen aussergewéinleche Charakteristiken ass datt ech gär léieren. Dëst huet mir ëmmer a menger akademescher Carrière gehollef, an ech sinn iwwerzeegt, datt et och an der Welt vun der Informatiounstechnologie wäert profitéieren."
+    "contact_me": "Kontaktéier mech"
+  },
+  "hobbies": {
+    "pageHeader": "Hobbien",
+    "list": {
+      "programming": {
+        "title": "Programméierung",
+        "description": "Et ass mäi Genoss innovativ Léisungen ze entwéckelen a meng Fäegkeeten an dësem Beräich kontinuéierlech ze verdéiwen."
       },
-      "stats": {
-        "age": "Joer al",
-        "school_years": "Schouljoer",
-        "training_years": "Formatioun Joer",
-        "study_years": "Joer studéiert"
+      "learning": {
+        "title": "Léieren",
+        "description": "Mäin Wëssen am Beräich vun der Informatiounstechnologie auszebauen, ëmmer probéiert mäi Verständnis a Kompetenzen ze verdéiwen."
       },
-      "contact_me": "Kontaktéier mech"
-    },
-    "hobbies": {
-      "pageHeader": "Hobbien",
-      "list": {
-        "programming": {
-          "title": "Programméierung",
-          "description": "Et ass mäi Genoss innovativ Léisungen ze entwéckelen a meng Fäegkeeten an dësem Beräich kontinuéierlech ze verdéiwen."
-        },
-        "learning": {
-          "title": "Léieren",
-          "description": "Mäin Wëssen am Beräich vun der Informatiounstechnologie auszebauen, ëmmer probéiert mäi Verständnis a Kompetenzen ze verdéiwen."
-        },
-        "dogs": {
-          "title": "Meng Muppen",
-          "description": "A menger Fräizäit widmen ech mech passionéiert fir meng dräi treie Begleeder, an ech genéissen souguer hir Gesellschaft op menger Vakanzen. Nimm: Grimmel, Fusel, Popeye"
-        }
-      }
-    },
-    "skills": {
-      "pageHeader": "Fäegkeeten",
-      "sectionCompetencies": {
-        "title": "Kompetenzen",
-        "description": "An dëser Rubrik kënnt Dir meng Schoulcarrière gesinn, wou ech wichteg Meilesteen erreecht hunn."
-      },
-      "education": {
-        "title": "Educatioun",
-        "icon": "i-material-symbols-school",
-        "items": [
-          {
-            "year": "2021",
-            "degree": "Héijen techneschen Ofschloss (Brevet de Technicien Supérieur)",
-            "field": "Spezialisatioun: Cloud Computing",
-            "grade": "Diplom (mat Bewäertung: Gutt)"
-          },
-          {
-            "year": "2019-2021",
-            "link": "https://www.lgk.lu/bts/clc/",
-            "degree": "Héijen techneschen Ofschloss (Brevet de Technicien Supérieur)",
-            "field": "Spezialisatioun: Cloud Computing",
-            "school": "am Lycée Guillaume Kroll zu Esch-Uelzecht"
-          },
-          {
-            "year": "2019",
-            "degree": "Techniker an der Informatik",
-            "grade": "Diplom (mat Bewäertung: Gutt)"
-          },
-          {
-            "year": "2015-2019",
-            "link": "https://www.lgk.lu/training/formation-professionnelle/informaticien-technicien-dap",
-            "degree": "Techniker an der Informatik",
-            "school": "am Lycée Guillaume Kroll zu Esch-Uelzecht"
-          }
-        ]
-      },
-      "languages": {
-        "title": "Sproochen",
-        "icon": "i-material-symbols-language",
-        "items": [
-          {
-            "language": "Lëtzebuergesch",
-            "level": "C2",
-            "flag": "/img/flags/lb.svg",
-            "percentage": 100
-          },
-          {
-            "language": "Däitsch",
-            "level": "C2",
-            "flag": "/img/flags/de.svg",
-            "percentage": 100
-          },
-          {
-            "language": "Franséisch",
-            "level": "B2",
-            "flag": "/img/flags/fr.svg",
-            "percentage": 60
-          },
-          {
-            "language": "Englesch",
-            "level": "C1",
-            "flag": "/img/flags/en.svg",
-            "percentage": 80
-          }
-        ]
-      },
-      "certifications": {
-        "title": "Zertifizéierungen",
-        "icon": "i-material-symbols-verified-rounded",
-        "items": [
-          {
-            "year": "2023",
-            "link": "https://govjobs.public.lu/fr/examen-concours/administration/inscription.html",
-            "title": "Den allgemenge Aptitude Test fir de Staatssecteur",
-            "details": "L'épreuve d'aptitude générale secteur étatique (administration)"
-          },
-          {
-            "year": "2021",
-            "link": "https://learningnetwork.cisco.com/s/cbrops-exam-topics?ccid=cyberopsassociate",
-            "title": "Cisco Certified CyberOps Associate",
-            "details": "Course Completion"
-          },
-          {
-            "year": "2021",
-            "link": "https://www.netacad.com/courses/networking/ccna-enterprise-networking-security-automation",
-            "title": "Cisco Certified Network Associate 3",
-            "details": "7.0 Enterprise Networking, Security, and Automation"
-          },
-          {
-            "year": "2020",
-            "link": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials",
-            "title": "Cisco Certified Network Associate 2",
-            "details": "7.0 Switching, Routing, and Wireless Essentials"
-          },
-          {
-            "year": "2020",
-            "link": "https://www.netacad.com/courses/networking/ccna-introduction-networks",
-            "title": "Cisco Certified Network Associate 1",
-            "details": "7.0 Introduction to Networks"
-          },
-          {
-            "year": "2020",
-            "link": "https://learn.microsoft.com/en-us/certifications/microsoft-office-specialist-master-certification-2016/",
-            "title": "Microsoft Office Specialist 2016",
-            "details": "PowerPoint, Word, Word expert, Outlook, Excel"
-          }
-        ]
-      },
-      "sectionWork": {
-        "title": "Beruffserfahrung",
-        "description": "Ech konnt e puer Joer Beruffserfahrung sammelen. Ech konnt op Projeten souwuel onofhängeg an an engem Team schaffen."
-      },
-      "work": {
-        "company": "Firma:",
-        "type": "Typ:",
-        "date": "Datum:",
-        "duration": "Dauer:",
-        "description": "Beschreiwung:",
-        "tasks": "Aufgaben:",
-        "show_more": "Méi weisen",
-        "items": [
-          {
-            "title": "Sichen no enger Aarbecht an der Informatik",
-            "type": "Vollzäit",
-            "date": "Elo",
-            "description": "Ech sichen no spannenden Erausfuerderungen: Sich no neie beruffleche Méiglechkeeten an der IT Industrie fir wäertvoll Erfahrung ze sammelen a meng Kompetenzen weider ze entwéckelen."
-          },
-          {
-            "title": "IT Cloud Engineer",
-            "type": "Stage",
-            "duration": "12 Wochen",
-            "date": "2021",
-            "company": "QPark Consulting",
-            "description": "E Stage bei QPark Consulting, wou ech dräi Méint laang un zwee grousse Projete geschafft hunn.",
-            "tasks": [
-              {
-                "name": "E Plang fir e Projet erstallt mat agile Methoden"
-              },
-              {
-                "name": "Kreatioun a Konfiguratioun vu virtuelle Maschinnen (Google Cloud Plattform)"
-              },
-              {
-                "name": "Eng Websäit an enger virtueller Maschinn implementéiert (Google Cloud Plattform)"
-              },
-              {
-                "name": "Ëmsetzung vun enger statesch Websäit op AWS S3 Bucket fir Käschteeffizienz (Amazon Web Services)"
-              },
-              {
-                "name": "Recuperéieren an transforméieren Daten vun enger existéierender REST API (Amazon Web Services)"
-              }
-            ]
-          },
-          {
-            "title": "IT-Techniker",
-            "type": "Vakanzenjob",
-            "duration": "8 Wochen",
-            "date": "2020",
-            "company": "Lycée Guillaume Kroll",
-            "description": "E Vakanzenjob am Lycée Guillaume Kroll, wou ech zwee Méint am IT Departement geschafft hunn",
-            "tasks": [
-              {
-                "name": "D'Telefone vu MIXvoip opgebaut"
-              },
-              {
-                "name": "Gestioun vun den Telefone vun MIXvoip"
-              },
-              {
-                "name": "Déi nei Telefonverbindungen am Rackraum sinn no Plang ugeschloss"
-              },
-              {
-                "name": "E Patch Standuert Plang am Microsoft Excel geännert"
-              }
-            ]
-          },
-          {
-            "title": "IT-Techniker",
-            "type": "Vakanzenjob",
-            "duration": "4 Wochen",
-            "date": "2019",
-            "company": "Lycée Guillaume Kroll",
-            "description": "E Vakanzenjob am Lycée Guillaume Kroll, wou ech ee Mount verbruecht hunn e Projet ofzeschléissen, deen ech a mengem Stage ugefaangen hunn.",
-            "tasks": [
-              {
-                "name": "Geplangte Clientsversammlungen"
-              },
-              {
-                "name": "De Backend fir eng Websäit programméiert a geännert"
-              },
-              {
-                "name": "Eng Verbindung mat engem SAML Authentifikatiounsservice erstallt"
-              },
-              {
-                "name": "De Frontend fir eng Websäit programméiert a geännert"
-              },
-              {
-                "name": "Al Computer richteg entsuergt an d'Harddisken formatéiert"
-              }
-            ]
-          },
-          {
-            "title": "IT-Techniker",
-            "type": "Stage",
-            "duration": "6 Wochen",
-            "date": "2019",
-            "company": "Lycée Guillaume Kroll",
-            "description": "Während mengem Stage am Lycée Guillaume Kroll hunn ech haaptsächlech sechs Wochen un engem Websäitprojet geschafft.",
-            "tasks": [
-              {
-                "name": "Geplangte Clientsversammlungen"
-              },
-              {
-                "name": "De Backend fir eng Websäit programméiert a geännert"
-              },
-              {
-                "name": "De Frontend fir eng Websäit programméiert a geännert"
-              },
-              {
-                "name": "E konzeptuellen Datemodell fir eng Datebank erstallt"
-              },
-              {
-                "name": "E logeschen Datemodell fir eng Datebank erstallt"
-              },
-              {
-                "name": "Eng Datebank mat de richtege Felder, Datentypen a Relatiounen erstallt"
-              }
-            ]
-          },
-          {
-            "title": "IT-Netzwerktechniker",
-            "type": "Stage",
-            "duration": "6 Wochen",
-            "date": "2016",
-            "company": "STEP",
-            "description": "E Stage beim STEP Syndicat intercommunal zu Peppeng, wou ech vill iwwer IT-Netzwierker geléiert hunn.",
-            "tasks": [
-              {
-                "name": "Aféierung an déi zentral Aspekter vun der interner Organisatiounsstruktur"
-              },
-              {
-                "name": "D'Funktionalitéit vun enger Kläranlag, besonnesch de kontinuéierleche Stroumprozess"
-              },
-              {
-                "name": "En neie Plang fir den internen Patch Panel erstallt"
-              },
-              {
-                "name": "Laut dem neie Plang goufen d'Patchkabel gepatched an ëmgezeechent"
-              },
-              {
-                "name": "Vill iwwer déi praktesch intern Netzwierkstruktur geléiert"
-              }
-            ]
-          }
-        ]
-      },
-      "sectionOtherSkills": {
-        "title": "Aaer Fäegkeeten",
-        "description": "Programmer, Software, Servicer an aner Saachen, déi ech während menger Ausbildung, Studium oder Aarbecht benotzt hunn."
-      },
-      "otherSkills": {
-        "show_more": "Méi weisen",
-        "description": "Beschreiwung:",
-        "items": [
-          {
-            "title": "Ëffentlech Cloud Provider",
-            "icon": "i-material-symbols-cloud",
-            "description": "Erfahrung mat Ubidder vun ëffentleche Cloud Servicer.",
-            "details": [
-              {
-                "category": "Amazon Web Services",
-                "items": [
-                  {
-                    "type": "Simple Storage Service (S3)",
-                    "description": "Ein skalierbaren Cloud-Späicherdéngscht, deen et Benotzer erméiglecht, Daten an Objeten sécher ze späicheren an ofzeruffen."
-                  },
-                  {
-                    "type": "Elastic Compute Cloud (EC2)",
-                    "description": "Ee skalierbaren Cloud-Computing-Déngscht, deen virtuell Serverinstanzen zur Verfügung stellt, fir Applikatiounen auszeféieren, déi Computing-Ressourcen erfuerderen."
-                  },
-                  {
-                    "type": "Relational Database Service (RDS)",
-                    "description": "Ee verwalteten Déngscht, dee d'Ariichten, Bedreiwen an Skaléiere vun relationalen Datebanken an der Cloud vereinfacht, wéi z.B. MySQL, PostgreSQL, Oracle oder SQL Server."
-                  },
-                  {
-                    "type": "Virtual Private Cloud (VPC)",
-                    "description": "En isoléiert Netzwerk an der AWS-Cloud, dat et Benotzer erméiglecht, Ressourcen wéi EC2-Instanzen an enger definéierter, privater Ëmfeld ze bedreiwen."
-                  },
-                  {
-                    "type": "Elastic Beanstalk",
-                    "description": "Ee Déngscht, deen d'Bereetstellung an Skaléierung vun Webapplikatiounen an -déngschter vereinfacht, andeems en automatesch Ressourcen wéi EC2-Instanzen, Load Balancer an Skaléierungsgruppen verwalt."
-                  },
-                  {
-                    "type": "Identity Access Management (IAM)",
-                    "description": "Ee Déngscht zur Verwaltung vu Benotzerzougäng an Berechtegungen an AWS, deen et Administrateuren erméiglecht, Benotzer, Gruppen an Richtlinnen ze verwalten, fir den Zougang zu AWS-Ressourcen ze steieren."
-                  },
-                  {
-                    "type": "Lambda",
-                    "description": "Ee serverlose Computing-Déngscht, mat deem Entwéckler Code kënne lafen ouni sech ëm d'Bereetstellung oder Verwaltung vu Serveren ze këmmeren. Et erméiglecht d'Ausféierung vu Code a Reaktioun op Evenementer oder Ufroen, déi vu aneren AWS-Servicer ausgeléist ginn."
-                  }
-                ]
-              },
-              {
-                "category": "Google Cloud Platform",
-                "items": [
-                  {
-                    "type": "Compute Engine",
-                    "description": "Ee skalierbaren an flexibelen Déngscht fir virtuell Maschinnen (VMs) ze kreéieren an ze verwalten, déi op der Infrastruktur vu Google lafen. Compute Engine bitt Hochleistungs-VMs mat brancheféierender Präis-Leeschtung an globaler Verfügbarkeet."
-                  }
-                ]
-              },
-              {
-                "category": "Microsoft Azure",
-                "items": [
-                  {
-                    "type": "Linux Virtual Machines",
-                    "description": "Azure bitt eng Varietéit vun Linux-VMs, déi flexibel a skalierbar sinn. Benotzer kënnen aus verschiddene Linux-Distributiounen wielen an d'VMs no Bedarf upassen."
-                  },
-                  {
-                    "type": "Virtual Machines",
-                    "description": "Nieft Linux-VMs bitt Azure och eng breet Palette vu Windows-VMs. Dës VMs kënne fir verschidden Zwecker wéi Entwécklung, Tester an Produktioun agesat ginn."
-                  },
-                  {
-                    "type": "Static Web Apps",
-                    "description": "Ee Déngscht fir statesch Webapplikatiounen a Websäiten an Azure ze hosten. Entwéckler kënnen hir Applikatiounen einfach bereetstellen a verwalten, ouni sech ëm d'Infrastruktur këmmeren ze mussen."
-                  },
-                  {
-                    "type": "Functions",
-                    "description": "Azure Functions ass ee serverlosen Déngscht, deen et Entwéckler erméiglecht, Code auszeféieren, deen op Eventer oder Ufroen baséiert, ouni sech ëm déi ënnerlëgend Infrastruktur këmmeren ze mussen. Entwéckler kënnen Funktiounen an ënnerschiddleche Programméiersproochen schreiwen an se nahtlos an hir Applikatioune integréieren."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Virtualiséierung",
-            "icon": "i-material-symbols-box-rounded",
-            "description": "Erfahrung mat Typ 1 & 2 Hypervisoren a Container Technologien.",
-            "details": [
-              {
-                "category": "Type 1 Hypervisor",
-                "items": [
-                  {
-                    "type": "VMware ESXi",
-                    "description": "Ee Hypervisor, deen direkt op physescher Hardware leeft an e puer virtuell Maschinne ka hosten."
-                  },
-                  {
-                    "type": "Proxmox (ënner der Benotzung vun KVM)",
-                    "description": "Eng Open-Source-Virtualiséierungsplattform, déi op Linux baséiert an KVM notzt."
-                  }
-                ]
-              },
-              {
-                "category": "Type 2 Hypervisor",
-                "items": [
-                  {
-                    "type": "VMware Workstation",
-                    "description": "Desktop-Virtualiséierungssoftware fir d'Ausféierung vu VMs op engem Host-Betribssystem."
-                  },
-                  {
-                    "type": "VirtualBox",
-                    "description": "Gratis Virtualiséierungssoftware fir d'Ausféierung vu VMs op engem Host-Betribssystem."
-                  }
-                ]
-              },
-              {
-                "category": "Container Software",
-                "items": [
-                  {
-                    "type": "Docker",
-                    "description": "Eng Container-Plattform fir d'Verpackung an Ausféierung vu Applikatiounen an hiren Ofhängegkeeten."
-                  },
-                  {
-                    "type": "Docker Swarm",
-                    "description": "Ee Orchestreierungstool fir d'Verwaltung vu Docker-Containerclusteren."
-                  },
-                  {
-                    "type": "Kubernetes",
-                    "description": "Ee Open-Source-Orchestreierungssystem fir d'Automatiséierung vun der Containerbereetstellung a -verwaltung."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Betribssystemer",
-            "icon": "i-material-symbols-computer",
-            "description": "D'Betribssystemer mat deenen ech bis elo Erfahrung erlieft hunn.",
-            "details": [
-              {
-                "category": "Windows",
-                "items": [
-                  {
-                    "type": "Windows 7",
-                    "description": "Ee vun Microsoft entwéckelt Betribssystem, dat wäit verbreet war an vill Joren laang genotzt gouf."
-                  },
-                  {
-                    "type": "Windows 8",
-                    "description": "Eng Versioun vun Microsoft Windows mat engem nei gestaltene Benotzeroberflächenkonzept, dat speziell fir Touchscreens optiméiert gouf."
-                  },
-                  {
-                    "type": "Windows 10",
-                    "description": "Dat aktuellt Betriebssystem vun Microsoft, dat eng Villzuel vu Funktiounen an Verbesserungen am Verglach zu senge Virgänger bitt."
-                  },
-                  {
-                    "type": "Windows 11",
-                    "description": "Déi neist Versioun vun Microsoft Windows mat aktualiséiertem Design an neie Funktiounen."
-                  },
-                  {
-                    "type": "Windows Server 2012",
-                    "description": "Eng Serverversioun vun Microsoft Windows, déi speziell fir den Asaz an Ënnernehmensëmfeld entwéckelt gouf."
-                  },
-                  {
-                    "type": "Windows Server 2016",
-                    "description": "Eng weider Serverversioun vun Microsoft Windows mat verbesserte Funktioune fir d'Ënnernehmensnotzung."
-                  },
-                  {
-                    "type": "Windows Server 2019",
-                    "description": "Déi aktuellst Serverversioun vun Microsoft Windows mat erweiderte Funktiounen fir Entreprisen an Cloud-Integratioun."
-                  }
-                ]
-              },
-              {
-                "category": "Linux",
-                "items": [
-                  {
-                    "type": "Ubuntu",
-                    "description": "Eng beléifte Linux-Distributioun, déi fir hir Benotzerfrëndlechkeet an Vielfältegkeet bekannt ass."
-                  },
-                  {
-                    "type": "Debian",
-                    "description": "Eng stabil an wäit verbreete Linux-Distributioun, déi als Grondlag fir vill aner Distributioune déngt."
-                  },
-                  {
-                    "type": "Kali Linux",
-                    "description": "Eng Linux-Distributioun, déi sech op Penetratiounstester an Sécherheetsauditen spezialiséiert huet."
-                  },
-                  {
-                    "type": "Raspberry Pi OS",
-                    "description": "Ee vun der Raspberry Pi Foundation entwéckelt Betribssystem, dat speziell fir den Asaz op dem Raspberry Pi-Computer optimiséiert ass."
-                  }
-                ]
-              },
-              {
-                "category": "Aner",
-                "items": [
-                  {
-                    "type": "Cisco IOS",
-                    "description": "Dat Betribssystem, dat op Cisco-Netzwierkapparater wéi Routeren an Switchen leeft an d'Netzwierkkonnektivitéit an -funktiounen verwalt."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Office-Software",
-            "icon": "i-mdi-microsoft",
-            "description": "Eng déif Abléck an Microsoft Office a meng extensiv Wëssen doriwwer.",
-            "details": [
-              {
-                "category": "Microsoft Office",
-                "items": [
-                  {
-                    "type": "Microsoft Word",
-                    "description": "Ee Textveraarbechtungsprogramm fir Dokumenter vun all Zort ze kreéieren an ze änneren."
-                  },
-                  {
-                    "type": "Microsoft Excel",
-                    "description": "Eng Tabellenkalkulatiounsapplikatioun fir Daten ze verwalten, Diagrammer ze kreéieren an Berechnungen duerchzeféieren."
-                  },
-                  {
-                    "type": "Microsoft PowerPoint",
-                    "description": "Eng Präsentatiounssoftware fir visuell uspriechend Präsentatiounen ze kreéieren an z'änneren."
-                  },
-                  {
-                    "type": "Microsoft Access",
-                    "description": "Eng Datenbankapplikatioun fir grouss Datenmengen ze verwalten an ze analyséieren."
-                  },
-                  {
-                    "type": "Microsoft Outlook",
-                    "description": "Eng E-Mail- an Organisatiounsapplikatioun fir E-Maile, Rendezvousen an Kontakter ze verwalten."
-                  },
-                  {
-                    "type": "Microsoft Teams",
-                    "description": "Eng Kommunikatiounsplattform fir Teamaarbecht, déi Chat, Videoopriff, Dateifreigab an Zesummenaarbecht an Echtzäit bitt."
-                  },
-                  {
-                    "type": "Microsoft OneDrive",
-                    "description": "Ee Cloud-Späicherdéngscht fir Dateien an Dossieren ze späicheren, ze synchroniséieren an ze deelen."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Programméierung",
-            "icon": "i-material-symbols-code-blocks-rounded",
-            "description": "D'Gamme vu menge Fäegkeeten a verschiddene Programméierungssproochen.",
-            "details": [
-              {
-                "category": "Script-Sprache",
-                "items": [
-                  {
-                    "type": "Microsoft PowerShell",
-                    "description": "Eng vun Microsoft entwéckelt Kommandozeil-Shell an Skriptsprooch, déi speziell fir d'Systemverwaltung an Automatiséierung an Windows-Umgebungen entworf ass."
-                  },
-                  {
-                    "type": "Linux Bash",
-                    "description": "D'Bourne-Again-Shell (Bash) ass eng Standard-Shell fir Unix-baséiert Betribssystemer wéi Linux an macOS, déi eng mächteg Kommandozeil-Schnittstell an Skriptfäegkeeten ubitt."
-                  },
-                  {
-                    "type": "Python",
-                    "description": "Eng vielseiteg an benotzerfrëndlech Programméiersprooch, déi fir hir Einfachheet, Liesbarkeet an ëmfaassend Standardbibliothéik bekannt ass. Python gëtt fir verschidden Uwendungsberäicher wéi Webentwécklung, Datenanalyse, kënschtlech Intelligenz an Automatiséierung agesat."
-                  }
-                ]
-              },
-              {
-                "category": "Web-Entwicklung",
-                "items": [
-                  {
-                    "type": "Hypertext Markup Language (HTML)",
-                    "description": "HTML ass eng Markup-Sprooch fir Webseiten an Inhalter am World Wide Web ze strukturéieren."
-                  },
-                  {
-                    "type": "Cascading Style Sheets (CSS)",
-                    "description": "CSS ass eng Stylesheet-Sprooch fir d'Gestaltung vum Erscheinungsbild vun HTML- an XML-Dokumenter."
-                  },
-                  {
-                    "type": "JavaScript (mat abegraff jQuery)",
-                    "description": "Eng Programméiersprooch, déi dacks fir d'Entwécklung vun interaktive Webseiten an Applikatiounen benotzt gëtt. jQuery ass eng JavaScript-Bibliothéik, déi d'Client-säit Skriptprogramméierung vereinfacht."
-                  },
-                  {
-                    "type": "PHP",
-                    "description": "Eng server-säit Skriptsprooch, déi haaptsächlech fir d'Entwécklung vun dynamesche Webseiten an Webapplikatiounen benotzt gëtt. PHP gëtt dacks mat MySQL oder anere Datebanken kombinéiert."
-                  }
-                ]
-              },
-              {
-                "category": "Datebank Sprooch",
-                "items": [
-                  {
-                    "type": "Structured Query Language (SQL)",
-                    "description": "SQL ass eng speziell Programméiersprooch fir d'Verwaltung an d'Ufro vun relationalen Datebanken. SQL gëtt fir d'Ofroen, Aktualiséieren, Anfügen an Läschen vu Daten benotzt."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Projet Gestioun",
-            "icon": "i-material-symbols-list-alt-rounded",
-            "description": "Kär Konzepter a wichteg Aspekter déi de Projet Gestioun ausmaachen.",
-            "details": [
-              {
-                "category": "Wesentlech Aspekter vum Projektmanagement",
-                "items": [
-                  {
-                    "type": "Projet Planung",
-                    "description": "Dëst ëmfaasst d'Definitioun vu Projetziler, Ëmfang, Zäitplang, Ressourcebedarf, Budget a Risiken. D'Erstellung vun engem detailléierte Projetplang ass entscheedend, fir all Projetphasen an Aufgaben z'identifizéieren an z'organiséieren."
-                  },
-                  {
-                    "type": "Risiko Gestioun",
-                    "description": "D'Identifizéierung, Bewäertung an Behandlung vu Risiken, déi de Projetverlaf an d'Projetresultat beaflosse kéinten. Dëst beinhalt d'Entwécklung vu Moossnamen zur Risikominderung an -kontroll."
-                  },
-                  {
-                    "type": "Kommunikatioun",
-                    "description": "Effektiv Kommunikatioun ass entscheedend, fir d'Team, Stakeholder an aner Bedeelegt iwwer de Projetfortschrëtt, Ännerungen, Problemer an Entscheedungen um Lafenden ze halen. Dëst ëmfaasst reegelméisseg Bespriechungen, Statusberichter an aner Kommunikatiounsmëttel."
-                  },
-                  {
-                    "type": "Ressource Gestioun",
-                    "description": "D'Zouweisung an Verwaltung vu Ressourcen wéi Personal, Budget, Ausrëschtung a Materialien, fir sécherzestellen, datt de Projet rechtzäiteg an bannent dem Budget ofgeschloss gëtt."
-                  },
-                  {
-                    "type": "Zäit Gestioun",
-                    "description": "D'Planung an Iwwerwaachung vu Zäitpläng, fir sécherzestellen, datt Projetziler an Meilesteng rechtzäiteg erreecht ginn. Dëst beinhalt d'Identifizéierung vu kritesche Weeër an d'Verwaltung vu Zäitplangofwäichungen."
-                  },
-                  {
-                    "type": "Qualitéits Gestioun",
-                    "description": "D'Planung, Iwwerwaachung an Sécherstellung vun der Qualitéit vu Projetprodukter an -resultater no de Ufuerderungen an Normen. Dëst beinhalt Qualitéitskontrollen, Tester an Auditen."
-                  },
-                  {
-                    "type": "Stakeholder Gestioun",
-                    "description": "D'Identifizéierung, Anbezéiung an Verwaltung vun den Interessen an Erwaardunge vun alle Stakeholder, abegraff Clienten, Teammemberen, Fournisseuren an anere Bedeelegten."
-                  },
-                  {
-                    "type": "Ännerungs Gestioun",
-                    "description": "D'Verwaltung vun Ännerungen am Projetëmfang, Zäitplang oder Budget. Dëst beinhalt d'Bewäertung vun Ännerungsfuerderungen, hir Genehmegung an Implementéierung souwéi d'Kontroll vun Ännerungen, fir Auswierkungen op de Projet ze minimiséieren."
-                  },
-                  {
-                    "type": "Teammanagement",
-                    "description": "D'Féierung, Motivatioun an Entwécklung vum Projetteam, fir eng effektiv Zesummenaarbecht an Leeschtung ze garantéieren. Dëst ëmfaasst d'Zouweisung vun Aufgaben, d'Coaching vu Teammemberen an d'Léisung vu Konflikter."
-                  },
-                  {
-                    "type": "Schlussfolgerung an Evaluatioun",
-                    "description": "D'Ofschlossphas ëmfaasst d'Fäerdegstellung vun alle Projetaktivitéiten, d'Ausliwwerung vun den Endprodukter un de Client an d'Duerchféierung vun enger Noberaichtung, fir Erfahrungen ze reflektéieren, Léierpunkte z'identifizéieren an Best Practices fir zukünfteg Projeten ze dokumentéieren."
-                  }
-                ]
-              },
-              {
-                "category": "Zesummenhang tëscht Projetmanagement a JIRA",
-                "items": [
-                  {
-                    "type": "Beschreiwung",
-                    "description": "Dës Aspekter vum Projetmanagement si staark matenee verbonnen an mussen am Aklang stoen, fir den Erfolleg vun engem Projet ze sécheren. JIRA, eent Tool vun Atlassian, gëtt dacks a Verbindung mat agile Methode wéi Scrum an Kanban benotzt, fir Projetmanagement an Zesummenaarbecht ze ënnerstëtzen."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "IT-Netzwierk",
-            "icon": "i-mdi-ip-network",
-            "description": "Expertise am Netzplanung, Setup an Ënnerhalt fir zouverlässeg Kommunikatiounen.",
-            "details": [
-              {
-                "category": "Cisco Certified Network Associate 1 - CCNA1",
-                "items": [
-                  {
-                    "type": "Netzwierkgrondlagen",
-                    "description": "Grondlage vu Netzwierker, hir Architekturen, Topologien an Protokoller."
-                  },
-                  {
-                    "type": "OSI-Modell a TCP/IP",
-                    "description": "Verständnis vum OSI-Schichtenmodell an dem TCP/IP-Protokoll."
-                  },
-                  {
-                    "type": "Netzwierkapparater a -komponenten",
-                    "description": "Funktiounen an Konfiguratioun vu Netzwerkgeräter wéi Switchen a Routeren."
-                  },
-                  {
-                    "type": "IP-Adresséierung",
-                    "description": "IPv4 an eventuell och Aféierung an IPv6, IP-Adressklassen, Subnetting an Adresséierungsschemen."
-                  },
-                  {
-                    "type": "Netzwierkprotokoller",
-                    "description": "Grondleeënd Netzwerkprotokoller wéi ICMP, ARP, DHCP, DNS an hir Funktiounsweis."
-                  },
-                  {
-                    "type": "LAN (Local Area Network)",
-                    "description": "Konfiguratioun an Management vu LANs, Ethernet-Technologien, VLANs an hir Konfiguratioun."
-                  },
-                  {
-                    "type": "WAN (Wide Area Network)",
-                    "description": "Grondlage vu WANs, seriell Verbindungen, PPP an HDLC."
-                  },
-                  {
-                    "type": "Netzwierksécherheet",
-                    "description": "Aféierung an Netzwerksécherheetskonzepter, Authentifizéierung, Verschlësselung an grondleeënd Sécherheetsmoossnamen."
-                  },
-                  {
-                    "type": "Netzwierkmanagement a -iwwerwaachung",
-                    "description": "Grondlage vum Netzwierkmanagement, Konfiguratiouns- an Iwwerwaachungstools, Fehlerbehandlung an Diagnostik."
-                  },
-                  {
-                    "type": "Praktesch Übungen a Laboen",
-                    "description": "Praktisch Applikatioun vum erléierte Wëssen duerch Laboratoiren an Simulatiounen, fir Konfiguratiounen duerchzeféieren an Netzwierker z'implementéieren."
-                  }
-                ]
-              },
-              {
-                "category": "Cisco Certified Network Associate 2 - CCNA2",
-                "items": [
-                  {
-                    "type": "Routing a Switching",
-                    "description": "Vertiefung vun de Konzepter vum Routing an Switching, abegraff d'Konfiguratioun vu Routere an Switchen."
-                  },
-                  {
-                    "type": "IPv4- an IPv6-Routing",
-                    "description": "Weiderféierend Kenntnisser iwwer IPv4- an IPv6-Routing-Protokoller wéi RIP, OSPF an EIGRP."
-                  },
-                  {
-                    "type": "Spanning Tree Protocol (STP)",
-                    "description": "Funktiounswäis vun STP an d'Verhënnerung vu Schleefe bei Netzwierktopologien."
-                  },
-                  {
-                    "type": "VLANen an Inter-VLAN-Routing",
-                    "description": "Vertieft Konfiguratioun a Verwaltung vu VLANen souwéi d'Ëmsetzung vum Routing tëscht VLANen."
-                  },
-                  {
-                    "type": "Access Control Lists (ACLen)",
-                    "description": "Notzung vu ACLen fir de Netzwerkzougang an d'Sécherheet ze steieren."
-                  },
-                  {
-                    "type": "DHCP (Dynamic Host Configuration Protocol)",
-                    "description": "Konfiguratioun a Verwaltung vu DHCP fir déi automatesch IP-Adresszouweisung."
-                  },
-                  {
-                    "type": "Network Address Translation (NAT)",
-                    "description": "Verständnis an Konfiguratioun vu NAT fir d'Ëmsetzung vu private IP-Adressen an ëffentlech IP-Adressen."
-                  },
-                  {
-                    "type": "WAN-Technologien",
-                    "description": "Aféierung an verschidden WAN-Technologien wéi HDLC, PPP, Frame Relay an eventuell och VPNen."
-                  },
-                  {
-                    "type": "Netzwierkdiagnos a -fehlerbehebung",
-                    "description": "Weiderféierend Feelerbehandlungstechniken an Diagnosprozeduren fir Netzwerkproblemer."
-                  }
-                ]
-              },
-              {
-                "category": "Cisco Certified Network Associate 3 - CCNA3",
-                "items": [
-                  {
-                    "type": "Skalierbar Netzwierker",
-                    "description": "Konzepter an Techniken fir Netzwierker ze skaléieren, fir méi grouss a méi komplexe Ëmfeld ze ënnerstëtzen."
-                  },
-                  {
-                    "type": "VLANen an Trunking",
-                    "description": "Vertieft Konfiguratioun vu VLANen a Trunking, abegraff d'Benotzung vu VTP."
-                  },
-                  {
-                    "type": "VLSM an IPv4-Adresséierung",
-                    "description": "Verstäerkte Verständnis vun Variable Length Subnet Masking (VLSM) an senger Applikatioun op IPv4-Adresséierungsschemen."
-                  },
-                  {
-                    "type": "IPv6",
-                    "description": "Fortgeschratt Aspekter vun IPv6, abegraff Adresséierung, Konfiguratioun an Integratioun an IPv4-Netzwierker."
-                  },
-                  {
-                    "type": "Routing-Protokoller",
-                    "description": "Vertieft Kenntnisser a Konfiguratioun vu Routing-Protokoller wéi OSPF, EIGRP a méiglecherweis och BGP."
-                  },
-                  {
-                    "type": "WAN-Technologien a Servicer",
-                    "description": "Erweidert Konfiguratioun vu WAN-Technologien wéi PPP, Frame Relay a méiglecherweis och MPLS."
-                  },
-                  {
-                    "type": "Netzwierksécherheet",
-                    "description": "Fortgeschratt Sécherheetskonzepter a -techniken, abegraff d'Implementéierung vu ACLen, Sécherheet op Routing-Niveau an d'Sécheren vu Netzwerkapparater."
-                  },
-                  {
-                    "type": "Netzwierkmanagement a -iwwerwaachung",
-                    "description": "Erweidert Netzwierk Iwwerwaachung, -verwaltung an -diagnos, abegraff d'Benotzung vu SNMP a Syslog."
-                  },
-                  {
-                    "type": "Troubleshooting-Konzepter",
-                    "description": "Vertieft Fäegkeeten zur Diagnos a Behebung vu Netzwerkproblemer a komplexe Ëmfeld."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "IT-Sécherheet",
-            "icon": "i-material-symbols-security",
-            "description": "Kompetenz fir IT Netzwierker fir geschützte Kommunikatioun ze sécheren.",
-            "details": [
-              {
-                "category": "Verschlësselungsmethoden",
-                "items": [
-                  {
-                    "type": "Caesar- a Vigenère-Verschlësselung",
-                    "description": "Grondlage vun historesche Verschlësselungsmethoden zur Veranschaulichung kryptographesche Prinzipien."
-                  },
-                  {
-                    "type": "Datenverschlësselungstools",
-                    "description": "Notzung vu Tools wéi HexVieweren, BitLocker an Microsoft EFS fir Dateiverschlësselung an Sécherheet vu sensibele Daten."
-                  },
-                  {
-                    "type": "E-Mail-Verschlësselung",
-                    "description": "Ëmsetzung vun End-to-End-Verschlësselung (PGP, GPG) fir d'Sécherung vun der E-Mail-Kommunikatioun."
-                  },
-                  {
-                    "type": "Symmetresch, asymmetresch an Hybrid-Verschlësselung",
-                    "description": "Verwendung vu Verschlësselungsverfahre fir d'Sécherheet vu Dateniwwerdroungen ze garantéieren."
-                  }
-                ]
-              },
-              {
-                "category": "Sécherheetsmoossnamen",
-                "items": [
-                  {
-                    "type": "Schlësselaustauschverfaren",
-                    "description": "Verständnis an Uwendung vu Protokoller wéi Diffie-Hellman fir sécher Schlësseliwwerdroung."
-                  },
-                  {
-                    "type": "Passwortspeicherung mat Hashen",
-                    "description": "Notzung vu Hash-Algorithmen fir sécher Passwortspeicherung."
-                  },
-                  {
-                    "type": "Iwwerpréiwung vu erofgeluedene Programmer",
-                    "description": "Notzung vu Hash-Prüfsummen fir d'Integritéit vun erofgeluedene Fichieren ze iwwerpréiwen."
-                  },
-                  {
-                    "type": "Zertifikater a Zertifizéierungsstellen (CAs)",
-                    "description": "Notzung vu Zertifikater an SSL/TLS-Handshake fir Authentifizéierung an Verschlësselung."
-                  },
-                  {
-                    "type": "Integritéitssécherung duerch Hashing",
-                    "description": "Notzung vu Hash-Algorithmen fir d'Integritéit vun Daten ze iwwerpréiwen."
-                  }
-                ]
-              },
-              {
-                "category": "Netzwierk Sécherheet",
-                "items": [
-                  {
-                    "type": "Windows Firewall a Linux iptables",
-                    "description": "Ariichtung vu Firewall-Regelen fir Netzwierksécherheet op Windows a Linux."
-                  },
-                  {
-                    "type": "Netzwierkiwwerwaachung an Auswäertung",
-                    "description": "Analyse vu Netzwerkprotokoller a -pakete fir Sécherheetsproblemer ze erkennen."
-                  },
-                  {
-                    "type": "Paketenalys a Sniffer",
-                    "description": "Notzung vu Packet Sniffers fir d'Iwwerwaachung an Analyse vum Netzwerkverkéier."
-                  }
-                ]
-              },
-              {
-                "category": "Sicherheitsrichtlinien und -management",
-                "items": [
-                  {
-                    "type": "Richtlinnen a Risikomanagement",
-                    "description": "Entwécklung an Ëmsetzung vu Sécherheetsrichtlinnen a Risikomanagementprozeduren."
-                  },
-                  {
-                    "type": "Vertraulechkeet, Verfügbarkeet & Integritéit",
-                    "description": "Sécherstellung vun de Sécherheetsaspekter duerch Aschränkung vum Zougang, Verfügbarkeet an Integritéit vu Daten."
-                  }
-                ]
-              },
-              {
-                "category": "Attack Präventioun an Detektioun",
-                "items": [
-                  {
-                    "type": "Aarte vun Ugräifer",
-                    "description": "Identifikatioun vu verschiddene Angreifertypen an hiren Ziler."
-                  },
-                  {
-                    "type": "Aktivitéite vun der CIA-Triade",
-                    "description": "Schutz vun der Vertraulechkeet, Integritéit an Verfügbarkeet vu Daten."
-                  },
-                  {
-                    "type": "Dateschutz an gesetzlech Aktivitéiten",
-                    "description": "Anhalen vu Dateschutzgesetzer a -reglementer wéi der DSGVO."
-                  },
-                  {
-                    "type": "Anatomie vun engem Ugrëff",
-                    "description": "Identifizéierung vu Sécherheetslücken an Iwwerwaachung vu Netzwierker."
-                  },
-                  {
-                    "type": "Betribssystem-Verhäertung (Lynis)",
-                    "description": "Iwwerpréifung vu Betriebssystemer op Sécherheetslücken an Empfeelungen zur Härtung."
-                  },
-                  {
-                    "type": "Passwuertknacken",
-                    "description": "Methoden zur Identifizéierung a Sécherung viru Passwuertattacken."
-                  },
-                  {
-                    "type": "Digital Zertifikater (fir E-Mail)",
-                    "description": "Benotzung vu Zertifikater fir d'Sécherung vun E-Mail-Kommunikatioun."
-                  },
-                  {
-                    "type": "Google Dorking",
-                    "description": "Benotzung vu spezielle Sichbegrëffer a -technike fir Schwachstellen a sensibel Informatiounen iwwer Sichmaschinne wéi Google z'identifizéieren."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "IT Automatisatioun",
-            "icon": "i-material-symbols-robot",
-            "description": "Automatiséiert IT Prozesser fir Effizienz a Skalierbarkeet.",
-            "details": [
-              {
-                "category": "Automatisatiounsinstrumenter a Skriptsproochen",
-                "items": [
-                  {
-                    "type": "AutoHotKey",
-                    "description": "Skripting-Tool fir Windows zur Automatiséierung vu Maus- an Tastatureingaben; erméiglecht d'Erstellung vu Makroen a Skripte fir repetitiv Aufgaben."
-                  },
-                  {
-                    "type": "Automatiséiert Bildveraarbechtung",
-                    "description": "Automatiséiert Veraarbechtung vu Biller duerch Skripten oder Tools fir Gréisstenännerung, Filterapplikatioun oder Stapelveraarbechtung."
-                  },
-                  {
-                    "type": "Batch-Ëmbenennung",
-                    "description": "Automatescht Ëmbenennen vu Fichieren a groussen Quantitéiten iwwer virdefinéiert Reegele oder Muster."
-                  },
-                  {
-                    "type": "Daten aus externen Quellen",
-                    "description": "Automatiséiert Erfassung oder Integratioun vu Daten aus externe Quelle wéi APIen, Websäiten oder Datebanken."
-                  },
-                  {
-                    "type": "Microsoft Flow",
-                    "description": "Tool vu Microsoft fir d'Automatiséierung vu Workflows duerch d'Verknëppung vun verschiddene Apps a Servicer."
-                  },
-                  {
-                    "type": "Regelméisseg Ausdréck (RegEX)",
-                    "description": "Mächtegt Tool zur Veraarbechtung a Sich vu Texter baséiert op Muster; erméiglecht d'Identifizéierung an d'Beaarbechtung vu spezifesche Textmuster."
-                  },
-                  {
-                    "type": "Linux-Shell-Scripting",
-                    "description": "Notzung vu Kommandoen a Skripte an der Linux-Shell (wéi Bash) fir d'Automatiséierung vu Prozesser, Dateiverwaltung an Systemerhalung."
-                  },
-                  {
-                    "type": "Windows PowerShell",
-                    "description": "Leeschtungsstaarkt Framework an Kommandolinnenschnittstell vu Microsoft fir d'Automatiséierung vu Aufgaben an d'Systemverwaltung an Windows-baséierte Systemer."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Datebank",
-            "icon": "i-material-symbols-database",
-            "description": "Organiséieren a sécher Datenbanken effizient.",
-            "details": [
-              {
-                "category": "Datebank Gestioun",
-                "items": [
-                  {
-                    "type": "Kreatioun vun Datenbanken a Relatiounen",
-                    "description": "Ariichtung vu Datebanken an Definitioun vu Bezéiungen tëscht de verschiddene Tabellen."
-                  },
-                  {
-                    "type": "Modelléierung vun Datenbanken (MCD an MLD)",
-                    "description": "Notzung vu Modelléierungstechnike wéi MCD an MLD fir d'Konzeptioun vun der Datebankstruktur."
-                  },
-                  {
-                    "type": "Schaffen mat verschiddenen Zorte vun Datenbanken",
-                    "description": "Kenntnisser an Erfarung an der Verwaltung vu verschiddene Datebanktypen wéi MySQL, MSSQL."
-                  },
-                  {
-                    "type": "Datenbank-Backups",
-                    "description": "Ariichtung an Planung vu Backup-Strategie fir Datebanken."
-                  },
-                  {
-                    "type": "SQL Ufroen",
-                    "description": "Erfarung an der Notzung vu SQL fir Daten ze extrahéieren, aktualiséieren, läschen an anzeféieren."
-                  },
-                  {
-                    "type": "Gestioun vun Donnéeën an Excel an Access",
-                    "description": "Kenntnisser an der Verwaltung an Analyse vu Daten an Excel an Access."
-                  }
-                ]
-              },
-              {
-                "category": "Daten-Formate",
-                "items": [
-                  {
-                    "type": "Extensible Markup Language (XML)",
-                    "description": "XML ass eng Auszeechnungssprooch fir d'Duerstellung vun hierarchesche Strukturen a Form vu Textdateien. Et gëtt dacks fir den Austausch vu Daten tëscht verschiddene Systemer benotzt."
-                  },
-                  {
-                    "type": "JavaScript Object Notation (JSON)",
-                    "description": "JSON ass e liicht liesbart Datenformat, dat op JavaScript-Objete baséiert. Et gëtt häufig fir den Datenaustausch tëscht engem Server an engem Webclient benotzt."
-                  },
-                  {
-                    "type": "Comma-separated values (CSV)",
-                    "description": "CSV ass e Dateiformat fir d'Duerstellung tabellarischer Daten. Dobäi ginn d'Datenzeilen duerch Zeilenumbréch getrennt an déi eenzel Felder an enger Zeil duerch Kommaen oder aner Trennzeichen vuneneen ofgegrenzt."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Aner",
-            "icon": "i-material-symbols-format-list-bulleted",
-            "description": "E Bléck op d'Varietéit vun Tools an Technologien, déi ech vertraut sinn",
-            "details": [
-              {
-                "category": "Client",
-                "items": [
-                  {
-                    "type": "Visual Studio Code",
-                    "description": "Ee plattformiwwergräifenden Code-Editor mat Syntaxhervirhiewung, IntelliSense an Git-Integratioun, deen vu Entwéckler fir d'Softwareentwécklung benotzt gëtt."
-                  },
-                  {
-                    "type": "FTP Client",
-                    "description": "Eng Softwareapplikatioun, déi et Benotzer erméiglecht, Dateien tëscht hirem Computer an engem FTP-Server ze transferéieren."
-                  },
-                  {
-                    "type": "SSH Client",
-                    "description": "Eng Softwareapplikatioun, mat där Benotzer eng sécher Verbindung zu engem SSH-Server hierstelle kënnen, fir sech anzemellen, Dateien ze transferéieren an Kommandoen auszeféieren."
-                  },
-                  {
-                    "type": "Remote Desktop",
-                    "description": "Erméiglecht Benotzer, eng Verbindung zu engem entfäernte Computer hierzestellen an dësen aus der Distanz ze steieren, fir op Dateien, Applikatiounen an Ressourcen zouzegräifen, wéi wann se physesch virum entfäernte Computer wieren."
-                  },
-                  {
-                    "type": "Cisco Packet Tracer",
-                    "description": "Ee Netzwerksimulatiounstool vu Cisco, dat et Benotzer erméiglecht, komplexe Netzwierker ze entwerfen, ze konfiguréieren an ze testen, ouni physesch Hardware ze benötigen."
-                  }
-                ]
-              },
-              {
-                "category": "Server",
-                "items": [
-                  {
-                    "type": "Apache2",
-                    "description": "Ee wäit verbreeten Open-Source-Webserver fir d'Bereetstellung vu Webinhalter am Internet."
-                  },
-                  {
-                    "type": "Microsoft IIS",
-                    "description": "Ee Webserver vu Microsoft fir Windows-Server, deen Websäiten, Webapplikatiounen an aner Internetdéngschter host."
-                  },
-                  {
-                    "type": "Active Directory",
-                    "description": "Ee Verzeechnesdéngscht vu Microsoft fir d'Verwaltung vu Benotzer, Gruppen, Computeren an Ressourcen an enger Windows-Domän."
-                  },
-                  {
-                    "type": "FTP Server",
-                    "description": "Ee Server, dee den Dateitransfer iwwer dat File Transfer Protocol (FTP) erméiglecht."
-                  },
-                  {
-                    "type": "SSH Server",
-                    "description": "Ee Server, dee Secure Shell (SSH) ënnerstëtzt, fir Benotzer eng sécher Remote-Verbindung ze erméiglechen an Kommandoen auszeféieren."
-                  }
-                ]
-              },
-              {
-                "category": "Other",
-                "items": [
-                  {
-                    "type": "Wordpress (CMS)",
-                    "description": "Eng benotzerfrëndlech Plattform fir d'Erstellung a Verwaltung vu Websäiten a Blogs mat ville Unpassungsméiglechkeete duerch Themen a Plugins."
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "projects": {
-      "pageHeader": "Projeten"
-    },
-    "contact": {
-      "pageHeader": "Kontakt",
-      "socials_title": "Sozial Medien",
-      "private_title": "Privat",
-      "private_label": "Privat",
-      "email": "E-Mail",
-      "telephone": "Telefon",
-      "address": "Adress",
-      "links": {
-        "linkedin" : "https://www.linkedin.com/in/chad-feierstein/",
-        "facebook" : "https://www.facebook.com/chad.feierstein.7/",
-        "instagram" : "https://www.instagram.com/chadfeierstein/",
-        "github" : "https://github.com/FChad?tab=repositories"
+      "dogs": {
+        "title": "Meng Muppen",
+        "description": "A menger Fräizäit widmen ech mech passionéiert fir meng dräi treie Begleeder, an ech genéissen souguer hir Gesellschaft op menger Vakanzen. Nimm: Grimmel, Fusel, Popeye"
       }
     }
+  },
+  "skills": {
+    "pageHeader": "Fäegkeeten",
+    "sectionCompetencies": {
+      "title": "Kompetenzen",
+      "description": "An dëser Rubrik kënnt Dir meng Schoulcarrière gesinn, wou ech wichteg Meilesteen erreecht hunn."
+    },
+    "education": {
+      "title": "Educatioun",
+      "icon": "i-material-symbols-school",
+      "items": [
+        {
+          "year": "2021",
+          "degree": "Héijen techneschen Ofschloss (Brevet de Technicien Supérieur)",
+          "field": "Spezialisatioun: Cloud Computing",
+          "grade": "Diplom (mat Bewäertung: Gutt)"
+        },
+        {
+          "year": "2019-2021",
+          "link": "https://www.lgk.lu/bts/clc/",
+          "degree": "Héijen techneschen Ofschloss (Brevet de Technicien Supérieur)",
+          "field": "Spezialisatioun: Cloud Computing",
+          "school": "am Lycée Guillaume Kroll zu Esch-Uelzecht"
+        },
+        {
+          "year": "2019",
+          "degree": "Techniker an der Informatik",
+          "grade": "Diplom (mat Bewäertung: Gutt)"
+        },
+        {
+          "year": "2015-2019",
+          "link": "https://www.lgk.lu/training/formation-professionnelle/informaticien-technicien-dap",
+          "degree": "Techniker an der Informatik",
+          "school": "am Lycée Guillaume Kroll zu Esch-Uelzecht"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Sproochen",
+      "icon": "i-material-symbols-language",
+      "items": [
+        {
+          "language": "Lëtzebuergesch",
+          "level": "C2",
+          "flag": "/img/flags/lb.svg",
+          "percentage": 100
+        },
+        {
+          "language": "Däitsch",
+          "level": "C2",
+          "flag": "/img/flags/de.svg",
+          "percentage": 100
+        },
+        {
+          "language": "Franséisch",
+          "level": "B2",
+          "flag": "/img/flags/fr.svg",
+          "percentage": 60
+        },
+        {
+          "language": "Englesch",
+          "level": "C1",
+          "flag": "/img/flags/en.svg",
+          "percentage": 80
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Zertifizéierungen",
+      "icon": "i-material-symbols-verified-rounded",
+      "items": [
+        {
+          "year": "2023",
+          "link": "https://govjobs.public.lu/fr/examen-concours/administration/inscription.html",
+          "title": "Den allgemenge Aptitude Test fir de Staatssecteur",
+          "details": "L'épreuve d'aptitude générale secteur étatique (administration)"
+        },
+        {
+          "year": "2021",
+          "link": "https://learningnetwork.cisco.com/s/cbrops-exam-topics?ccid=cyberopsassociate",
+          "title": "Cisco Certified CyberOps Associate",
+          "details": "Course Completion"
+        },
+        {
+          "year": "2021",
+          "link": "https://www.netacad.com/courses/networking/ccna-enterprise-networking-security-automation",
+          "title": "Cisco Certified Network Associate 3",
+          "details": "7.0 Enterprise Networking, Security, and Automation"
+        },
+        {
+          "year": "2020",
+          "link": "https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials",
+          "title": "Cisco Certified Network Associate 2",
+          "details": "7.0 Switching, Routing, and Wireless Essentials"
+        },
+        {
+          "year": "2020",
+          "link": "https://www.netacad.com/courses/networking/ccna-introduction-networks",
+          "title": "Cisco Certified Network Associate 1",
+          "details": "7.0 Introduction to Networks"
+        },
+        {
+          "year": "2020",
+          "link": "https://learn.microsoft.com/en-us/certifications/microsoft-office-specialist-master-certification-2016/",
+          "title": "Microsoft Office Specialist 2016",
+          "details": "PowerPoint, Word, Word expert, Outlook, Excel"
+        }
+      ]
+    },
+    "sectionWork": {
+      "title": "Beruffserfahrung",
+      "description": "Ech konnt e puer Joer Beruffserfahrung sammelen. Ech konnt op Projeten souwuel onofhängeg an an engem Team schaffen."
+    },
+    "work": {
+      "company": "Firma:",
+      "type": "Typ:",
+      "date": "Datum:",
+      "duration": "Dauer:",
+      "description": "Beschreiwung:",
+      "tasks": "Aufgaben:",
+      "show_more": "Méi weisen",
+      "items": [
+        {
+          "title": "Web-Entwéckler",
+          "type": "Aabecht",
+          "duration": "Onbefrist",
+          "date": "2024",
+          "company": "Rotyre SARL",
+          "description": "**Beschreiwung**",
+          "tasks": [
+            {
+              "name": "**Aufgab**"
+            }
+          ]
+        },
+        {
+          "title": "IT Cloud Engineer",
+          "type": "Stage",
+          "duration": "12 Wochen",
+          "date": "2021",
+          "company": "QPark Consulting",
+          "description": "E Stage bei QPark Consulting, wou ech dräi Méint laang un zwee grousse Projete geschafft hunn.",
+          "tasks": [
+            {
+              "name": "E Plang fir e Projet erstallt mat agile Methoden"
+            },
+            {
+              "name": "Kreatioun a Konfiguratioun vu virtuelle Maschinnen (Google Cloud Plattform)"
+            },
+            {
+              "name": "Eng Websäit an enger virtueller Maschinn implementéiert (Google Cloud Plattform)"
+            },
+            {
+              "name": "Ëmsetzung vun enger statesch Websäit op AWS S3 Bucket fir Käschteeffizienz (Amazon Web Services)"
+            },
+            {
+              "name": "Recuperéieren an transforméieren Daten vun enger existéierender REST API (Amazon Web Services)"
+            }
+          ]
+        },
+        {
+          "title": "IT-Techniker",
+          "type": "Vakanzenjob",
+          "duration": "8 Wochen",
+          "date": "2020",
+          "company": "Lycée Guillaume Kroll",
+          "description": "E Vakanzenjob am Lycée Guillaume Kroll, wou ech zwee Méint am IT Departement geschafft hunn",
+          "tasks": [
+            {
+              "name": "D'Telefone vu MIXvoip opgebaut"
+            },
+            {
+              "name": "Gestioun vun den Telefone vun MIXvoip"
+            },
+            {
+              "name": "Déi nei Telefonverbindungen am Rackraum sinn no Plang ugeschloss"
+            },
+            {
+              "name": "E Patch Standuert Plang am Microsoft Excel geännert"
+            }
+          ]
+        },
+        {
+          "title": "IT-Techniker",
+          "type": "Vakanzenjob",
+          "duration": "4 Wochen",
+          "date": "2019",
+          "company": "Lycée Guillaume Kroll",
+          "description": "E Vakanzenjob am Lycée Guillaume Kroll, wou ech ee Mount verbruecht hunn e Projet ofzeschléissen, deen ech a mengem Stage ugefaangen hunn.",
+          "tasks": [
+            {
+              "name": "Geplangte Clientsversammlungen"
+            },
+            {
+              "name": "De Backend fir eng Websäit programméiert a geännert"
+            },
+            {
+              "name": "Eng Verbindung mat engem SAML Authentifikatiounsservice erstallt"
+            },
+            {
+              "name": "De Frontend fir eng Websäit programméiert a geännert"
+            },
+            {
+              "name": "Al Computer richteg entsuergt an d'Harddisken formatéiert"
+            }
+          ]
+        },
+        {
+          "title": "IT-Techniker",
+          "type": "Stage",
+          "duration": "6 Wochen",
+          "date": "2019",
+          "company": "Lycée Guillaume Kroll",
+          "description": "Während mengem Stage am Lycée Guillaume Kroll hunn ech haaptsächlech sechs Wochen un engem Websäitprojet geschafft.",
+          "tasks": [
+            {
+              "name": "Geplangte Clientsversammlungen"
+            },
+            {
+              "name": "De Backend fir eng Websäit programméiert a geännert"
+            },
+            {
+              "name": "De Frontend fir eng Websäit programméiert a geännert"
+            },
+            {
+              "name": "E konzeptuellen Datemodell fir eng Datebank erstallt"
+            },
+            {
+              "name": "E logeschen Datemodell fir eng Datebank erstallt"
+            },
+            {
+              "name": "Eng Datebank mat de richtege Felder, Datentypen a Relatiounen erstallt"
+            }
+          ]
+        },
+        {
+          "title": "IT-Netzwerktechniker",
+          "type": "Stage",
+          "duration": "6 Wochen",
+          "date": "2016",
+          "company": "STEP",
+          "description": "E Stage beim STEP Syndicat intercommunal zu Peppeng, wou ech vill iwwer IT-Netzwierker geléiert hunn.",
+          "tasks": [
+            {
+              "name": "Aféierung an déi zentral Aspekter vun der interner Organisatiounsstruktur"
+            },
+            {
+              "name": "D'Funktionalitéit vun enger Kläranlag, besonnesch de kontinuéierleche Stroumprozess"
+            },
+            {
+              "name": "En neie Plang fir den internen Patch Panel erstallt"
+            },
+            {
+              "name": "Laut dem neie Plang goufen d'Patchkabel gepatched an ëmgezeechent"
+            },
+            {
+              "name": "Vill iwwer déi praktesch intern Netzwierkstruktur geléiert"
+            }
+          ]
+        }
+      ]
+    },
+    "sectionOtherSkills": {
+      "title": "Aaer Fäegkeeten",
+      "description": "Programmer, Software, Servicer an aner Saachen, déi ech während menger Ausbildung, Studium oder Aarbecht benotzt hunn."
+    },
+    "otherSkills": {
+      "show_more": "Méi weisen",
+      "description": "Beschreiwung:",
+      "items": [
+        {
+          "title": "Ëffentlech Cloud Provider",
+          "icon": "i-material-symbols-cloud",
+          "description": "Erfahrung mat Ubidder vun ëffentleche Cloud Servicer.",
+          "details": [
+            {
+              "category": "Amazon Web Services",
+              "items": [
+                {
+                  "type": "Simple Storage Service (S3)",
+                  "description": "Ein skalierbaren Cloud-Späicherdéngscht, deen et Benotzer erméiglecht, Daten an Objeten sécher ze späicheren an ofzeruffen."
+                },
+                {
+                  "type": "Elastic Compute Cloud (EC2)",
+                  "description": "Ee skalierbaren Cloud-Computing-Déngscht, deen virtuell Serverinstanzen zur Verfügung stellt, fir Applikatiounen auszeféieren, déi Computing-Ressourcen erfuerderen."
+                },
+                {
+                  "type": "Relational Database Service (RDS)",
+                  "description": "Ee verwalteten Déngscht, dee d'Ariichten, Bedreiwen an Skaléiere vun relationalen Datebanken an der Cloud vereinfacht, wéi z.B. MySQL, PostgreSQL, Oracle oder SQL Server."
+                },
+                {
+                  "type": "Virtual Private Cloud (VPC)",
+                  "description": "En isoléiert Netzwerk an der AWS-Cloud, dat et Benotzer erméiglecht, Ressourcen wéi EC2-Instanzen an enger definéierter, privater Ëmfeld ze bedreiwen."
+                },
+                {
+                  "type": "Elastic Beanstalk",
+                  "description": "Ee Déngscht, deen d'Bereetstellung an Skaléierung vun Webapplikatiounen an -déngschter vereinfacht, andeems en automatesch Ressourcen wéi EC2-Instanzen, Load Balancer an Skaléierungsgruppen verwalt."
+                },
+                {
+                  "type": "Identity Access Management (IAM)",
+                  "description": "Ee Déngscht zur Verwaltung vu Benotzerzougäng an Berechtegungen an AWS, deen et Administrateuren erméiglecht, Benotzer, Gruppen an Richtlinnen ze verwalten, fir den Zougang zu AWS-Ressourcen ze steieren."
+                },
+                {
+                  "type": "Lambda",
+                  "description": "Ee serverlose Computing-Déngscht, mat deem Entwéckler Code kënne lafen ouni sech ëm d'Bereetstellung oder Verwaltung vu Serveren ze këmmeren. Et erméiglecht d'Ausféierung vu Code a Reaktioun op Evenementer oder Ufroen, déi vu aneren AWS-Servicer ausgeléist ginn."
+                }
+              ]
+            },
+            {
+              "category": "Google Cloud Platform",
+              "items": [
+                {
+                  "type": "Compute Engine",
+                  "description": "Ee skalierbaren an flexibelen Déngscht fir virtuell Maschinnen (VMs) ze kreéieren an ze verwalten, déi op der Infrastruktur vu Google lafen. Compute Engine bitt Hochleistungs-VMs mat brancheféierender Präis-Leeschtung an globaler Verfügbarkeet."
+                }
+              ]
+            },
+            {
+              "category": "Microsoft Azure",
+              "items": [
+                {
+                  "type": "Linux Virtual Machines",
+                  "description": "Azure bitt eng Varietéit vun Linux-VMs, déi flexibel a skalierbar sinn. Benotzer kënnen aus verschiddene Linux-Distributiounen wielen an d'VMs no Bedarf upassen."
+                },
+                {
+                  "type": "Virtual Machines",
+                  "description": "Nieft Linux-VMs bitt Azure och eng breet Palette vu Windows-VMs. Dës VMs kënne fir verschidden Zwecker wéi Entwécklung, Tester an Produktioun agesat ginn."
+                },
+                {
+                  "type": "Static Web Apps",
+                  "description": "Ee Déngscht fir statesch Webapplikatiounen a Websäiten an Azure ze hosten. Entwéckler kënnen hir Applikatiounen einfach bereetstellen a verwalten, ouni sech ëm d'Infrastruktur këmmeren ze mussen."
+                },
+                {
+                  "type": "Functions",
+                  "description": "Azure Functions ass ee serverlosen Déngscht, deen et Entwéckler erméiglecht, Code auszeféieren, deen op Eventer oder Ufroen baséiert, ouni sech ëm déi ënnerlëgend Infrastruktur këmmeren ze mussen. Entwéckler kënnen Funktiounen an ënnerschiddleche Programméiersproochen schreiwen an se nahtlos an hir Applikatioune integréieren."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Virtualiséierung",
+          "icon": "i-material-symbols-box-rounded",
+          "description": "Erfahrung mat Typ 1 & 2 Hypervisoren a Container Technologien.",
+          "details": [
+            {
+              "category": "Type 1 Hypervisor",
+              "items": [
+                {
+                  "type": "VMware ESXi",
+                  "description": "Ee Hypervisor, deen direkt op physescher Hardware leeft an e puer virtuell Maschinne ka hosten."
+                },
+                {
+                  "type": "Proxmox (ënner der Benotzung vun KVM)",
+                  "description": "Eng Open-Source-Virtualiséierungsplattform, déi op Linux baséiert an KVM notzt."
+                }
+              ]
+            },
+            {
+              "category": "Type 2 Hypervisor",
+              "items": [
+                {
+                  "type": "VMware Workstation",
+                  "description": "Desktop-Virtualiséierungssoftware fir d'Ausféierung vu VMs op engem Host-Betribssystem."
+                },
+                {
+                  "type": "VirtualBox",
+                  "description": "Gratis Virtualiséierungssoftware fir d'Ausféierung vu VMs op engem Host-Betribssystem."
+                }
+              ]
+            },
+            {
+              "category": "Container Software",
+              "items": [
+                {
+                  "type": "Docker",
+                  "description": "Eng Container-Plattform fir d'Verpackung an Ausféierung vu Applikatiounen an hiren Ofhängegkeeten."
+                },
+                {
+                  "type": "Docker Swarm",
+                  "description": "Ee Orchestreierungstool fir d'Verwaltung vu Docker-Containerclusteren."
+                },
+                {
+                  "type": "Kubernetes",
+                  "description": "Ee Open-Source-Orchestreierungssystem fir d'Automatiséierung vun der Containerbereetstellung a -verwaltung."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Betribssystemer",
+          "icon": "i-material-symbols-computer",
+          "description": "D'Betribssystemer mat deenen ech bis elo Erfahrung erlieft hunn.",
+          "details": [
+            {
+              "category": "Windows",
+              "items": [
+                {
+                  "type": "Windows 7",
+                  "description": "Ee vun Microsoft entwéckelt Betribssystem, dat wäit verbreet war an vill Joren laang genotzt gouf."
+                },
+                {
+                  "type": "Windows 8",
+                  "description": "Eng Versioun vun Microsoft Windows mat engem nei gestaltene Benotzeroberflächenkonzept, dat speziell fir Touchscreens optiméiert gouf."
+                },
+                {
+                  "type": "Windows 10",
+                  "description": "Dat aktuellt Betriebssystem vun Microsoft, dat eng Villzuel vu Funktiounen an Verbesserungen am Verglach zu senge Virgänger bitt."
+                },
+                {
+                  "type": "Windows 11",
+                  "description": "Déi neist Versioun vun Microsoft Windows mat aktualiséiertem Design an neie Funktiounen."
+                },
+                {
+                  "type": "Windows Server 2012",
+                  "description": "Eng Serverversioun vun Microsoft Windows, déi speziell fir den Asaz an Ënnernehmensëmfeld entwéckelt gouf."
+                },
+                {
+                  "type": "Windows Server 2016",
+                  "description": "Eng weider Serverversioun vun Microsoft Windows mat verbesserte Funktioune fir d'Ënnernehmensnotzung."
+                },
+                {
+                  "type": "Windows Server 2019",
+                  "description": "Déi aktuellst Serverversioun vun Microsoft Windows mat erweiderte Funktiounen fir Entreprisen an Cloud-Integratioun."
+                }
+              ]
+            },
+            {
+              "category": "Linux",
+              "items": [
+                {
+                  "type": "Ubuntu",
+                  "description": "Eng beléifte Linux-Distributioun, déi fir hir Benotzerfrëndlechkeet an Vielfältegkeet bekannt ass."
+                },
+                {
+                  "type": "Debian",
+                  "description": "Eng stabil an wäit verbreete Linux-Distributioun, déi als Grondlag fir vill aner Distributioune déngt."
+                },
+                {
+                  "type": "Kali Linux",
+                  "description": "Eng Linux-Distributioun, déi sech op Penetratiounstester an Sécherheetsauditen spezialiséiert huet."
+                },
+                {
+                  "type": "Raspberry Pi OS",
+                  "description": "Ee vun der Raspberry Pi Foundation entwéckelt Betribssystem, dat speziell fir den Asaz op dem Raspberry Pi-Computer optimiséiert ass."
+                }
+              ]
+            },
+            {
+              "category": "Aner",
+              "items": [
+                {
+                  "type": "Cisco IOS",
+                  "description": "Dat Betribssystem, dat op Cisco-Netzwierkapparater wéi Routeren an Switchen leeft an d'Netzwierkkonnektivitéit an -funktiounen verwalt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Office-Software",
+          "icon": "i-mdi-microsoft",
+          "description": "Eng déif Abléck an Microsoft Office a meng extensiv Wëssen doriwwer.",
+          "details": [
+            {
+              "category": "Microsoft Office",
+              "items": [
+                {
+                  "type": "Microsoft Word",
+                  "description": "Ee Textveraarbechtungsprogramm fir Dokumenter vun all Zort ze kreéieren an ze änneren."
+                },
+                {
+                  "type": "Microsoft Excel",
+                  "description": "Eng Tabellenkalkulatiounsapplikatioun fir Daten ze verwalten, Diagrammer ze kreéieren an Berechnungen duerchzeféieren."
+                },
+                {
+                  "type": "Microsoft PowerPoint",
+                  "description": "Eng Präsentatiounssoftware fir visuell uspriechend Präsentatiounen ze kreéieren an z'änneren."
+                },
+                {
+                  "type": "Microsoft Access",
+                  "description": "Eng Datenbankapplikatioun fir grouss Datenmengen ze verwalten an ze analyséieren."
+                },
+                {
+                  "type": "Microsoft Outlook",
+                  "description": "Eng E-Mail- an Organisatiounsapplikatioun fir E-Maile, Rendezvousen an Kontakter ze verwalten."
+                },
+                {
+                  "type": "Microsoft Teams",
+                  "description": "Eng Kommunikatiounsplattform fir Teamaarbecht, déi Chat, Videoopriff, Dateifreigab an Zesummenaarbecht an Echtzäit bitt."
+                },
+                {
+                  "type": "Microsoft OneDrive",
+                  "description": "Ee Cloud-Späicherdéngscht fir Dateien an Dossieren ze späicheren, ze synchroniséieren an ze deelen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Programméierung",
+          "icon": "i-material-symbols-code-blocks-rounded",
+          "description": "D'Gamme vu menge Fäegkeeten a verschiddene Programméierungssproochen.",
+          "details": [
+            {
+              "category": "Script-Sprache",
+              "items": [
+                {
+                  "type": "Microsoft PowerShell",
+                  "description": "Eng vun Microsoft entwéckelt Kommandozeil-Shell an Skriptsprooch, déi speziell fir d'Systemverwaltung an Automatiséierung an Windows-Umgebungen entworf ass."
+                },
+                {
+                  "type": "Linux Bash",
+                  "description": "D'Bourne-Again-Shell (Bash) ass eng Standard-Shell fir Unix-baséiert Betribssystemer wéi Linux an macOS, déi eng mächteg Kommandozeil-Schnittstell an Skriptfäegkeeten ubitt."
+                },
+                {
+                  "type": "Python",
+                  "description": "Eng vielseiteg an benotzerfrëndlech Programméiersprooch, déi fir hir Einfachheet, Liesbarkeet an ëmfaassend Standardbibliothéik bekannt ass. Python gëtt fir verschidden Uwendungsberäicher wéi Webentwécklung, Datenanalyse, kënschtlech Intelligenz an Automatiséierung agesat."
+                }
+              ]
+            },
+            {
+              "category": "Web-Entwicklung",
+              "items": [
+                {
+                  "type": "Hypertext Markup Language (HTML)",
+                  "description": "HTML ass eng Markup-Sprooch fir Webseiten an Inhalter am World Wide Web ze strukturéieren."
+                },
+                {
+                  "type": "Cascading Style Sheets (CSS)",
+                  "description": "CSS ass eng Stylesheet-Sprooch fir d'Gestaltung vum Erscheinungsbild vun HTML- an XML-Dokumenter."
+                },
+                {
+                  "type": "JavaScript (mat abegraff jQuery)",
+                  "description": "Eng Programméiersprooch, déi dacks fir d'Entwécklung vun interaktive Webseiten an Applikatiounen benotzt gëtt. jQuery ass eng JavaScript-Bibliothéik, déi d'Client-säit Skriptprogramméierung vereinfacht."
+                },
+                {
+                  "type": "PHP",
+                  "description": "Eng server-säit Skriptsprooch, déi haaptsächlech fir d'Entwécklung vun dynamesche Webseiten an Webapplikatiounen benotzt gëtt. PHP gëtt dacks mat MySQL oder anere Datebanken kombinéiert."
+                }
+              ]
+            },
+            {
+              "category": "Datebank Sprooch",
+              "items": [
+                {
+                  "type": "Structured Query Language (SQL)",
+                  "description": "SQL ass eng speziell Programméiersprooch fir d'Verwaltung an d'Ufro vun relationalen Datebanken. SQL gëtt fir d'Ofroen, Aktualiséieren, Anfügen an Läschen vu Daten benotzt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Projet Gestioun",
+          "icon": "i-material-symbols-list-alt-rounded",
+          "description": "Kär Konzepter a wichteg Aspekter déi de Projet Gestioun ausmaachen.",
+          "details": [
+            {
+              "category": "Wesentlech Aspekter vum Projektmanagement",
+              "items": [
+                {
+                  "type": "Projet Planung",
+                  "description": "Dëst ëmfaasst d'Definitioun vu Projetziler, Ëmfang, Zäitplang, Ressourcebedarf, Budget a Risiken. D'Erstellung vun engem detailléierte Projetplang ass entscheedend, fir all Projetphasen an Aufgaben z'identifizéieren an z'organiséieren."
+                },
+                {
+                  "type": "Risiko Gestioun",
+                  "description": "D'Identifizéierung, Bewäertung an Behandlung vu Risiken, déi de Projetverlaf an d'Projetresultat beaflosse kéinten. Dëst beinhalt d'Entwécklung vu Moossnamen zur Risikominderung an -kontroll."
+                },
+                {
+                  "type": "Kommunikatioun",
+                  "description": "Effektiv Kommunikatioun ass entscheedend, fir d'Team, Stakeholder an aner Bedeelegt iwwer de Projetfortschrëtt, Ännerungen, Problemer an Entscheedungen um Lafenden ze halen. Dëst ëmfaasst reegelméisseg Bespriechungen, Statusberichter an aner Kommunikatiounsmëttel."
+                },
+                {
+                  "type": "Ressource Gestioun",
+                  "description": "D'Zouweisung an Verwaltung vu Ressourcen wéi Personal, Budget, Ausrëschtung a Materialien, fir sécherzestellen, datt de Projet rechtzäiteg an bannent dem Budget ofgeschloss gëtt."
+                },
+                {
+                  "type": "Zäit Gestioun",
+                  "description": "D'Planung an Iwwerwaachung vu Zäitpläng, fir sécherzestellen, datt Projetziler an Meilesteng rechtzäiteg erreecht ginn. Dëst beinhalt d'Identifizéierung vu kritesche Weeër an d'Verwaltung vu Zäitplangofwäichungen."
+                },
+                {
+                  "type": "Qualitéits Gestioun",
+                  "description": "D'Planung, Iwwerwaachung an Sécherstellung vun der Qualitéit vu Projetprodukter an -resultater no de Ufuerderungen an Normen. Dëst beinhalt Qualitéitskontrollen, Tester an Auditen."
+                },
+                {
+                  "type": "Stakeholder Gestioun",
+                  "description": "D'Identifizéierung, Anbezéiung an Verwaltung vun den Interessen an Erwaardunge vun alle Stakeholder, abegraff Clienten, Teammemberen, Fournisseuren an anere Bedeelegten."
+                },
+                {
+                  "type": "Ännerungs Gestioun",
+                  "description": "D'Verwaltung vun Ännerungen am Projetëmfang, Zäitplang oder Budget. Dëst beinhalt d'Bewäertung vun Ännerungsfuerderungen, hir Genehmegung an Implementéierung souwéi d'Kontroll vun Ännerungen, fir Auswierkungen op de Projet ze minimiséieren."
+                },
+                {
+                  "type": "Teammanagement",
+                  "description": "D'Féierung, Motivatioun an Entwécklung vum Projetteam, fir eng effektiv Zesummenaarbecht an Leeschtung ze garantéieren. Dëst ëmfaasst d'Zouweisung vun Aufgaben, d'Coaching vu Teammemberen an d'Léisung vu Konflikter."
+                },
+                {
+                  "type": "Schlussfolgerung an Evaluatioun",
+                  "description": "D'Ofschlossphas ëmfaasst d'Fäerdegstellung vun alle Projetaktivitéiten, d'Ausliwwerung vun den Endprodukter un de Client an d'Duerchféierung vun enger Noberaichtung, fir Erfahrungen ze reflektéieren, Léierpunkte z'identifizéieren an Best Practices fir zukünfteg Projeten ze dokumentéieren."
+                }
+              ]
+            },
+            {
+              "category": "Zesummenhang tëscht Projetmanagement a JIRA",
+              "items": [
+                {
+                  "type": "Beschreiwung",
+                  "description": "Dës Aspekter vum Projetmanagement si staark matenee verbonnen an mussen am Aklang stoen, fir den Erfolleg vun engem Projet ze sécheren. JIRA, eent Tool vun Atlassian, gëtt dacks a Verbindung mat agile Methode wéi Scrum an Kanban benotzt, fir Projetmanagement an Zesummenaarbecht ze ënnerstëtzen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IT-Netzwierk",
+          "icon": "i-mdi-ip-network",
+          "description": "Expertise am Netzplanung, Setup an Ënnerhalt fir zouverlässeg Kommunikatiounen.",
+          "details": [
+            {
+              "category": "Cisco Certified Network Associate 1 - CCNA1",
+              "items": [
+                {
+                  "type": "Netzwierkgrondlagen",
+                  "description": "Grondlage vu Netzwierker, hir Architekturen, Topologien an Protokoller."
+                },
+                {
+                  "type": "OSI-Modell a TCP/IP",
+                  "description": "Verständnis vum OSI-Schichtenmodell an dem TCP/IP-Protokoll."
+                },
+                {
+                  "type": "Netzwierkapparater a -komponenten",
+                  "description": "Funktiounen an Konfiguratioun vu Netzwerkgeräter wéi Switchen a Routeren."
+                },
+                {
+                  "type": "IP-Adresséierung",
+                  "description": "IPv4 an eventuell och Aféierung an IPv6, IP-Adressklassen, Subnetting an Adresséierungsschemen."
+                },
+                {
+                  "type": "Netzwierkprotokoller",
+                  "description": "Grondleeënd Netzwerkprotokoller wéi ICMP, ARP, DHCP, DNS an hir Funktiounsweis."
+                },
+                {
+                  "type": "LAN (Local Area Network)",
+                  "description": "Konfiguratioun an Management vu LANs, Ethernet-Technologien, VLANs an hir Konfiguratioun."
+                },
+                {
+                  "type": "WAN (Wide Area Network)",
+                  "description": "Grondlage vu WANs, seriell Verbindungen, PPP an HDLC."
+                },
+                {
+                  "type": "Netzwierksécherheet",
+                  "description": "Aféierung an Netzwerksécherheetskonzepter, Authentifizéierung, Verschlësselung an grondleeënd Sécherheetsmoossnamen."
+                },
+                {
+                  "type": "Netzwierkmanagement a -iwwerwaachung",
+                  "description": "Grondlage vum Netzwierkmanagement, Konfiguratiouns- an Iwwerwaachungstools, Fehlerbehandlung an Diagnostik."
+                },
+                {
+                  "type": "Praktesch Übungen a Laboen",
+                  "description": "Praktisch Applikatioun vum erléierte Wëssen duerch Laboratoiren an Simulatiounen, fir Konfiguratiounen duerchzeféieren an Netzwierker z'implementéieren."
+                }
+              ]
+            },
+            {
+              "category": "Cisco Certified Network Associate 2 - CCNA2",
+              "items": [
+                {
+                  "type": "Routing a Switching",
+                  "description": "Vertiefung vun de Konzepter vum Routing an Switching, abegraff d'Konfiguratioun vu Routere an Switchen."
+                },
+                {
+                  "type": "IPv4- an IPv6-Routing",
+                  "description": "Weiderféierend Kenntnisser iwwer IPv4- an IPv6-Routing-Protokoller wéi RIP, OSPF an EIGRP."
+                },
+                {
+                  "type": "Spanning Tree Protocol (STP)",
+                  "description": "Funktiounswäis vun STP an d'Verhënnerung vu Schleefe bei Netzwierktopologien."
+                },
+                {
+                  "type": "VLANen an Inter-VLAN-Routing",
+                  "description": "Vertieft Konfiguratioun a Verwaltung vu VLANen souwéi d'Ëmsetzung vum Routing tëscht VLANen."
+                },
+                {
+                  "type": "Access Control Lists (ACLen)",
+                  "description": "Notzung vu ACLen fir de Netzwerkzougang an d'Sécherheet ze steieren."
+                },
+                {
+                  "type": "DHCP (Dynamic Host Configuration Protocol)",
+                  "description": "Konfiguratioun a Verwaltung vu DHCP fir déi automatesch IP-Adresszouweisung."
+                },
+                {
+                  "type": "Network Address Translation (NAT)",
+                  "description": "Verständnis an Konfiguratioun vu NAT fir d'Ëmsetzung vu private IP-Adressen an ëffentlech IP-Adressen."
+                },
+                {
+                  "type": "WAN-Technologien",
+                  "description": "Aféierung an verschidden WAN-Technologien wéi HDLC, PPP, Frame Relay an eventuell och VPNen."
+                },
+                {
+                  "type": "Netzwierkdiagnos a -fehlerbehebung",
+                  "description": "Weiderféierend Feelerbehandlungstechniken an Diagnosprozeduren fir Netzwerkproblemer."
+                }
+              ]
+            },
+            {
+              "category": "Cisco Certified Network Associate 3 - CCNA3",
+              "items": [
+                {
+                  "type": "Skalierbar Netzwierker",
+                  "description": "Konzepter an Techniken fir Netzwierker ze skaléieren, fir méi grouss a méi komplexe Ëmfeld ze ënnerstëtzen."
+                },
+                {
+                  "type": "VLANen an Trunking",
+                  "description": "Vertieft Konfiguratioun vu VLANen a Trunking, abegraff d'Benotzung vu VTP."
+                },
+                {
+                  "type": "VLSM an IPv4-Adresséierung",
+                  "description": "Verstäerkte Verständnis vun Variable Length Subnet Masking (VLSM) an senger Applikatioun op IPv4-Adresséierungsschemen."
+                },
+                {
+                  "type": "IPv6",
+                  "description": "Fortgeschratt Aspekter vun IPv6, abegraff Adresséierung, Konfiguratioun an Integratioun an IPv4-Netzwierker."
+                },
+                {
+                  "type": "Routing-Protokoller",
+                  "description": "Vertieft Kenntnisser a Konfiguratioun vu Routing-Protokoller wéi OSPF, EIGRP a méiglecherweis och BGP."
+                },
+                {
+                  "type": "WAN-Technologien a Servicer",
+                  "description": "Erweidert Konfiguratioun vu WAN-Technologien wéi PPP, Frame Relay a méiglecherweis och MPLS."
+                },
+                {
+                  "type": "Netzwierksécherheet",
+                  "description": "Fortgeschratt Sécherheetskonzepter a -techniken, abegraff d'Implementéierung vu ACLen, Sécherheet op Routing-Niveau an d'Sécheren vu Netzwerkapparater."
+                },
+                {
+                  "type": "Netzwierkmanagement a -iwwerwaachung",
+                  "description": "Erweidert Netzwierk Iwwerwaachung, -verwaltung an -diagnos, abegraff d'Benotzung vu SNMP a Syslog."
+                },
+                {
+                  "type": "Troubleshooting-Konzepter",
+                  "description": "Vertieft Fäegkeeten zur Diagnos a Behebung vu Netzwerkproblemer a komplexe Ëmfeld."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IT-Sécherheet",
+          "icon": "i-material-symbols-security",
+          "description": "Kompetenz fir IT Netzwierker fir geschützte Kommunikatioun ze sécheren.",
+          "details": [
+            {
+              "category": "Verschlësselungsmethoden",
+              "items": [
+                {
+                  "type": "Caesar- a Vigenère-Verschlësselung",
+                  "description": "Grondlage vun historesche Verschlësselungsmethoden zur Veranschaulichung kryptographesche Prinzipien."
+                },
+                {
+                  "type": "Datenverschlësselungstools",
+                  "description": "Notzung vu Tools wéi HexVieweren, BitLocker an Microsoft EFS fir Dateiverschlësselung an Sécherheet vu sensibele Daten."
+                },
+                {
+                  "type": "E-Mail-Verschlësselung",
+                  "description": "Ëmsetzung vun End-to-End-Verschlësselung (PGP, GPG) fir d'Sécherung vun der E-Mail-Kommunikatioun."
+                },
+                {
+                  "type": "Symmetresch, asymmetresch an Hybrid-Verschlësselung",
+                  "description": "Verwendung vu Verschlësselungsverfahre fir d'Sécherheet vu Dateniwwerdroungen ze garantéieren."
+                }
+              ]
+            },
+            {
+              "category": "Sécherheetsmoossnamen",
+              "items": [
+                {
+                  "type": "Schlësselaustauschverfaren",
+                  "description": "Verständnis an Uwendung vu Protokoller wéi Diffie-Hellman fir sécher Schlësseliwwerdroung."
+                },
+                {
+                  "type": "Passwortspeicherung mat Hashen",
+                  "description": "Notzung vu Hash-Algorithmen fir sécher Passwortspeicherung."
+                },
+                {
+                  "type": "Iwwerpréiwung vu erofgeluedene Programmer",
+                  "description": "Notzung vu Hash-Prüfsummen fir d'Integritéit vun erofgeluedene Fichieren ze iwwerpréiwen."
+                },
+                {
+                  "type": "Zertifikater a Zertifizéierungsstellen (CAs)",
+                  "description": "Notzung vu Zertifikater an SSL/TLS-Handshake fir Authentifizéierung an Verschlësselung."
+                },
+                {
+                  "type": "Integritéitssécherung duerch Hashing",
+                  "description": "Notzung vu Hash-Algorithmen fir d'Integritéit vun Daten ze iwwerpréiwen."
+                }
+              ]
+            },
+            {
+              "category": "Netzwierk Sécherheet",
+              "items": [
+                {
+                  "type": "Windows Firewall a Linux iptables",
+                  "description": "Ariichtung vu Firewall-Regelen fir Netzwierksécherheet op Windows a Linux."
+                },
+                {
+                  "type": "Netzwierkiwwerwaachung an Auswäertung",
+                  "description": "Analyse vu Netzwerkprotokoller a -pakete fir Sécherheetsproblemer ze erkennen."
+                },
+                {
+                  "type": "Paketenalys a Sniffer",
+                  "description": "Notzung vu Packet Sniffers fir d'Iwwerwaachung an Analyse vum Netzwerkverkéier."
+                }
+              ]
+            },
+            {
+              "category": "Sicherheitsrichtlinien und -management",
+              "items": [
+                {
+                  "type": "Richtlinnen a Risikomanagement",
+                  "description": "Entwécklung an Ëmsetzung vu Sécherheetsrichtlinnen a Risikomanagementprozeduren."
+                },
+                {
+                  "type": "Vertraulechkeet, Verfügbarkeet & Integritéit",
+                  "description": "Sécherstellung vun de Sécherheetsaspekter duerch Aschränkung vum Zougang, Verfügbarkeet an Integritéit vu Daten."
+                }
+              ]
+            },
+            {
+              "category": "Attack Präventioun an Detektioun",
+              "items": [
+                {
+                  "type": "Aarte vun Ugräifer",
+                  "description": "Identifikatioun vu verschiddene Angreifertypen an hiren Ziler."
+                },
+                {
+                  "type": "Aktivitéite vun der CIA-Triade",
+                  "description": "Schutz vun der Vertraulechkeet, Integritéit an Verfügbarkeet vu Daten."
+                },
+                {
+                  "type": "Dateschutz an gesetzlech Aktivitéiten",
+                  "description": "Anhalen vu Dateschutzgesetzer a -reglementer wéi der DSGVO."
+                },
+                {
+                  "type": "Anatomie vun engem Ugrëff",
+                  "description": "Identifizéierung vu Sécherheetslücken an Iwwerwaachung vu Netzwierker."
+                },
+                {
+                  "type": "Betribssystem-Verhäertung (Lynis)",
+                  "description": "Iwwerpréifung vu Betriebssystemer op Sécherheetslücken an Empfeelungen zur Härtung."
+                },
+                {
+                  "type": "Passwuertknacken",
+                  "description": "Methoden zur Identifizéierung a Sécherung viru Passwuertattacken."
+                },
+                {
+                  "type": "Digital Zertifikater (fir E-Mail)",
+                  "description": "Benotzung vu Zertifikater fir d'Sécherung vun E-Mail-Kommunikatioun."
+                },
+                {
+                  "type": "Google Dorking",
+                  "description": "Benotzung vu spezielle Sichbegrëffer a -technike fir Schwachstellen a sensibel Informatiounen iwwer Sichmaschinne wéi Google z'identifizéieren."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IT Automatisatioun",
+          "icon": "i-material-symbols-robot",
+          "description": "Automatiséiert IT Prozesser fir Effizienz a Skalierbarkeet.",
+          "details": [
+            {
+              "category": "Automatisatiounsinstrumenter a Skriptsproochen",
+              "items": [
+                {
+                  "type": "AutoHotKey",
+                  "description": "Skripting-Tool fir Windows zur Automatiséierung vu Maus- an Tastatureingaben; erméiglecht d'Erstellung vu Makroen a Skripte fir repetitiv Aufgaben."
+                },
+                {
+                  "type": "Automatiséiert Bildveraarbechtung",
+                  "description": "Automatiséiert Veraarbechtung vu Biller duerch Skripten oder Tools fir Gréisstenännerung, Filterapplikatioun oder Stapelveraarbechtung."
+                },
+                {
+                  "type": "Batch-Ëmbenennung",
+                  "description": "Automatescht Ëmbenennen vu Fichieren a groussen Quantitéiten iwwer virdefinéiert Reegele oder Muster."
+                },
+                {
+                  "type": "Daten aus externen Quellen",
+                  "description": "Automatiséiert Erfassung oder Integratioun vu Daten aus externe Quelle wéi APIen, Websäiten oder Datebanken."
+                },
+                {
+                  "type": "Microsoft Flow",
+                  "description": "Tool vu Microsoft fir d'Automatiséierung vu Workflows duerch d'Verknëppung vun verschiddene Apps a Servicer."
+                },
+                {
+                  "type": "Regelméisseg Ausdréck (RegEX)",
+                  "description": "Mächtegt Tool zur Veraarbechtung a Sich vu Texter baséiert op Muster; erméiglecht d'Identifizéierung an d'Beaarbechtung vu spezifesche Textmuster."
+                },
+                {
+                  "type": "Linux-Shell-Scripting",
+                  "description": "Notzung vu Kommandoen a Skripte an der Linux-Shell (wéi Bash) fir d'Automatiséierung vu Prozesser, Dateiverwaltung an Systemerhalung."
+                },
+                {
+                  "type": "Windows PowerShell",
+                  "description": "Leeschtungsstaarkt Framework an Kommandolinnenschnittstell vu Microsoft fir d'Automatiséierung vu Aufgaben an d'Systemverwaltung an Windows-baséierte Systemer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Datebank",
+          "icon": "i-material-symbols-database",
+          "description": "Organiséieren a sécher Datenbanken effizient.",
+          "details": [
+            {
+              "category": "Datebank Gestioun",
+              "items": [
+                {
+                  "type": "Kreatioun vun Datenbanken a Relatiounen",
+                  "description": "Ariichtung vu Datebanken an Definitioun vu Bezéiungen tëscht de verschiddene Tabellen."
+                },
+                {
+                  "type": "Modelléierung vun Datenbanken (MCD an MLD)",
+                  "description": "Notzung vu Modelléierungstechnike wéi MCD an MLD fir d'Konzeptioun vun der Datebankstruktur."
+                },
+                {
+                  "type": "Schaffen mat verschiddenen Zorte vun Datenbanken",
+                  "description": "Kenntnisser an Erfarung an der Verwaltung vu verschiddene Datebanktypen wéi MySQL, MSSQL."
+                },
+                {
+                  "type": "Datenbank-Backups",
+                  "description": "Ariichtung an Planung vu Backup-Strategie fir Datebanken."
+                },
+                {
+                  "type": "SQL Ufroen",
+                  "description": "Erfarung an der Notzung vu SQL fir Daten ze extrahéieren, aktualiséieren, läschen an anzeféieren."
+                },
+                {
+                  "type": "Gestioun vun Donnéeën an Excel an Access",
+                  "description": "Kenntnisser an der Verwaltung an Analyse vu Daten an Excel an Access."
+                }
+              ]
+            },
+            {
+              "category": "Daten-Formate",
+              "items": [
+                {
+                  "type": "Extensible Markup Language (XML)",
+                  "description": "XML ass eng Auszeechnungssprooch fir d'Duerstellung vun hierarchesche Strukturen a Form vu Textdateien. Et gëtt dacks fir den Austausch vu Daten tëscht verschiddene Systemer benotzt."
+                },
+                {
+                  "type": "JavaScript Object Notation (JSON)",
+                  "description": "JSON ass e liicht liesbart Datenformat, dat op JavaScript-Objete baséiert. Et gëtt häufig fir den Datenaustausch tëscht engem Server an engem Webclient benotzt."
+                },
+                {
+                  "type": "Comma-separated values (CSV)",
+                  "description": "CSV ass e Dateiformat fir d'Duerstellung tabellarischer Daten. Dobäi ginn d'Datenzeilen duerch Zeilenumbréch getrennt an déi eenzel Felder an enger Zeil duerch Kommaen oder aner Trennzeichen vuneneen ofgegrenzt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Aner",
+          "icon": "i-material-symbols-format-list-bulleted",
+          "description": "E Bléck op d'Varietéit vun Tools an Technologien, déi ech vertraut sinn",
+          "details": [
+            {
+              "category": "Client",
+              "items": [
+                {
+                  "type": "Visual Studio Code",
+                  "description": "Ee plattformiwwergräifenden Code-Editor mat Syntaxhervirhiewung, IntelliSense an Git-Integratioun, deen vu Entwéckler fir d'Softwareentwécklung benotzt gëtt."
+                },
+                {
+                  "type": "FTP Client",
+                  "description": "Eng Softwareapplikatioun, déi et Benotzer erméiglecht, Dateien tëscht hirem Computer an engem FTP-Server ze transferéieren."
+                },
+                {
+                  "type": "SSH Client",
+                  "description": "Eng Softwareapplikatioun, mat där Benotzer eng sécher Verbindung zu engem SSH-Server hierstelle kënnen, fir sech anzemellen, Dateien ze transferéieren an Kommandoen auszeféieren."
+                },
+                {
+                  "type": "Remote Desktop",
+                  "description": "Erméiglecht Benotzer, eng Verbindung zu engem entfäernte Computer hierzestellen an dësen aus der Distanz ze steieren, fir op Dateien, Applikatiounen an Ressourcen zouzegräifen, wéi wann se physesch virum entfäernte Computer wieren."
+                },
+                {
+                  "type": "Cisco Packet Tracer",
+                  "description": "Ee Netzwerksimulatiounstool vu Cisco, dat et Benotzer erméiglecht, komplexe Netzwierker ze entwerfen, ze konfiguréieren an ze testen, ouni physesch Hardware ze benötigen."
+                }
+              ]
+            },
+            {
+              "category": "Server",
+              "items": [
+                {
+                  "type": "Apache2",
+                  "description": "Ee wäit verbreeten Open-Source-Webserver fir d'Bereetstellung vu Webinhalter am Internet."
+                },
+                {
+                  "type": "Microsoft IIS",
+                  "description": "Ee Webserver vu Microsoft fir Windows-Server, deen Websäiten, Webapplikatiounen an aner Internetdéngschter host."
+                },
+                {
+                  "type": "Active Directory",
+                  "description": "Ee Verzeechnesdéngscht vu Microsoft fir d'Verwaltung vu Benotzer, Gruppen, Computeren an Ressourcen an enger Windows-Domän."
+                },
+                {
+                  "type": "FTP Server",
+                  "description": "Ee Server, dee den Dateitransfer iwwer dat File Transfer Protocol (FTP) erméiglecht."
+                },
+                {
+                  "type": "SSH Server",
+                  "description": "Ee Server, dee Secure Shell (SSH) ënnerstëtzt, fir Benotzer eng sécher Remote-Verbindung ze erméiglechen an Kommandoen auszeféieren."
+                }
+              ]
+            },
+            {
+              "category": "Other",
+              "items": [
+                {
+                  "type": "Wordpress (CMS)",
+                  "description": "Eng benotzerfrëndlech Plattform fir d'Erstellung a Verwaltung vu Websäiten a Blogs mat ville Unpassungsméiglechkeete duerch Themen a Plugins."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "pageHeader": "Projeten"
+  },
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "icon": "i-mdi-linkedin",
+      "link": "https://www.linkedin.com/in/chad-feierstein/"
+    },
+    {
+      "name": "Facebook",
+      "icon": "i-mdi-facebook-box",
+      "link": "https://www.facebook.com/chad.feierstein.7/"
+    },
+    {
+      "name": "Instagram",
+      "icon": "i-mdi-instagram",
+      "link": "https://www.instagram.com/chadfeierstein/"
+    },
+    {
+      "name": "GitHub",
+      "icon": "i-mdi-github",
+      "link": "https://github.com/FChad?tab=repositories"
+    }
+  ],
+  "contact": {
+    "pageHeader": "Kontakt",
+    "socials_title": "Sozial Medien",
+    "private_title": "Privat",
+    "private_label": "Privat",
+    "email": "E-Mail",
+    "telephone": "Telefon",
+    "address": "Adress"
   }
+}

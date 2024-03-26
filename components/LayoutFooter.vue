@@ -2,14 +2,8 @@
     <div
         class="w-full bg-gray-200 dark:bg-gray-800 text-center min-h-24 flex items-center justify-center flex-wrap mt-4">
         <div class="w-full px-2">
-            <UButton :to="$t('contact.links.linkedin')" target="_blank" color="gray" icon="i-mdi-linkedin" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> LinkedIn</UButton>
-            <UButton :to="$t('contact.links.facebook')" target="_blank" color="gray" icon="i-mdi-facebook-box" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> Facebook</UButton>
-            <UButton :to="$t('contact.links.instagram')" target="_blank" color="gray" icon="i-mdi-instagram" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> Instagram</UButton>
-            <UButton :to="$t('contact.links.github')" target="_blank" color="gray" icon="i-mdi-github" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> GitHub</UButton>
+            <UButton v-for="social in $tm('socials')" :to="extractValue(social.link)" target="_blank" color="gray" :icon="extractValue(social.icon)" variant="solid"
+                class="m-2 justify-center transition duration-150 ease-in-out"> {{ extractValue(social.name) }}</UButton>
         </div>
         <div class="w-full px-2">
             <UButton to="mailto:mail@chad.lu" color="gray" icon="i-heroicons-envelope-20-solid" variant="solid"
@@ -35,6 +29,15 @@
 
 <script setup>
 const props = defineProps(["navigationList"]);
+
+function extractValue(obj) {
+    if (obj.hasOwnProperty('body')) {
+        return obj['body']['static'];
+    } else if (obj.hasOwnProperty('b')) {
+        return obj['b']['s'];
+    }
+    return null;
+}
 </script>
 
 <style scoped></style>
