@@ -167,8 +167,8 @@
             <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
             <p>{{ extractValue(item.description) }}</p>
 
-            <UButton v-if="item.details" icon='i-heroicons-window-20-solid' color="gray" variant="solid"
-                class="my-2" @click="openModal('skill' + index)">
+            <UButton v-if="item.details" icon='i-heroicons-window-20-solid' color="gray" variant="solid" class="my-2"
+                @click="openModal('skill' + index)">
                 {{ $t('skills.otherSkills.show_more') }}</UButton>
 
             <UModal v-if="item.details" :model-value="openModalIndex === 'skill' + index" prevent-close

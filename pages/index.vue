@@ -2,8 +2,10 @@
     <PageHeader :title="$t('home.pageHeader')" />
     <div class="flex justify-between items-center w-full max-md:grid">
         <div class="flex md:flex-col mr-8 flex-wrap">
-            <UButton v-for="social in $tm('socials')" :to="extractValue(social.link)" target="_blank" color="gray" :icon="extractValue(social.icon)" variant="solid"
-                class="m-2 justify-center transition duration-150 ease-in-out"> {{ extractValue(social.name) }}</UButton>
+            <UButton v-for="social in $tm('socials')" :to="extractValue(social.link)" target="_blank" color="gray"
+                :icon="extractValue(social.icon)" variant="solid"
+                class="m-2 justify-center transition duration-150 ease-in-out"> {{ extractValue(social.name) }}
+            </UButton>
         </div>
 
         <div class="max-md:text-sm">
