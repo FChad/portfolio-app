@@ -37,7 +37,7 @@ export default defineNuxtConfig({
   i18n: {
     lazy: true,
     langDir: "locales",
-    strategy: "no_prefix",
+    strategy: "prefix_except_default",
     baseUrl: 'https://www.chad.lu',
     locales: [
       {

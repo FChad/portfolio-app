@@ -1,5 +1,4 @@
-<script setup lang="ts">
-
+<script setup>
 const props = defineProps(["navigationList"]);
 
 const hideNav = ref(true);
@@ -40,7 +39,7 @@ onUnmounted(() => {
                 <ul
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-4 lg:space-x-8 xl:space-x-12 rtl:space-x-reverse md:mt-0 max-md:border max-md:border-gray-300 dark:max-md:border-gray-700">
                     <li v-for="item in navigationList">
-                        <NuxtLink :to="item._path"
+                        <NuxtLink :to="localePath(item._path)"
                             active-class="flex py-2 px-3 bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 hover:"
                             class="text-lg flex py-2 px-3 rounded hover:bg-gray-300 bg-opacity-25 hover:bg-opacity-25 dark:bg-opacity-25 dark:hover:bg-opacity-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                             @click="hideNav = true">

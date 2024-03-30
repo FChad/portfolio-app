@@ -1,3 +1,16 @@
+<script setup>
+const props = defineProps(["navigationList"]);
+
+function extractValue(obj) {
+    if (obj.hasOwnProperty('body')) {
+        return obj['body']['static'];
+    } else if (obj.hasOwnProperty('b')) {
+        return obj['b']['s'];
+    }
+    return null;
+}
+</script>
+
 <template>
     <div
         class="w-full bg-gray-200 dark:bg-gray-800 text-center min-h-24 flex items-center justify-center flex-wrap mt-4">
@@ -15,7 +28,7 @@
         <div class="w-full px-2">
             <ul class="flex justify-center items-center flex-wrap">
                 <li v-for="item in navigationList">
-                    <NuxtLink :to="item._path" active-class="flex py-2 mx-3 text-blue-500 rounded hover:"
+                    <NuxtLink :to="localePath(item._path)" active-class="flex py-2 mx-3 text-blue-500 rounded hover:"
                         class="flex py-2 mx-3 rounded hover:text-gray-500 bg-opacity-25 hover:bg-opacity-25 dark:bg-opacity-25 dark:hover:bg-opacity-50 dark:hover:text-gray-500">
                         {{ $t(`navigation.${item.title}`) }}
                     </NuxtLink>
@@ -29,18 +42,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-const props = defineProps(["navigationList"]);
-
-function extractValue(obj) {
-    if (obj.hasOwnProperty('body')) {
-        return obj['body']['static'];
-    } else if (obj.hasOwnProperty('b')) {
-        return obj['b']['s'];
-    }
-    return null;
-}
-</script>
-
-<style scoped></style>

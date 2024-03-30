@@ -31,7 +31,7 @@
                     <span class="text-base">{{ $t('about.stats.study_years') }}</span>
                 </li>
             </ul>
-            <UButton :label="$t('about.contact_me')" to="/contact" size="xl" color="blue"
+            <UButton :label="$t('about.contact_me')" :to="localePath('contact')" size="xl" color="blue"
                 class="my-4 py-4 px-6 text-lg" />
         </div>
     </div>
