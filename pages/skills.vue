@@ -102,7 +102,7 @@
                     <span v-if="item.duration">{{ extractValue(item.duration) }}</span>
                 </div>
             </div>
-            <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
+            <div class="w-full h-[2px] bg-slate-300 mt-2 mb-[14px]"></div>
             <p v-if="item.description">{{ extractValue(item.description) }}</p>
 
             <UButton v-if="item.tasks" icon='i-heroicons-window-20-solid' color="gray" variant="solid" class="my-2"
@@ -138,11 +138,11 @@
                         </div>
                     </div>
 
-                    <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
+                    <div class="w-full h-[2px] bg-slate-300 mt-2 mb-[14px]"></div>
 
                     <span class="font-medium">{{ $t('skills.work.description') }}</span>
                     <p v-if="item.description">{{ extractValue(item.description) }}</p>
-                    <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
+                    <div class="w-full h-[2px] bg-slate-300 mt-2 mb-[14px]"></div>
                     <span class="font-medium">{{ $t('skills.work.tasks') }}</span>
                     <ul class="list-disc pl-6">
                         <li v-for="task in item.tasks">{{ extractValue(task.name) }}</li>
@@ -164,7 +164,7 @@
                     <Icon :name="extractValue(item.icon)" class="w-6 h-6" />{{ extractValue(item.title) }}
                 </h4>
             </div>
-            <div class="w-full h-[2px] bg-gray-300 mt-2 mb-[14px]"></div>
+            <div class="w-full h-[2px] bg-slate-300 mt-2 mb-[14px]"></div>
             <p>{{ extractValue(item.description) }}</p>
 
             <UButton v-if="item.details" icon='i-heroicons-window-20-solid' color="gray" variant="solid" class="my-2"
@@ -183,13 +183,13 @@
                         </h4>
                     </div>
 
-                    <div class="w-full h-[2px] bg-gray-300 my-2"></div>
+                    <div class="w-full h-[2px] bg-slate-300 my-2"></div>
 
                     <p><span class="font-bold">{{ $t('skills.otherSkills.description') }}</span><br> {{
         extractValue(item.description) }}</p>
 
                     <template v-for="categoryItems in item.details">
-                        <div class="w-full h-[2px] bg-gray-300 my-2"></div>
+                        <div class="w-full h-[2px] bg-slate-300 my-2"></div>
                         <p class="text-lg font-bold my-2">{{ extractValue(categoryItems.category) }}</p>
                         <ul class="list-disc pl-6">
                             <li v-for="detailItems in categoryItems.items"><span class="font-bold">{{

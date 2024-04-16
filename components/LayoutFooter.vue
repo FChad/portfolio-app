@@ -13,7 +13,7 @@ function extractValue(obj) {
 
 <template>
     <div
-        class="w-full bg-gray-200 dark:bg-gray-800 text-center min-h-24 flex items-center justify-center flex-wrap mt-4">
+        class="w-full bg-slate-200 dark:bg-slate-800 text-center min-h-24 flex items-center justify-center flex-wrap mt-4">
         <div class="w-full px-2">
             <UButton v-for="social in $tm('socials')" :to="extractValue(social.link)" target="_blank" color="gray"
                 :icon="extractValue(social.icon)" variant="solid"

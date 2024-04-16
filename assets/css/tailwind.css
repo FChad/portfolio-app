@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply antialiased text-gray-800 dark:text-gray-200 bg-gray-100 dark:bg-gray-900;
+    @apply antialiased text-slate-800 dark:text-slate-200 bg-slate-100 dark:bg-slate-900;
 }
 
 h2 {
@@ -23,9 +23,9 @@ h3 {
 }
 
 .card {
-    @apply bg-white dark:bg-gray-800 shadow-lg border-b-[3px] border-blue-500 rounded-lg relative p-5 mb-2;
+    @apply bg-white dark:bg-slate-800 shadow-lg border-b-[3px] border-blue-500 rounded-lg relative p-5 mb-2;
 }
 
 .card-category-title {
-    @apply flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg;
+    @apply flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-800 text-slate-100 rounded-lg text-center p-2 my-2 shadow-lg;
 }

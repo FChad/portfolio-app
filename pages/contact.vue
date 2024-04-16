@@ -5,7 +5,7 @@
 
         <div>
             <span
-                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-slate-100 rounded-lg text-center p-2 my-2 shadow-lg">
                 {{ $t('contact.socials_title') }}
             </span>
             
@@ -23,7 +23,7 @@
 
         <div>
             <span
-                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-white rounded-lg text-center p-2 my-2 shadow-lg">
+                class="flex items-center justify-center gap-2 text-xl font-semibold bg-blue-500 dark:bg-blue-900 text-slate-100 rounded-lg text-center p-2 my-2 shadow-lg">
                 {{ $t('contact.private_title') }}
             </span>
 

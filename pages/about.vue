@@ -46,7 +46,7 @@
                         class="group-hover:z-10 group-hover:absolute group-hover:w-full group-hover:h-full group-hover:bg-black group-hover:bg-opacity-75 transition duration-500 ease-in-out">
                     </div>
                     <div
-                        class="z-10 absolute bottom-0 left-0 m-5 opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 text-white transition duration-1000 ease-in-out">
+                        class="z-10 absolute bottom-0 left-0 m-5 opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 text-slate-100 transition duration-1000 ease-in-out">
                         <h3 class="text-2xl font-bold">{{ $t('hobbies.list.programming.title') }}</h3>
                         <span class="text-xl">{{ $t('hobbies.list.programming.description') }}</span>
                     </div>
@@ -60,7 +60,7 @@
                         class="group-hover:z-10 group-hover:absolute group-hover:w-full group-hover:h-full group-hover:bg-black group-hover:bg-opacity-75 transition duration-500 ease-in-out">
                     </div>
                     <div
-                        class="z-10 absolute bottom-0 left-0 m-5 opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 text-white transition duration-1000 ease-in-out">
+                        class="z-10 absolute bottom-0 left-0 m-5 opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 text-slate-100 transition duration-1000 ease-in-out">
                         <h3 class="text-2xl font-bold">{{ $t('hobbies.list.learning.title') }}</h3>
                         <span class="text-xl">{{ $t('hobbies.list.learning.description') }}</span>
                     </div>
@@ -74,7 +74,7 @@
                         class="group-hover:z-10 group-hover:absolute group-hover:w-full group-hover:h-full group-hover:bg-black group-hover:bg-opacity-75 transition duration-500 ease-in-out">
                     </div>
                     <div
-                        class="z-10 absolute bottom-0 left-0 m-5 opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 text-white transition duration-1000 ease-in-out">
+                        class="z-10 absolute bottom-0 left-0 m-5 opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 text-slate-100 transition duration-1000 ease-in-out">
                         <h3 class="text-2xl font-bold">{{ $t('hobbies.list.dogs.title') }}</h3>
                         <span class="text-xl">{{ $t('hobbies.list.dogs.description') }}</span>
                     </div>

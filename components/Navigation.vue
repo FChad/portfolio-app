@@ -41,7 +41,7 @@ onUnmounted(() => {
                     <li v-for="item in navigationList">
                         <NuxtLink :to="localePath(item._path)"
                             active-class="flex py-2 px-3 bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0 md:dark:text-blue-500 hover:"
-                            class="text-lg flex py-2 px-3 rounded hover:bg-gray-300 bg-opacity-25 hover:bg-opacity-25 dark:bg-opacity-25 dark:hover:bg-opacity-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                            class="text-lg flex py-2 px-3 rounded hover:bg-slate-300 bg-opacity-25 hover:bg-opacity-25 dark:bg-opacity-25 dark:hover:bg-opacity-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                             @click="hideNav = true">
                             {{ $t(`navigation.${item.title}`) }}
                         </NuxtLink>
