@@ -34,8 +34,8 @@ export default defineNuxtConfig({
     }
   },
 
-  ui : {
-    icons: ['mdi'],
+  ui: {
+    icons: ['mdi']
   },
 
   i18n: {
