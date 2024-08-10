@@ -34,6 +34,10 @@ export default defineNuxtConfig({
     }
   },
 
+  ui : {
+    icons: ['mdi'],
+  },
+
   i18n: {
     lazy: true,
     langDir: "locales",
