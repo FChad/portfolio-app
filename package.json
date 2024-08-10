@@ -10,15 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.66",
-    "@nuxt/ui": "^2.15.1",
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "@iconify-json/mdi": "^1.1.68",
+    "@nuxt/devtools": "^1.3.9",
+    "@nuxt/ui": "^2.18.4",
+    "@nuxtjs/robots": "^4.0.2",
+    "nuxt": "^3.12.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "^8.3.0",
-    "@nuxtjs/sitemap": "^5.1.4",
-    "nuxt-simple-robots": "^4.0.0-rc.14"
+    "@nuxtjs/i18n": "^8.3.3",
+    "@nuxtjs/sitemap": "^5.3.5"
   }
 }

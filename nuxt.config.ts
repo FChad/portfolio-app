@@ -1,11 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxtjs/sitemap', 'nuxt-simple-robots'],
+  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxtjs/sitemap', '@nuxtjs/robots'],
+
   site: {
     url: 'https://www.chad.lu',
     name: 'Feierstein Chad - Portfolio',
   },
+
   app: {
     head: {
       link: [
@@ -31,9 +33,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  ui: {
-    icons: ['mdi']
-  },
+
   i18n: {
     lazy: true,
     langDir: "locales",
@@ -66,5 +66,7 @@ export default defineNuxtConfig({
       }
     ],
     defaultLocale: 'lb'
-  }
+  },
+
+  compatibilityDate: '2024-08-10'
 })

@@ -15,7 +15,7 @@
             </div>
             <ul class="flex gap-x-8 max-lg:flex-col">
                 <li class="max-lg:justify-start flex justify-center items-center gap-4 mb-5 list-none">
-                    <h3 id="age" class="text-4xl font-bold">24</h3>
+                    <h3 id="age" class="text-4xl font-bold">25</h3>
                     <span class="text-base">{{ $t('about.stats.age') }}</span>
                 </li>
                 <li class="max-lg:justify-start flex justify-center items-center gap-4 mb-5 list-none">
